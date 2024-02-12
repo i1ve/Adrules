@@ -1,5 +1,5 @@
 ```
-更新时间: 2024-02-12 18:50:09  
+更新时间: 2024-02-12 19:09:53  
 
 拦截规则数量: 293088 
 白名单规则数量: 17374 
@@ -42,19 +42,19 @@ DNS检测已失效域名: 44507
 | Adblock Warning Removal List | filter | [原始链接](https://easylist-downloads.adblockplus.org/antiadblockfilters.txt) | [加速链接](https://mirror.ghproxy.com/https://raw.githubusercontent.com/Sereinfy/Adrules/main/filters/Adblock_Warning_Removal_List.txt) | 2024/02/12 |
 | Fanboy's Social Blocking List | filter | [原始链接](https://easylist.to/easylist/fanboy-social.txt) | [加速链接](https://mirror.ghproxy.com/https://raw.githubusercontent.com/Sereinfy/Adrules/main/filters/Fanboy's_Social_Blocking_List.txt) | 2024/02/12 |
 | damengzhu | filter | [原始链接](https://raw.githubusercontent.com/damengzhu/banad/main/jiekouAD.txt) | [加速链接](https://mirror.ghproxy.com/https://raw.githubusercontent.com/Sereinfy/Adrules/main/filters/damengzhu.txt) | 2024/02/07 |
-| SmartTV Blocklist | filter | [原始链接](https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/SmartTV-AGH.txt) |  |  |
+| SmartTV Blocklist | filter | [原始链接](https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/SmartTV-AGH.txt) | [加速链接](https://mirror.ghproxy.com/https://raw.githubusercontent.com/Sereinfy/Adrules/main/filters/SmartTV_Blocklist.txt) | 2024/02/12 |
 | AWAvenue Ads Rule | dns | [原始链接](https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt) | [加速链接](https://mirror.ghproxy.com/https://raw.githubusercontent.com/Sereinfy/Adrules/main/filters/AWAvenue_Ads_Rule.txt) | 2024/02/08 |
-| 1Hosts (Lite) | dns | [原始链接](https://raw.githubusercontent.com/badmojr/1Hosts/master/Lite/adblock.txt) |  |  |
-| AdRules DNS List | dns | [原始链接](https://raw.githubusercontent.com/Cats-Team/AdRules/main/dns.txt) |  |  |
-| Hblock | dns | [原始链接](https://hblock.molinero.dev/hosts_adblock.txt) |  |  |
-| NEO DEV HOST | dns | [原始链接](https://raw.githubusercontent.com/neodevpro/neodevhost/master/lite_adblocker) |  |  |
-| OISD Basic | dns | [原始链接](https://abp.oisd.nl/basic/) |  |  |
+| 1Hosts (Lite) | dns | [原始链接](https://raw.githubusercontent.com/badmojr/1Hosts/master/Lite/adblock.txt) | [加速链接](https://mirror.ghproxy.com/https://raw.githubusercontent.com/Sereinfy/Adrules/main/filters/1Hosts_(Lite).txt) | 2024/02/12 |
+| AdRules DNS List | dns | [原始链接](https://raw.githubusercontent.com/Cats-Team/AdRules/main/dns.txt) | [加速链接](https://mirror.ghproxy.com/https://raw.githubusercontent.com/Sereinfy/Adrules/main/filters/AdRules_DNS_List.txt) |  |
+| Hblock | dns | [原始链接](https://hblock.molinero.dev/hosts_adblock.txt) | [加速链接](https://mirror.ghproxy.com/https://raw.githubusercontent.com/Sereinfy/Adrules/main/filters/Hblock.txt) | 2024/02/12 |
+| NEO DEV HOST | dns | [原始链接](https://raw.githubusercontent.com/neodevpro/neodevhost/master/lite_adblocker) | [加速链接](https://mirror.ghproxy.com/https://raw.githubusercontent.com/Sereinfy/Adrules/main/filters/NEO_DEV_HOST.txt) | 2024/02/12 |
+| OISD Basic | dns | [原始链接](https://abp.oisd.nl/basic/) | [加速链接](https://mirror.ghproxy.com/https://raw.githubusercontent.com/Sereinfy/Adrules/main/filters/OISD_Basic.txt) | 2024/02/12 |
 | Urlhaus Malicious URL Blocklist | dns | [原始链接](https://malware-filter.gitlab.io/malware-filter/urlhaus-filter-agh-online.txt) | [加速链接](https://mirror.ghproxy.com/https://raw.githubusercontent.com/Sereinfy/Adrules/main/filters/Urlhaus_Malicious_URL_Blocklist.txt) | 2024/02/12 |
 | Sereinfy DNS | dns | [原始链接](https://raw.githubusercontent.com/Sereinfy/CN-ADList/main/rule/dns.txt) | [加速链接](https://mirror.ghproxy.com/https://raw.githubusercontent.com/Sereinfy/Adrules/main/filters/Sereinfy_DNS.txt) | 2024/02/12 |
 | Nocoin list | host | [原始链接](https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/hosts.txt) | [加速链接](https://mirror.ghproxy.com/https://raw.githubusercontent.com/Sereinfy/Adrules/main/filters/Nocoin_list.txt) | 2024/01/26 |
 | 1024 hosts | host | [原始链接](https://raw.githubusercontent.com/Goooler/1024_hosts/master/hosts) | [加速链接](https://mirror.ghproxy.com/https://raw.githubusercontent.com/Sereinfy/Adrules/main/filters/1024_hosts.txt) | 2024/01/26 |
 | ad-wars hosts | host | [原始链接](https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts) | [加速链接](https://mirror.ghproxy.com/https://raw.githubusercontent.com/Sereinfy/Adrules/main/filters/ad-wars_hosts.txt) | 2024/01/26 |
-| StevenBlack hosts | host | [原始链接](https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts) |  |  |
+| StevenBlack hosts | host | [原始链接](https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts) | [加速链接](https://mirror.ghproxy.com/https://raw.githubusercontent.com/Sereinfy/Adrules/main/filters/StevenBlack_hosts.txt) | 2024/02/12 |
 ## 🆙上游源码
 https://github.com/8680/GOODBYEADS 
 
