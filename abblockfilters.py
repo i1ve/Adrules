@@ -67,7 +67,7 @@ def CreatReadme(ruleList, fileName):
         f.write("| :-------: | :----------------------------------------------------------: | :----------------------------------------------------------: |\n")
         f.write("|    白名单     | [原始链接](https://raw.githubusercontent.com/Sereinfy/Adrules/main/rule/allow.txt) | [加速链接](https://mirror.ghproxy.com/https://raw.githubusercontent.com/Sereinfy/Adrules/main/rule/allow.txt) |\n")
         f.write("|   DNS规则    | [原始链接](https://raw.githubusercontent.com/Sereinfy/Adrules/main/rule/adblockdns.txt) | [加速链接](https://mirror.ghproxy.com/https://raw.githubusercontent.com/Sereinfy/Adrules/main/rule/adblockdns.txt) |\n")
-        f.write("|   Filters规则    | [原始链接](https://raw.githubusercontent.com/Sereinfy/Adrules/main/rule/filters.txt) |[加速链接](https://mirror.ghproxy.com/https://raw.githubusercontent.com/Sereinfy/Adrules/main/rule/filters.txt) |\n")
+        f.write("|   Filters规则    | [原始链接](https://raw.githubusercontent.com/Sereinfy/Adrules/main/rule/adblockfilters.txt) |[加速链接](https://mirror.ghproxy.com/https://raw.githubusercontent.com/Sereinfy/Adrules/main/rule/adblockfilters.txt) |\n")
         f.write("|   合并使用    | [原始链接](https://raw.githubusercontent.com/Sereinfy/Adrules/main/rule/rules.txt) | [加速链接](https://mirror.ghproxy.com/https://raw.githubusercontent.com/Sereinfy/Adrules/main/rule/rules.txt) |\n")
         f.write("## 🆓上游规则\n")
         f.write("\n")
