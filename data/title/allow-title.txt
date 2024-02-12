@@ -1,4 +1,4 @@
 [Adblock Plus 2.0]
-! Title: CN-allow-Rules
+! Title: Adrules-allow
 ! Homepage: https://github.com/Sereinfy/Adrules
 ! Expires: 12 Hours
