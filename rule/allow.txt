@@ -2,8 +2,8 @@
 ! Title: CN-allow-Rules
 ! Homepage: https://github.com/Sereinfy/Adrules
 ! Expires: 12 Hours
-! Version: 2024-02-12 19:29:47 
-! Total count: 17327
+! Version: 2024-02-12 19:47:12（北京时间） 
+! Total count: 17343
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=stfly.cc|blogbux.net
@@ -624,6 +624,7 @@
 @@||15min.lt^$generichide
 @@||163.com/user/event?id=
 @@||16668tu.com/css/ad.css
+@@||17173im.allyes.com^
 @@||173.249.49.204^$generichide
 @@||177mh.com^$stealth
 @@||182.150.59.104^*/ad.css?$stylesheet
@@ -976,6 +977,7 @@
 @@||ad.a-ads.com/*?size=320x50$domain=bchtechnologies.com
 @@||ad.a-ads.com/*?size=320x50$domain=phineypet.com
 @@||ad.a-ads.com/13368^$domain=bitcoinfaucet.tk
+@@||ad.abchina.com^
 @@||ad.admitad.com/*/*&ulp=
 @@||ad.admitad.com/*/?ulp=
 @@||ad.admitad.com/3rd-party/*/cookie/?f=CookieChecker.remoteTest
@@ -997,6 +999,7 @@
 @@||ad.amgdgt.com/ads/js/optout.js
 @@||ad.atdmt.com/m/*account_id=*&source=cm&step=1^$domain=facebook.com|facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion
 @@||ad.atown.jp/adserver/$domain=ad.atown.jp
+@@||ad.azure.com^
 @@||ad.crwdcntrl.net/*/callback=$domain=cityam.com
 @@||ad.crwdcntrl.net^$domain=ap.org
 @@||ad.crwdcntrl.net^$script,domain=rtl.nl
@@ -1029,6 +1032,7 @@
 @@||ad.doubleclick.net/favicon.ico$domain=tracker.gg
 @@||ad.doubleclick.net/searchads/link/click?
 @@||ad.ettoday.net/msg_liveshow.php^$domain=ettoday.net
+@@||ad.ext.azure.com^
 @@||ad.kazakinfo.com^
 @@||ad.linksynergy.com^$image,domain=extrarebates.com
 @@||ad.lkqd.net/serve/formats.js$domain=breitbart.com
@@ -1941,6 +1945,7 @@
 @@||api.adinplay.com/libs/aiptag/pub/WRK/tetrads.io/tag.min.js$domain=tetrads.io
 @@||api.adinplay.com/player/*/player.min.js$domain=mineparkour.club|gunzer.io|pockey.io|bist.io|piaf.io
 @@||api.adnetmedia.lt/api/$~third-party
+@@||api.ads.tvb.com^
 @@||api.amplitude.com^$xmlhttprequest,domain=insiderintelligence.com
 @@||api.anivideo.fun/file/$stealth
 @@||api.apolomedia.com/static/libs/event-tracking.min.js$script
@@ -2566,6 +2571,7 @@
 @@||bath*.*/watch/*.m3u8$stealth=referrer
 @@||bath*.*/watch/*/keys/*.key$stealth=referrer
 @@||bats.video.yahoo.com$app=com.yahoo.mobile.client.android.mail
+@@||battle.net^
 @@||battlecats-db.com^$generichide
 @@||battlecats-db.imgs-server.com^$stealth
 @@||battlecats.spica-net.com^$generichide
@@ -2977,6 +2983,7 @@
 @@||buttons-config.sharethis.com/js^$domain=haberkibris.com
 @@||bux.codes^$generichide
 @@||buy-*.piano.io^$script,stylesheet,stealth,domain=piano.io
+@@||buyad.bi-xenon.cn^
 @@||buydekhke.com^$generichide
 @@||buymeacoffee.com/*/widget.$script,domain=langoguessr.com
 @@||bvdinfo.com/js/components/GDPR.js
@@ -4026,6 +4033,7 @@
 @@||chinamobile.com^$generichide
 @@||chinamobile.com^*/ad$~third-party
 @@||chinapost-track.com/ads.txt
+@@||chinatelecom.com.cn^
 @@||chinatimes.com/css-main/ad.css
 @@||chineseanime.vip^$generichide
 @@||chinesesexmovie.net^$generichide
@@ -5321,6 +5329,7 @@
 @@||download.com/ad-
 @@||download.hr/module/detector/adsbygoogle.js
 @@||download.inventivetalent.org/external/adfly/make.php
+@@||download.jumpw.com^
 @@||download.megaup.net/*.js$~third-party
 @@||download.mokeedev.com/ad*.php$generichide
 @@||download.mokeedev.com/ad.php$generichide
@@ -6246,6 +6255,7 @@
 @@||frkn64modding.com^$generichide
 @@||frogwares.com/wp-content/plugins/bwp-minify/min/*/css/*/cookie-law-*.min.css
 @@||fromhere.site^$generichide
+@@||front-go.lemall.com^
 @@||frontroute.org/*.txt$stealth=referrer
 @@||frontroute.org^$media,stealth=referrer
 @@||frosmo.com/recoApi/$domain=eeva.fi|terve.fi|lily.fi|meillakotona.fi|apu.fi
@@ -9550,6 +9560,7 @@
 @@||legendstracking.com/js/legends-tracking.js$~third-party
 @@||legionscans.com^$generichide
 @@||lemall.com/adspace/
+@@||lemon.baidu.com^
 @@||lenovo.com/_ui/desktop/common/js/AdobeAnalyticsEvent.js$script,~third-party
 @@||lenovo.com/fea/js/adobeAnalytics/$script,~third-party,xmlhttprequest
 @@||leo.org^$generichide
@@ -9814,6 +9825,7 @@
 @@||lso.ca^$stealth=dpi
 @@||lswcdn.net^$stealth
 @@||ltc24.com^$generichide
+@@||ltzn.9377.com^
 @@||lubetube.com^$generichide
 @@||lucidcam.com^$generichide
 @@||luciferdonghua.in^$generichide
@@ -10549,6 +10561,7 @@
 @@||msn.com/c.gif?rid=$image,domain=my.msn.com
 @@||msn.com/spartan/dhp$jsinject
 @@||msn.wrating.com/a1.js
+@@||msn.wrating.com^
 @@||mssl.fwmrm.net/*/AdManager.js?$domain=nhl.com|dtmts.com
 @@||mssl.fwmrm.net/*/MTG_Brightcove_HTML5/AdManager.js$domain=play.tv3.lt
 @@||mssl.fwmrm.net/*/MTG_Brightcove_HTML5/AdManager.js$domain=tv3sport.dk
@@ -12338,6 +12351,7 @@
 @@||pg3dhacks.com^$generichide
 @@||pga.com^$generichide
 @@||pghk.blogspot.com^$generichide
+@@||pgpartner.com^
 @@||pharmaguideline.com^$generichide
 @@||pherotruth.com/plausible.js
 @@||pherotruth.com^$generichide
@@ -15161,6 +15175,7 @@
 @@||switch.atdmt.com/iaction/$subdocument,domain=bestbuy.com
 @@||switching.software/replace/google-analytics/
 @@||switching.software^$generichide
+@@||swjoy.com^
 @@||swnovels.com/assets/js/prebid-ads.js
 @@||swnsdigital.com/*/webtoffee-gdpr-cookie-consent/$~third-party
 @@||swr3.de/static/swrplayer/web/plugins/ivw/ivw.js
@@ -17002,6 +17017,7 @@
 @@||www.youtube.com^$generichide
 @@||www.zee5.com^$stealth,domain=zee5.com
 @@||wwwcache.wral.com/presentation/v3/scripts/providers/analytics/ga.js$~third-party
+@@||wwwimage-tve.cbsstatic.com^
 @@||wwwstream.pro^$subdocument,stealth
 @@||wx.qq.com/*/ad_$script
 @@||wx.qq.com/c/=/mpres/*/video_ad_
