@@ -25,7 +25,6 @@ allow=(
   "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/GermanFilter/sections/allowlist.txt"
   "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/TurkishFilter/sections/allowlist.txt"
   "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/SpywareFilter/sections/allowlist.txt"
-  "https://anti-ad.net/adguard.txt"
 )
 
 for i in "${!rules[@]}" "${!allow[@]}"
