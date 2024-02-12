@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title:AdBlock Rules Add
-! Last Modified: 2024-02-12 14:10:17
+! Last Modified: 2024-02-12 15:08:30
 ! Homepage: https://github.com/Sereinfy/Adrules
 
 atm.youku.com
@@ -60,6 +60,10 @@ chat.bilibili.com
 dm.video.qq.com
 prplads.com
 搜狐网络科技.中国
+
+||fundingchoicesmessages.google.com^
+
+outlook.live.com._6tqjFb_HmyQup_NPe6dhC
 
 doubleclick.net
 yihuifu.cn
@@ -164,14 +168,11 @@ logoshejishi.com
 ||saxs.sina.
 ||adsame.
 
-||share.baidu.com^
-
 ||consent.canalboat.co.uk^
 ||cb-mms.carbuyer.co.uk^
 ||optanon.blob.core.windows.net^
 ||cmp.playpilot.com^
 ||privacypolicy.trgr.be^
-||fundingchoicesmessages.google.com^
 ||consent.nationalworld.com^
 ||sourcepoint-mms.history.com^
 ||messaging.sourcepoint.com^
@@ -313,16 +314,7 @@ logoshejishi.com
 ||consentement.ouest-france.fr^
 ||cookies.gardena.net^
 
-cookie_meldung.js^
-eurail_responsive_law_cookie_banner.js^
-cookie_choices.min.js^
-jquery-eu-cookie-law-popup*
-cookie_acceptance_modal.js^
-cookie_law.js^
-cookiePolicyEUPopin*
-eu_cookie_banner.js^
-informacja_cookies.js^
-flipdish-cookie-consent*
+||share.baidu.com^
 
 cookies.ae-webdesign.com
 cmp.mediavine.com
@@ -418,4 +410,13 @@ cache.consentframework.com
 procookie.by.nf
 consent.theneweuropean.co.uk
 
-outlook.live.com._6tqjFb_HmyQup_NPe6dhC
+cookie_meldung.js^
+eurail_responsive_law_cookie_banner.js^
+cookie_choices.min.js^
+jquery-eu-cookie-law-popup*
+cookie_acceptance_modal.js^
+cookie_law.js^
+cookiePolicyEUPopin*
+eu_cookie_banner.js^
+informacja_cookies.js^
+flipdish-cookie-consent*
