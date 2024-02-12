@@ -2,8 +2,8 @@
 ! Title: CN-allow-Rules
 ! Homepage: https://github.com/Sereinfy/CN-ADList
 ! Expires: 12 Hours
-! Version: 2024-02-12 11:48:27 
-! Total count: 7735
+! Version: 2024-02-12 14:13:48 
+! Total count: 7721
 @@$generichide,domain=vidoza.co|vidoza.net
 @@*$app=com.cinemark.mobile
 @@-social-bar.$domain=mobi.yahoo.com
@@ -287,7 +287,6 @@
 @@||15min.lt^$generichide
 @@||163.com/user/event?id=
 @@||16668tu.com/css/ad.css
-@@||17173im.allyes.com^
 @@||182.150.59.104^*/ad.css?$stylesheet
 @@||189.cn^*/shareBox.
 @@||192.168.*.1/$generichide
@@ -456,7 +455,6 @@
 @@||ad.8maple.ru/8ads.gif
 @@||ad.8maple.ru/bilibili.png
 @@||ad.8maple.ru/close.png
-@@||ad.abchina.com^
 @@||ad.admitad.com/gsj/$domain=ad.admitad.com
 @@||ad.adriver.ru/cgi-bin/rle.cgi$domain=mgts.ru
 @@||ad.alimama.com^$genericblock
@@ -474,7 +472,6 @@
 @@||ad.doubleclick.net/ddm/pfadx^$domain=n-tv.de
 @@||ad.doubleclick.net/ddm/trackclk/*http$popup
 @@||ad.ettoday.net/msg_liveshow.php^$domain=ettoday.net
-@@||ad.ext.azure.com^
 @@||ad.jp^
 @@||ad.kazakinfo.com^
 @@||ad.linksynergy.com^$image,domain=extrarebates.com
@@ -845,7 +842,6 @@
 @@||api.adinplay.com/libs/aiptag/*/tag.min.js$domain=killstreak.tv
 @@||api.adinplay.com/libs/aiptag/*/tag.min.js$domain=mope.io
 @@||api.adnetmedia.lt/api/$~third-party
-@@||api.ads.tvb.com^
 @@||api.amplitude.com^$xmlhttprequest,domain=insiderintelligence.com
 @@||api.apolomedia.com/static/libs/event-tracking.min.js$script
 @@||api.apptentive.com^$app=de.mcdonalds.mcdonaldsinfoapp
@@ -1172,7 +1168,6 @@
 @@||basinnow.com/upload/settings/advertise-img.jpg
 @@||bat.bing.com/bat.js$domain=airbnb.ru
 @@||bats.video.yahoo.com$app=com.yahoo.mobile.client.android.mail
-@@||battle.net^
 @@||battlecats-db.com^$generichide
 @@||battlestick2.net/ads.js
 @@||bauen-und-heimwerken.de/plugins/system/gdpr/assets/js/cookieconsent.min.js$domain=bauen-und-heimwerken.de
@@ -1340,7 +1335,6 @@
 @@||bundesliga.de/js/xtcore.js
 @@||businessclick.ch/index.js$domain=finanzen.ch
 @@||buttons-config.sharethis.com/js^$domain=haberkibris.com
-@@||buyad.bi-xenon.cn^
 @@||buymeacoffee.com/*/widget.$script,domain=langoguessr.com
 @@||bvdinfo.com/js/components/GDPR.js
 @@||bwb101.goo.ne.jp/b.js$domain=news.goo.ne.jp
@@ -1959,7 +1953,6 @@
 @@||chinacourt.gov.cn/share/jquery/plugins/adbox/
 @@||chinamobile.com^$generichide
 @@||chinamobile.com^*/ad$~third-party
-@@||chinatelecom.com.cn^
 @@||chinatimes.com/css-main/ad.css
 @@||chineseanime.vip^$generichide
 @@||choices.consentframework.com/js/*/cmp$domain=numerama.com
@@ -2672,7 +2665,6 @@
 @@||douyucdn.cn^*-share-master/
 @@||down.cc/down/js/ad.js
 @@||download.amd.com/js/analytics/analyticscore.js
-@@||download.jumpw.com^
 @@||download.mokeedev.com^$genericblock,generichide
 @@||downloadgameps3.com/ads.js
 @@||downloads.mailchimp.com/js/signup-forms/$domain=wcoconcerts.org
@@ -3001,7 +2993,6 @@
 @@||friendbuy.com^$domain=butcherbox.com
 @@||friends.ponta.jp/app/assets/images/$~third-party
 @@||frogwares.com/wp-content/plugins/bwp-minify/min/*/css/*/cookie-law-*.min.css
-@@||front-go.lemall.com^
 @@||frosmo.com/recoApi/$domain=eeva.fi|terve.fi|lily.fi|meillakotona.fi|apu.fi
 @@||frosmo.com^$image,xmlhttprequest,domain=karkkainen.com
 @@||fs2017mod.com^$generichide
@@ -4653,7 +4644,6 @@
 @@||lefile.cn/??*,
 @@||legendstracking.com/js/legends-tracking.js$~third-party
 @@||lemall.com/adspace/
-@@||lemon.baidu.com^
 @@||lenovo.com/_ui/desktop/common/js/AdobeAnalyticsEvent.js$script,~third-party
 @@||lenovo.com/fea/js/adobeAnalytics/$script,~third-party,xmlhttprequest
 @@||leo.org^$generichide
@@ -4761,7 +4751,6 @@
 @@||lr-ingest.io/LogRocket.min.js$domain=smartcare.com
 @@||lshstream.xyz/hls/$xmlhttprequest
 @@||lsi.com^*/google-analytics.js
-@@||ltzn.9377.com^
 @@||luminalearning.com/affiliate-content/$image,~third-party
 @@||lun.com/*/Scripts/Analytics.js
 @@||luoo.net/ad/
@@ -5060,7 +5049,6 @@
 @@||msecnd.net^*/site-tracker.js$domain=momondo.dk
 @@||msn.com/c.gif?rid=$image,domain=my.msn.com
 @@||msn.wrating.com/a1.js
-@@||msn.wrating.com^
 @@||mssl.fwmrm.net/*/AdManager.js?$domain=nhl.com|dtmts.com
 @@||msubload.com/sub/$xmlhttprequest
 @@||mtb-mag.com/forum/js/siropu/am/ads.min.js
@@ -6823,7 +6811,6 @@
 @@||swisstph.ch/*/gdpr.min.js$~third-party
 @@||switch.atdmt.com/iaction/$subdocument,domain=bestbuy.com
 @@||switching.software^$generichide
-@@||swjoy.com^
 @@||swnsdigital.com/*/webtoffee-gdpr-cookie-consent/$~third-party
 @@||swr3.de/static/swrplayer/web/plugins/ivw/ivw.js
 @@||swsc.com.cn/download/ad_images/
@@ -7605,7 +7592,6 @@
 @@||www.youtube.com/s/desktop/ad$script
 @@||www.youtube.com^$generichide
 @@||wwwcache.wral.com/presentation/v3/scripts/providers/analytics/ga.js$~third-party
-@@||wwwimage-tve.cbsstatic.com^
 @@||wx.qq.com/*/ad_$script
 @@||wx.qq.com/c/=/mpres/*/video_ad_
 @@||wx.qq.com/mmbizwap/*/framead.
