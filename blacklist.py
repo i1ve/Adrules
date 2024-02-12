@@ -10,8 +10,8 @@ from resolver import Resolver
 
 class BlackList(object):
     def __init__(self):
-        self.__blacklistFile = os.getcwd() + "/rules/black.txt"
-        self.__domainlistFile = os.getcwd() + "/rules/adblockdns.backup"
+        self.__blacklistFile = os.getcwd() + "/rule/black.txt"
+        self.__domainlistFile = os.getcwd() + "/rule/adblockdns.backup"
         self.__maxTask = 500
 
     def GenerateDomainList(self):
