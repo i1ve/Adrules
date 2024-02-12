@@ -62,6 +62,7 @@ def CreatReadme(ruleList, fileName):
         f.write("1. 合并优质上游规则并去重整理排列。\n")
         f.write("2. 使用两组国内、两组国外 DNS 服务，分别对上游各规则源拦截的域名进行解析，去除已无法解析的域名。（上游各规则源中存在大量已无法解析的域名，无需加入拦截规则）\n")
         f.write("3. 本项目仅对上游规则进行合并、去重、去除无效域名，添加少量其他规则。如发现误拦截情况，可临时添加放行规则（如 `@@||www.example.com^$important`），并向上游规则反馈。\n\n")
+        f.write("4. 手机推荐使用 [halflife-list](https://subscribe.adblockplus.org/?location=https://cdn.jsdelivr.net/gh/sbwml/halflife-list@master/ad.txt&title=halflife-list) + [ADgk](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/banbendalao/ADgk/master/ADgk.txt&title=ADgk) （点击直接导入）\n")
         f.write("## 🎯订阅链接\n")
         f.write("|    项目    |                             github                              |                           ghproxy                            |\n")
         f.write("| :-------: | :----------------------------------------------------------: | :----------------------------------------------------------: |\n")
