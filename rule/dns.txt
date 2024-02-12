@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title:AdBlock Rules Add
-! Last Modified: 2024-02-12 11:41:14
+! Last Modified: 2024-02-12 14:10:17
 ! Homepage: https://github.com/Sereinfy/Adrules
 
 atm.youku.com
@@ -50,6 +50,16 @@ g.huya.com
 zhiziyun.com
 
 ||onetrust.
+
+gentags.net
+gift.douyucdn.cn
+rank.douyucdn.cn
+gtags.net
+butterfly.douyucdn.cn
+chat.bilibili.com
+dm.video.qq.com
+prplads.com
+搜狐网络科技.中国
 
 doubleclick.net
 yihuifu.cn
@@ -154,20 +164,6 @@ logoshejishi.com
 ||saxs.sina.
 ||adsame.
 
-gentags.net
-gift.douyucdn.cn
-rank.douyucdn.cn
-gtags.net
-butterfly.douyucdn.cn
-chat.bilibili.com
-dm.video.qq.com
-prplads.com
-搜狐网络科技.中国
-
-||fundingchoicesmessages.google.com^
-
-outlook.live.com._6tqjFb_HmyQup_NPe6dhC
-
 ||share.baidu.com^
 
 ||consent.canalboat.co.uk^
@@ -175,6 +171,7 @@ outlook.live.com._6tqjFb_HmyQup_NPe6dhC
 ||optanon.blob.core.windows.net^
 ||cmp.playpilot.com^
 ||privacypolicy.trgr.be^
+||fundingchoicesmessages.google.com^
 ||consent.nationalworld.com^
 ||sourcepoint-mms.history.com^
 ||messaging.sourcepoint.com^
@@ -316,6 +313,17 @@ outlook.live.com._6tqjFb_HmyQup_NPe6dhC
 ||consentement.ouest-france.fr^
 ||cookies.gardena.net^
 
+cookie_meldung.js^
+eurail_responsive_law_cookie_banner.js^
+cookie_choices.min.js^
+jquery-eu-cookie-law-popup*
+cookie_acceptance_modal.js^
+cookie_law.js^
+cookiePolicyEUPopin*
+eu_cookie_banner.js^
+informacja_cookies.js^
+flipdish-cookie-consent*
+
 cookies.ae-webdesign.com
 cmp.mediavine.com
 eurocookie.galilcloud.wixapps.net
@@ -410,13 +418,4 @@ cache.consentframework.com
 procookie.by.nf
 consent.theneweuropean.co.uk
 
-cookie_meldung.js^
-eurail_responsive_law_cookie_banner.js^
-cookie_choices.min.js^
-jquery-eu-cookie-law-popup*
-cookie_acceptance_modal.js^
-cookie_law.js^
-cookiePolicyEUPopin*
-eu_cookie_banner.js^
-informacja_cookies.js^
-flipdish-cookie-consent*
+outlook.live.com._6tqjFb_HmyQup_NPe6dhC
