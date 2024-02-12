@@ -1,5 +1,5 @@
 ```
-更新时间: 2024-02-12 20:48:59  
+更新时间: 2024-02-12 22:21:42  
 
 拦截规则数量: 307643 
 白名单规则数量: 17326 
@@ -12,7 +12,8 @@ DNS检测已失效域名: 157994
 1. 合并优质上游规则并去重整理排列。
 2. 使用两组国内、两组国外 DNS 服务，分别对上游各规则源拦截的域名进行解析，去除已无法解析的域名。（上游各规则源中存在大量已无法解析的域名，无需加入拦截规则）
 3. 本项目仅对上游规则进行合并、去重、去除无效域名，添加少量其他规则。如发现误拦截情况，可临时添加放行规则（如 `@@||www.example.com^$important`），并向上游规则反馈。
-手机内存小的推荐使用 [halflife-list](https://subscribe.adblockplus.org/?location=https://cdn.jsdelivr.net/gh/sbwml/halflife-list@master/ad.txt&title=halflife-list)、[ADgk](abp:subscribe?location=https://raw.githubusercontent.com/banbendalao/ADgk/master/ADgk.txt&title=ADgk)
+
+4. 手机推荐使用 [halflife-list](https://subscribe.adblockplus.org/?location=https://cdn.jsdelivr.net/gh/sbwml/halflife-list@master/ad.txt&title=halflife-list) + [ADgk](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/banbendalao/ADgk/master/ADgk.txt&title=ADgk) （点击直接导入）
 ## 🎯订阅链接
 |    项目    |                             github                              |                           ghproxy                            |
 | :-------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
