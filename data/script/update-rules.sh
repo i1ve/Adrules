@@ -17,7 +17,8 @@ echo '下载规则'
 rules=(
   "https://raw.githubusercontent.com/Sereinfy/Adrules/main/rule/adblockdns.txt" #dns
   "https://raw.githubusercontent.com/Sereinfy/Adrules/main/rule/adblockfilters.txt" #filters
-  "https://raw.githubusercontent.com/Sereinfy/Adrules/main/rule/filters.txt" #补充
+  "https://raw.githubusercontent.com/Sereinfy/Adrules/main/rule/filters.txt"
+  
  )
 
 allow=(
