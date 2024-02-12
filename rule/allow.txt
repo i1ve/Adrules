@@ -2,8 +2,8 @@
 ! Title: CN-allow-Rules
 ! Homepage: https://github.com/Sereinfy/CN-ADList
 ! Expires: 12 Hours
-! Version: 2024-02-12 18:50:08 
-! Total count: 17374
+! Version: 2024-02-12 19:11:53 
+! Total count: 17383
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=stfly.cc|blogbux.net
@@ -7913,6 +7913,10 @@
 @@||hb.vntsm.com/v*/live/ad-manager.min.js$domain=pluspremieres.bz
 @@||hb.vntsm.com/v2/live/$xmlhttprequest,domain=aternos.org
 @@||hb.vntsm.io/content.html$domain=aternos.org
+@@||hbbtv.kika.de^
+@@||hbbtv.prosieben.de^
+@@||hbbtv.redbutton.de^
+@@||hbbtv.zdf.de^
 @@||hbimg.huabanimg.com^$stealth,domain=huaban.com
 @@||hboav.com/guga/adss.js
 @@||hboav.com/guga/images/$xmlhttprequest
@@ -8897,6 +8901,7 @@
 @@||infobel.com/Scripts/custom/*.js
 @@||infodifesa.it^$generichide
 @@||infojobs.com.br/mf-publicarea/_content/InfoJobs.Microfrontend.Components/js/smarttag.js
+@@||infolink.pavv.co.kr^
 @@||inforge.net^$generichide
 @@||informatikamu.id^$generichide
 @@||informaxonline.com/wp-content/plugins/wp-safelink-v3/assets/fuckadblock.js
@@ -10303,6 +10308,10 @@
 @@||mgr.consensu.org/v*/sibbo-cmp-atresplayer-web.js$domain=atresplayer.com
 @@||mgr.consensu.org^$domain=adslzone.net
 @@||mgr.consensu.org^$domain=blic.rs
+@@||mhc-ajax-eu-s2.myhomescreen.tv^
+@@||mhc-ajax-eu.myhomescreen.tv^
+@@||mhc-xpana-eu-s2.myhomescreen.tv^
+@@||mhc-xpana-eu.myhomescreen.tv^
 @@||mhktricks.org^$generichide
 @@||mhn.quest/*.js$~third-party
 @@||mhscdnv*/images/$stealth,domain=manhuascan.com
