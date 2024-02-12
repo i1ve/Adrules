@@ -2,7 +2,7 @@
 ! Title: CN-allow-Rules
 ! Homepage: https://github.com/Sereinfy/Adrules
 ! Expires: 12 Hours
-! Version: 2024-02-12 19:47:12（北京时间） 
+! Version: 2024-02-12 19:58:18（北京时间） 
 ! Total count: 17343
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
