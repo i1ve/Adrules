@@ -144,5 +144,6 @@ done
 wait
 echo '更新成功'
 rm -rf pre
-
+wait
+mv rules.txt allow.txt rule/
 exit
