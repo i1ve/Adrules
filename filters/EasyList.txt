@@ -1,8 +1,15 @@
 [Adblock Plus 2.0]
+<<<<<<< HEAD
 ! Checksum: lFEOaPye/qBcQmWlZtpJBQ
 ! Version: 202402121421
 ! Title: EasyList
 ! Last modified: 12 Feb 2024 14:21 UTC
+=======
+! Checksum: LrCLDgIZ9Myi6kKz/21fgQ
+! Version: 202402121601
+! Title: EasyList
+! Last modified: 12 Feb 2024 16:01 UTC
+>>>>>>> 48393810893ee87a1e67554204523d3798105121
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -69398,6 +69405,7 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youp
 @@||upload.wikimedia.org/wikipedia/$image,media
 @@||v.fwmrm.net/ad/g/*Nelonen$script
 @@||v.fwmrm.net/ad/g/1$domain=uktv.co.uk|vevo.com
+@@||v.fwmrm.net/ad/g/1?*mtv_desktop$xmlhttprequest
 @@||v.fwmrm.net/ad/g/1?csid=vcbs_cbsnews_desktop_$xmlhttprequest
 @@||v.fwmrm.net/ad/p/1?$domain=cc.com|channel5.com|cmt.com|eonline.com|foodnetwork.com|nbcnews.com|ncaa.com|player.theplatform.com|simpsonsworld.com|today.com
 @@||v.fwmrm.net/crossdomain.xml$xmlhttprequest

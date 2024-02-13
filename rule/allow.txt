@@ -2,8 +2,13 @@
 ! Title: Adrules-allow
 ! Homepage: https://github.com/Sereinfy/Adrules
 ! Expires: 12 Hours
+<<<<<<< HEAD
 ! Version: 2024-02-12 22:39:42（北京时间） 
 ! Total count: 17328
+=======
+! Version: 2024-02-13 01:15:45（北京时间） 
+! Total count: 17327
+>>>>>>> 48393810893ee87a1e67554204523d3798105121
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=stfly.cc|blogbux.net
@@ -948,7 +953,6 @@
 @@||ad-doge.com^$generichide
 @@||ad-emea.doubleclick.net/ad/*$domain=channel4.com
 @@||ad-emea.doubleclick.net/clk
-@@||ad-gone.com^
 @@||ad-ipd.sxp.smartclip.net/select$domain=tele5.de
 @@||ad-ipd.sxp.smartclip.net/select^$domain=n-tv.de
 @@||ad-maven.com^$domain=ad-maven.com
@@ -1128,6 +1132,7 @@
 @@||adjs.8591.com.tw^$script
 @@||adjust.com/adjust-latest.min.js$domain=anchor.fm
 @@||adligature.com^|$xmlhttprequest,domain=work.ink
+@@||adlink.wf^
 @@||adlpu.com^$generichide
 @@||adm.fwmrm.net/*/AdManager.swf$domain=video.snidigital.com
 @@||adm.fwmrm.net/crossdomain.xml
@@ -8880,6 +8885,7 @@
 @@||infobel.com/Scripts/custom/*.js
 @@||infodifesa.it^$generichide
 @@||infojobs.com.br/mf-publicarea/_content/InfoJobs.Microfrontend.Components/js/smarttag.js
+@@||infolink.pavv.co.kr^
 @@||inforge.net^$generichide
 @@||informatikamu.id^$generichide
 @@||informaxonline.com/wp-content/plugins/wp-safelink-v3/assets/fuckadblock.js
@@ -9732,6 +9738,7 @@
 @@||loan-trading.net^$generichide
 @@||lobi.co/1/track/event/
 @@||loc.map.baidu.com/sdk.php$app=com.baidu.BaiduMap
+@@||local.adguard.org^
 @@||localbitcoins.com/ads_edit
 @@||localizaagencia.com^$generichide
 @@||lockwood-avenue.com^*/cookielaw/$~third-party
@@ -9970,7 +9977,6 @@
 @@||manualdamulher.net^$generichide
 @@||manwa.fun/static/upload/ads/*.gif?$image,~third-party
 @@||manwa.me/static/custom/files/300X250.gif
-@@||manwa.me^
 @@||manyak.info^$generichide
 @@||map.poketrack.xyz/js/ads-min.js
 @@||mapandroute.de/MapAPI-$stealth=referrer,domain=dastelefonbuch.de
@@ -10284,7 +10290,6 @@
 @@||mgr.consensu.org^$domain=blic.rs
 @@||mhc-ajax-eu.myhomescreen.tv^
 @@||mhc-xpana-eu-s2.myhomescreen.tv^
-@@||mhc-xpana-eu.myhomescreen.tv^
 @@||mhktricks.org^$generichide
 @@||mhn.quest/*.js$~third-party
 @@||mhscdnv*/images/$stealth,domain=manhuascan.com
@@ -10969,7 +10974,6 @@
 @@||nvidia.custhelp.com^$stealth=referrer
 @@||nvimfreak.com^$generichide
 @@||nwitimes.com^$generichide
-@@||nwolb.com^
 @@||nxmac.com^$generichide
 @@||ny.gov^$stealth
 @@||ny1.com^$elemhide
@@ -12365,7 +12369,6 @@
 @@||picmix.com/js/fuckadblock.js
 @@||picmix.com/wp-banners.js
 @@||picrelated.com^$generichide
-@@||pics.porn300.com^
 @@||pics.porndroids.com^
 @@||picsearch.com/js/comscore.js$domain=dn.se
 @@||pictasty.com^$generichide
@@ -12930,6 +12933,7 @@
 @@||pubmatic.com/wp-content/themes/pubmatic/js/jquery.alignHeight.js$domain=lifestylehack.info|keephealth.info|kimcartoon.li|kissorg.net|kisstvshow.to|kissasian.li|kisstvshow.net|kissasian.mx|kissasian.sh|kissasian.lu
 @@||pudelek.pl^$generichide
 @@||pulsemens.com^$generichide
+@@||puma.112.2o7.net^
 @@||punakong.com:*/Cloud/Down/$stealth,domain=zxzj.*
 @@||punosy.com/pns?*&source=bcvc&$domain=ouo.today
 @@||pureliving-wiesbaden.de/plugins/system/gdpr/assets/js/cookieconsent.min.js
@@ -14909,7 +14913,6 @@
 @@||static.shorte.st/bundles/smeweb/$domain=sh.st
 @@||static.shorte.st/js/packed/interstitial-page.js$domain=sh.st
 @@||static.shorte.st/js/packed/smeadvert-locked.js$domain=sh.st
-@@||static.softlayer.com^
 @@||static.stands4.com/app_common/js/prebid-ads.js
 @@||static.surfe.pro/js/net.js$domain=allfaucet.xyz
 @@||static.surfe.pro/js/net.js$domain=atefaucet.com|coinsrev.com
@@ -16276,6 +16279,7 @@
 @@||v.fwmrm.net/ad/g/1?$domain=ruutu.fi
 @@||v.fwmrm.net/ad/g/1?$xmlhttprequest,domain=www.mycanal.fr
 @@||v.fwmrm.net/ad/g/1?*DiscoveryIntl_BrightcoveJ*&csid=VVVVID_ITALY_*vast
+@@||v.fwmrm.net/ad/g/1?*mtv_desktop$xmlhttprequest
 @@||v.fwmrm.net/ad/g/1?csid=vcbs_cbsnews_*_web_vod&*&host=https%3A%2F%2Fwww.cbsnews.com&$domain=imasdk.googleapis.com
 @@||v.fwmrm.net/ad/g/1?csid=vcbs_cbsnews_desktop_$xmlhttprequest
 @@||v.fwmrm.net/ad/l/1$domain=bold.dk
