@@ -17,7 +17,12 @@ echo '下载规则'
 rules=(
   "https://raw.githubusercontent.com/Sereinfy/Adrules/main/rule/adblockdns.txt" #dns
   "https://raw.githubusercontent.com/Sereinfy/Adrules/main/rule/adblockfilters.txt" #filters
-  "https://raw.githubusercontent.com/Sereinfy/Adrules/main/rule/filters.txt"
+  "https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/mv.txt"
+  "https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/minority-mv.txt"
+  "https://secure.fanboy.co.nz/fanboy-cookiemonster.txt"
+  "https://www.i-dont-care-about-cookies.eu/abp/"
+  "https://easylist-downloads.adblockplus.org/antiadblockfilters.txt"
+  "https://easylist.to/easylist/fanboy-social.txt"
   
  )
 
