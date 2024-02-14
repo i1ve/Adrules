@@ -2,8 +2,8 @@
 ! Title: Adrules-allow
 ! Homepage: https://github.com/Sereinfy/Adrules
 ! Expires: 12 Hours
-! Version: 2024-02-14 17:50:58（北京时间） 
-! Total count: 16860
+! Version: 2024-02-14 17:57:36（北京时间） 
+! Total count: 16859
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=stfly.cc|blogbux.net
@@ -12034,7 +12034,6 @@
 @@||picmix.com/wp-banners.js
 @@||picrelated.com^$generichide
 @@||pics.porn300.com^
-@@||pics.porndroids.com^
 @@||picsearch.com/js/comscore.js$domain=dn.se
 @@||pictasty.com^$generichide
 @@||pictogo.net^$stealth,third-party
