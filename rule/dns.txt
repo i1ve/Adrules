@@ -1,19 +1,7 @@
 [Adblock Plus 2.0]
 ! Title:AdBlock Rules Add
-! Last Modified: 2024-02-13 20:23:12
+! Last Modified: 2024-02-14 16:30:50
 ! Homepage: https://github.com/Sereinfy/Adrules
-
-gentags.net
-gift.douyucdn.cn
-rank.douyucdn.cn
-gtags.net
-butterfly.douyucdn.cn
-chat.bilibili.com
-dm.video.qq.com
-prplads.com
-搜狐网络科技.中国
-
-||onetrust.
 
 atm.youku.com
 yoyi.com.cn
@@ -61,31 +49,17 @@ bjcathay.com
 g.huya.com
 zhiziyun.com
 
-outlook.live.com._6tqjFb_HmyQup_NPe6dhC
+||onetrust.
 
-||fundingchoicesmessages.google.com^
-
-||allyes.
-||icast.
-||gg.
-||union.
-||ad.
-||ads.
-||cnzz.
-||adsfile.
-||adserver.
-||adservice.
-||adpic.
-||sax.sina.
-||biz5.
-||adsense.
-||xmindchina.
-||ggg.
-||admaster.
-||googleadservices.
-||irs01.
-||saxs.sina.
-||adsame.
+gentags.net
+gift.douyucdn.cn
+rank.douyucdn.cn
+gtags.net
+butterfly.douyucdn.cn
+chat.bilibili.com
+dm.video.qq.com
+prplads.com
+搜狐网络科技.中国
 
 doubleclick.net
 yihuifu.cn
@@ -167,6 +141,32 @@ chemdraw.com.cn
 huishenghuiying.com.cn
 cm.jd.com
 logoshejishi.com
+
+||allyes.
+||icast.
+||gg.
+||union.
+||ad.
+||ads.
+||cnzz.
+||adsfile.
+||adserver.
+||adservice.
+||adpic.
+||sax.sina.
+||biz5.
+||adsense.
+||xmindchina.
+||ggg.
+||admaster.
+||googleadservices.
+||irs01.
+||saxs.sina.
+||adsame.
+
+outlook.live.com._6tqjFb_HmyQup_NPe6dhC
+
+||fundingchoicesmessages.google.com^
 
 ||share.baidu.com^
 
