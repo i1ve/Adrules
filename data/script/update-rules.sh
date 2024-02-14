@@ -16,7 +16,8 @@ cd tmp
 echo '下载规则'
 rules=(
   "https://raw.githubusercontent.com/Sereinfy/Adrules/main/rule/adblockdns.txt" #dns
-  "https://raw.githubusercontent.com/Sereinfy/Adrules/main/rule/filters.txt"
+  "https://raw.githubusercontent.com/Sereinfy/Adrules/main/rule/adblockfilters.txt" #filters
+  "https://raw.githubusercontent.com/Sereinfy/Adrules/main/rule/filters.txt" #filters
  )
 
 allow=(
