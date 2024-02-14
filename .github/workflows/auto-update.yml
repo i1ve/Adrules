@@ -31,7 +31,7 @@ jobs:
         id: commit
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: 🚀 CI Updated $(date)
+          commit_message: 🚀 CI Updated
 
       - name: GitHub Push
         if: steps.commit.outputs.changes_detected == 'true'
