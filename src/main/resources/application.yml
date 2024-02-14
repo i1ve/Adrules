@@ -69,7 +69,7 @@ application:
       - name: I don't care about cookies
         path: https://www.i-dont-care-about-cookies.eu/abp/
 
-      - name: Adblock Warning Removal List 
+      - name: Adblock Warning Removal List
         path: https://easylist-downloads.adblockplus.org/antiadblockfilters.txt
 
       - name: Fanboy's Social Blocking List
