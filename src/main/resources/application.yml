@@ -32,10 +32,7 @@ application:
 
       - name: AdGuard Annoyances
         path: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_14_Annoyances/filter.txt
-    
-      - name: AdGuard Social media filter
-        path: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_4_Social/filter.txt
-        
+
       - name: EasyList
         path: https://easylist-downloads.adblockplus.org/easylist.txt
         
