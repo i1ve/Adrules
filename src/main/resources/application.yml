@@ -21,6 +21,9 @@ application:
 
     # 仅支持 http/https，不限定响应内容格式
     remote:
+      - name: EasyList
+        path: https://easylist-downloads.adblockplus.org/easylist.txt
+        
       - name: EasyList Cookie List
         path: https://secure.fanboy.co.nz/fanboy-cookiemonster.txt
         
