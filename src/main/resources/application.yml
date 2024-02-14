@@ -21,11 +21,38 @@ application:
 
     # 仅支持 http/https，不限定响应内容格式
     remote:
+      - name: ADgk
+        path: https://raw.githubusercontent.com/banbendalao/ADgk/master/ADgk.txt
+    
+      - name: AdGuard Base filter
+        path: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_Base/filter.txt
+        
+      - name: AdGuard Chinese
+        path: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_224_Chinese/filter.txt
+
+      - name: AdGuard Annoyances
+        path: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_14_Annoyances/filter.txt
+    
+      - name: AdGuard Social media filter
+        path: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_4_Social/filter.txt
+        
+      - name: AdGuard Mobile ads filter
+        path: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_11_Mobile/filter.txt
+
       - name: EasyList
         path: https://easylist-downloads.adblockplus.org/easylist.txt
         
+      - name: EasyList China
+        path: https://easylist-downloads.adblockplus.org/easylistchina.txt
+        
+      - name: EasyPrivacy
+        path: https://easylist-downloads.adblockplus.org/easyprivacy.txt
+    
       - name: EasyList Cookie List
         path: https://secure.fanboy.co.nz/fanboy-cookiemonster.txt
+        
+      - name: CJX's Annoyance List
+        path: https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt
         
       - name: 乘风视频规则
         path: https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/mv.txt
@@ -35,7 +62,10 @@ application:
         
       - name: 乘风 小众视频规则
         path: https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/minority-mv.txt
-
+         
+      - name: NoAppDownload
+        path: https://raw.githubusercontent.com/Noyllopa/NoAppDownload/master/NoAppDownload.txt
+    
       - name: I don't care about cookies
         path: https://www.i-dont-care-about-cookies.eu/abp/
 
@@ -44,6 +74,9 @@ application:
 
       - name: Fanboy's Social Blocking List
         path: https://easylist.to/easylist/fanboy-social.txt
+        
+      - name: damengzhu
+        path: https://raw.githubusercontent.com/damengzhu/banad/main/jiekouAD.txt
     #本地规则
     local: #本地规则请将文件移动到项目路径rule目录中
       - name: 'private List'
