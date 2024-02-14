@@ -65,9 +65,6 @@ application:
 
       - name: Adblock Warning Removal List
         path: https://easylist-downloads.adblockplus.org/antiadblockfilters.txt
-
-      - name: Fanboy's Social Blocking List
-        path: https://easylist.to/easylist/fanboy-social.txt
         
       - name: damengzhu
         path: https://raw.githubusercontent.com/damengzhu/banad/main/jiekouAD.txt
