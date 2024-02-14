@@ -2,8 +2,8 @@
 ! Title: Adrules-allow
 ! Homepage: https://github.com/Sereinfy/Adrules
 ! Expires: 12 Hours
-! Version: 2024-02-14 14:30:51（北京时间） 
-! Total count: 17238
+! Version: 2024-02-14 16:50:51（北京时间） 
+! Total count: 17246
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=stfly.cc|blogbux.net
@@ -1039,6 +1039,7 @@
 @@||ad.thsi.cn/siteHome/
 @@||ad.vivo.com.cn^$~third-party
 @@||ad.zanox.com/ppc/$subdocument,domain=wisedock.at|wisedock.co.uk|wisedock.com|wisedock.de|wisedock.eu
+@@||ad.zanox.com/ppc/$subdocument,domain=wisedock.com
 @@||ad1.adbreak.ch/*/?$domain=tio.ch
 @@||ad13.adfarm1.adition.com^$domain=1und1.de
 @@||ad3.adfarm1.adition.com^$domain=servustv.com,other
@@ -1921,6 +1922,7 @@
 @@||api.adinplay.com/libs/aiptag/*/tag.min.js$domain=killstreak.tv
 @@||api.adinplay.com/libs/aiptag/*/tag.min.js$domain=mope.io
 @@||api.adinplay.com/libs/aiptag/*/tag.min.js$domain=v6p9d9t4.ssl.hwcdn.net|golfroyale.io|bullet.town|zoneroyale.com|bumpercars.io|memegames.space|erigato.space|inkwars.io|creatur.io|wormate.io|deadwalk.io|swaarm.io|octagor.com|lordz2.io|brutalmania.io|warscrap.io|findcat.io|evowars.io|shellshock.io|dinoman.io|bombhopper.io|clashblade.com|littlebigsnake.com|evoworld.io
+@@||api.adinplay.com/libs/aiptag/*/tag.min.js$domain=v6p9d9t4.ssl.hwcdn.net|golfroyale.io|bullet.town|zoneroyale.com|memegames.space|erigato.space|creatur.io|wormate.io|deadwalk.io|swaarm.io|octagor.com|lordz2.io|brutalmania.io|warscrap.io|findcat.io|evowars.io|shellshock.io|dinoman.io|bombhopper.io|clashblade.com|littlebigsnake.com|evoworld.io
 @@||api.adinplay.com/libs/aiptag/assets/adsbygoogle.js
 @@||api.adinplay.com/libs/aiptag/assets/loader-red.gif$domain=castlesiege.io
 @@||api.adinplay.com/libs/aiptag/assets/loader-red.gif$domain=tetrads.io
@@ -4207,6 +4209,7 @@
 @@||cmp.inmobi.com/tcfv2/*.js$domain=express.co.uk
 @@||cmp.inmobi.com/tcfv2/*.js$domain=thefunpost.com
 @@||cmp.inmobi.com^$domain=hideout.co
+@@||cmp.inmobi.com^$domain=hideout.co|fly4free.pl|travlerz.com
 @@||cmp.inmobi.com^$domain=travlerz.com
 @@||cmp.optad360.io/items/*.min.js$domain=linksht.com
 @@||cmp.osano.com/*/osano.js$domain=clickorlando.com
@@ -7119,6 +7122,7 @@
 @@||googleads.g.doubleclick.net^$app=com.thoptv.livetvstream
 @@||googleads.g.doubleclick.net^|$app=com.ftt.boxingstar.gl.aos
 @@||googleads.github.io/videojs-ima/$domain=mobile.mako.co.il
+@@||googleads.github.io/videojs-ima/dist/videojs.ima.js$domain=mako.co.il
 @@||googleads.github.io/videojs-ima/dist/videojs.ima.js$domain=rmfmaxxx.pl
 @@||googleads.github.io/videojs-ima/node_modules/video.js/dist/video$domain=ulifestyle.com.hk
 @@||googleads.github.io/videojs-ima/node_modules/video.js/dist/video-js.min.css$domain=blu-ray.com
@@ -7128,6 +7132,7 @@
 @@||googleads.github.io/videojs-ima/node_modules/video.js/dist/video.min.js$domain=blu-ray.com
 @@||googleads.github.io/videojs-ima/node_modules/video.js/dist/video.min.js$domain=rmfmaxxx.pl
 @@||googleads.github.io/videojs-ima/node_modules/video.js/dist/video.min.js$domain=setn.com
+@@||googleads.github.io/videojs-ima/node_modules/videojs-contrib-ads/dist/videojs.ads.min.js$domain=mako.co.il
 @@||googleads.github.io/videojs-ima/node_modules/videojs-contrib-ads/dist/videojs.ads.min.js$domain=rmfmaxxx.pl
 @@||googleads4.g.doubleclick.net^$domain=renfei.net
 @@||googleadservices.com/pagead/aclk?
@@ -11723,6 +11728,7 @@
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=radiotunes.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=ravenscans.com|oatuu.org|papa4k.xyz|techedubyte.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=rbtv77.*|live-streamfootball.*|superabbit77.*|superabbit33.*|superdom77.*|superlee77.*
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=rbtv77.*|live-streamfootball.*|superabbit77.*|superabbit33.*|superdom77.*|superlee77.*|superleo77.*|superargo77.*
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=realadmin.ru
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=receive-sms-online.info
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=receivesms.org|receivesms.co
@@ -14877,7 +14883,9 @@
 @@||static.youporn.phncdn.com/cb/assets/css/$domain=youporn.com
 @@||static.youranshare.com/*/adsbygoogle_adview_pic_cpc_cpm_cpa_guanggao_gg_ads_300x250.js
 @@||static.zhihu.com/ad-raccoon-web/$script
+@@||static.ziffdavis.com/sitenotice/*/settings.js$domain=allestoringen.be|allestoringen.nl|xn--allestrungen-9ib.at|xn--allestrungen-9ib.ch|xn--allestrungen-9ib.de|downdetector.ae|downdetector.ca|downdetector.co.nz|downdetector.co.uk|downdetector.co.za|downdetector.com.ar|downdetector.com.au|downdetector.com.br|downdetector.com.co|downdetector.com|downdetector.cz|downdetector.dk|downdetector.ec|downdetector.es|downdetector.fi|downdetector.fr|downdetector.gr|downdetector.hk|downdetector.hr|downdetector.hu|downdetector.id|downdetector.ie|downdetector.in|downdetector.it|downdetector.jp|downdetector.mx|downdetector.my|downdetector.no|downdetector.pe|downdetector.pk|downdetector.pl|downdetector.pt|downdetector.ro|downdetector.ru|downdetector.se|downdetector.sg|downdetector.sk|downdetector.web.tr
 @@||static.ziffdavis.com/sitenotice/*/settings.js$domain=allestoringen.be|allestoringen.nl|xn--allestrungen-9ib.at|xn--allestrungen-9ib.ch|xn--allestrungen-9ib.de|downdetector.ae|downdetector.ca|downdetector.c|downdetector.co.nz|downdetector.co.uk|downdetector.co.za|downdetector.com.ar|downdetector.com.au|downdetector.com.br|downdetector.com.co|downdetector.com|downdetector.cz|downdetector.dk|downdetector.ec|downdetector.es|downdetector.fi|downdetector.fr|downdetector.gr|downdetector.hk|downdetector.hr|downdetector.hu|downdetector.id|downdetector.ie|downdetector.in|downdetector.it|downdetector.jp|downdetector.mx|downdetector.my|downdetector.no|downdetector.pe|downdetector.pk|downdetector.pl|downdetector.pt|downdetector.ro|downdetector.ru|downdetector.se|downdetector.sg|downdetector.sk|downdetector.web.tr
+@@||static.ziffdavis.com/sitenotice/evidon-sitenotice-bundle.js$domain=allestoringen.be|allestoringen.nl|xn--allestrungen-9ib.at|xn--allestrungen-9ib.ch|xn--allestrungen-9ib.de|downdetector.ae|downdetector.ca|downdetector.co.nz|downdetector.co.uk|downdetector.co.za|downdetector.com.ar|downdetector.com.au|downdetector.com.br|downdetector.com.co|downdetector.com|downdetector.cz|downdetector.dk|downdetector.ec|downdetector.es|downdetector.fi|downdetector.fr|downdetector.gr|downdetector.hk|downdetector.hr|downdetector.hu|downdetector.id|downdetector.ie|downdetector.in|downdetector.it|downdetector.jp|downdetector.mx|downdetector.my|downdetector.no|downdetector.pe|downdetector.pk|downdetector.pl|downdetector.pt|downdetector.ro|downdetector.ru|downdetector.se|downdetector.sg|downdetector.sk|downdetector.web.tr
 @@||static.ziffdavis.com/sitenotice/evidon-sitenotice-bundle.js$domain=allestoringen.be|allestoringen.nl|xn--allestrungen-9ib.at|xn--allestrungen-9ib.ch|xn--allestrungen-9ib.de|downdetector.ae|downdetector.ca|downdetector.c|downdetector.co.nz|downdetector.co.uk|downdetector.co.za|downdetector.com.ar|downdetector.com.au|downdetector.com.br|downdetector.com.co|downdetector.com|downdetector.cz|downdetector.dk|downdetector.ec|downdetector.es|downdetector.fi|downdetector.fr|downdetector.gr|downdetector.hk|downdetector.hr|downdetector.hu|downdetector.id|downdetector.ie|downdetector.in|downdetector.it|downdetector.jp|downdetector.mx|downdetector.my|downdetector.no|downdetector.pe|downdetector.pk|downdetector.pl|downdetector.pt|downdetector.ro|downdetector.ru|downdetector.se|downdetector.sg|downdetector.sk|downdetector.web.tr
 @@||static00.forvo.com/_presentation/assets/js/vendor_mobile_no_ads.js
 @@||static01.nyt.com/ads/google/adsbygoogle.js
