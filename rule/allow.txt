@@ -2,8 +2,8 @@
 ! Title: Adrules-allow
 ! Homepage: https://github.com/Sereinfy/Adrules
 ! Expires: 12 Hours
-! Version: 2024-02-14 18:25:58（北京时间） 
-! Total count: 16631
+! Version: 2024-02-15 01:16:14（北京时间） 
+! Total count: 16632
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=stfly.cc|blogbux.net
@@ -999,6 +999,7 @@
 @@||ad.doubleclick.net/favicon.ico$domain=tracker.gg
 @@||ad.doubleclick.net/searchads/link/click?
 @@||ad.ettoday.net/msg_liveshow.php^$domain=ettoday.net
+@@||ad.kazakinfo.com^
 @@||ad.linksynergy.com^$image,domain=extrarebates.com
 @@||ad.lkqd.net/serve/formats.js$domain=breitbart.com
 @@||ad.mail.ru/adp/?q=*&target_count=$domain=youla.ru
@@ -2427,6 +2428,7 @@
 @@||banma.com/statics/js/??
 @@||banmancounselling.com/wp-content/themes/banman/
 @@||banner.customer.kyruus.com^$domain=doctors.bannerhealth.com
+@@||banner.dna.fi^
 @@||banner.infoey.com/adbanner.png$domain=bazadecrypto.com
 @@||banner.infoey.com/adbanner.png$domain=bchtechnologies.com
 @@||banner.infoey.com/adbanner.png$domain=phineypet.com
@@ -2446,7 +2448,6 @@
 @@||batch.id/wp-content/plugins/lw-adblocker/assets/js/fuckadblock.min.js
 @@||bath*.*/watch/*.m3u8$stealth=referrer
 @@||bath*.*/watch/*/keys/*.key$stealth=referrer
-@@||battle.net^
 @@||battlecats-db.com^$generichide
 @@||battlecats-db.imgs-server.com^$stealth
 @@||battlecats.spica-net.com^$generichide
@@ -3270,7 +3271,6 @@
 @@||cdn.cxense.com/cx.js$domain=wsj.com
 @@||cdn.cxense.com/sp1.html$domain=itmedia.co.jp
 @@||cdn.cxense.com/t_init.min.js$domain=dhnet.be
-@@||cdn.datatables.net^
 @@||cdn.diggysadventure.com/*/video_ads.erik?ver=$domain=diggysadventure.com
 @@||cdn.digiteka.com/player/PrebidLibrary.js$domain=ultimedia.com
 @@||cdn.dimml.io/dimml.js$domain=consumentenbond.nl
@@ -4461,7 +4461,6 @@
 @@||cookiebot.com^$domain=danbolig.dk
 @@||cookiebot.com^$domain=egmont.com|storyhouseegmont.dk|storyhouseegmont.no|storyhouseegmont.se
 @@||cookiebot.com^$domain=statisticshowto.com
-@@||cookieconsent.insites.com^
 @@||cookiefirst.com^$domain=hemmersbach.com|proaurum.de
 @@||cookieinfoscript.com/js/cookieinfo.min.js$domain=cookieinfoscript.com
 @@||cookielaw.org/langswitch/$script,domain=lippu.fi
@@ -4518,6 +4517,7 @@
 @@||cowcotland.com/scripjs.php$document
 @@||cowcotland.com/themes/v2/style/blogads.css
 @@||coxbusiness.com/R136/assets/newrelic/newrelic.js$~third-party
+@@||cpaalberta.ca^$stealth=dpi
 @@||cpalead.com/content_locker.php$domain=torrentomega.com
 @@||cpmlink.net^$generichide
 @@||cpro.baidu.com/cpro/ui/baiduLoader_as3.swf
@@ -7631,6 +7631,7 @@
 @@||hb.vntsm.com/v2/live/$xmlhttprequest,domain=aternos.org
 @@||hb.vntsm.io/content.html$domain=aternos.org
 @@||hbbtv.prosieben.de^
+@@||hbbtv.redbutton.de^
 @@||hbbtv.zdf.de^
 @@||hbimg.huabanimg.com^$stealth,domain=huaban.com
 @@||hboav.com/guga/adss.js
@@ -8034,7 +8035,6 @@
 @@||ilpuntotecnicoeadsl.com^$generichide
 @@||ilrestodelcarlino.it/*/video/*?embed$stealth
 @@||im.haberturk.com/assets/js/adblock.js
-@@||image.coolapk.com^
 @@||image.mp3.zdn.vn/banner/
 @@||image.shutterstock.com^$image,domain=icons8.com
 @@||imagebam.com/JS/site_ads.js
@@ -9167,7 +9167,6 @@
 @@||legendstracking.com/js/legends-tracking.js$~third-party
 @@||legionscans.com^$generichide
 @@||lemall.com/adspace/
-@@||lemon.baidu.com^
 @@||lenovo.com/_ui/desktop/common/js/AdobeAnalyticsEvent.js$script,~third-party
 @@||lenovo.com/fea/js/adobeAnalytics/$script,~third-party,xmlhttprequest
 @@||leo.org^$generichide
@@ -9425,7 +9424,6 @@
 @@||lso.ca^$stealth=dpi
 @@||lswcdn.net^$stealth
 @@||ltc24.com^$generichide
-@@||ltzn.9377.com^
 @@||lubetube.com^$generichide
 @@||lucidcam.com^$generichide
 @@||luciferdonghua.in^$generichide
@@ -9937,6 +9935,7 @@
 @@||minhasreceita.in^$generichide
 @@||minigame.aeriagames.jp/*/ae-tpgs-$~third-party
 @@||minigame.aeriagames.jp/css/videoad.css
+@@||minigame.qq.com^
 @@||minigiants.io/ads.js
 @@||miniminiplus.pl$generichide
 @@||minioppai.org^$generichide
@@ -11901,7 +11900,6 @@
 @@||picmix.com/js/fuckadblock.js
 @@||picmix.com/wp-banners.js
 @@||picrelated.com^$generichide
-@@||pics.porn300.com^
 @@||picsearch.com/js/comscore.js$domain=dn.se
 @@||pictasty.com^$generichide
 @@||pictogo.net^$stealth,third-party
@@ -12951,6 +12949,7 @@
 @@||s.ntv.io/serve/load.js$domain=autosport.com
 @@||s.ntv.io/serve/load.js$domain=bloomberg.com
 @@||s.ntv.io/serve/load.js$domain=titantv.com
+@@||s.optnx.com^
 @@||s.stormedia.info/*.mp4$stealth
 @@||s.tgfcer.com^$generichide
 @@||s.tvn.pl/tools/_ads/advert.js$domain=tvnturbo.pl
@@ -13624,6 +13623,7 @@
 @@||sfl.ink^$generichide
 @@||sgcpanel.com^$document
 @@||sgpics.net^$generichide
+@@||sgqcvfjvr.onet.pl^
 @@||sgxnifty.org/wp-content/themes/default/js/adblocker.js
 @@||sgxnifty.org^$generichide
 @@||sh.st$generichide
@@ -13991,6 +13991,7 @@
 @@||speedtest.net/api/api.php
 @@||speedtest.net/api/js/user-settings|$xmlhttprequest
 @@||speedtest.net/javascript/ads.js
+@@||speedtest.net^
 @@||speedtestcustom.com^$subdocument,stealth
 @@||speedynews.xyz^$generichide
 @@||spiegel.de/*/*-*-*-*-*
@@ -14328,7 +14329,6 @@
 @@||static.shorte.st/bundles/smeweb/$domain=sh.st
 @@||static.shorte.st/js/packed/interstitial-page.js$domain=sh.st
 @@||static.shorte.st/js/packed/smeadvert-locked.js$domain=sh.st
-@@||static.softlayer.com^
 @@||static.stands4.com/app_common/js/prebid-ads.js
 @@||static.surfe.pro/js/net.js$domain=allfaucet.xyz
 @@||static.surfe.pro/js/net.js$domain=atefaucet.com|coinsrev.com
@@ -15318,6 +15318,7 @@
 @@||tudogostoso.de^$generichide
 @@||tudogostoso.de^$stealth
 @@||tudogostoso.xyz^$generichide
+@@||tuhu.cn^
 @@||tui.click/js/ads.js
 @@||tui.click^$generichide
 @@||tumangaonline.com*/_adsense_/*.json
@@ -16297,7 +16298,6 @@
 @@||www.googletagmanager.com/gtm.js$script,domain=book.impress.co.jp
 @@||www.googletagmanager.com^$domain=myqqjd.com
 @@||www.googletagmanager.com^$domain=onlineshop.smt.docomo.ne.jp
-@@||www.gsxt.gov.cn^
 @@||www.ifon.ca^$generichide
 @@||www.lanzous.com/includes/js/jquery.js$domain=lanzous.com,important
 @@||www.microsoft.com/onerfstatics/marketingsites-*/ad-$script
@@ -16326,6 +16326,7 @@
 @@||www.youtube.com^$generichide
 @@||www.zee5.com^$stealth,domain=zee5.com
 @@||wwwcache.wral.com/presentation/v3/scripts/providers/analytics/ga.js$~third-party
+@@||wwwimage-tve.cbsstatic.com^
 @@||wwwstream.pro^$subdocument,stealth
 @@||wx.qq.com/*/ad_$script
 @@||wx.qq.com/c/=/mpres/*/video_ad_
