@@ -100,7 +100,7 @@ def CreatReadme(ruleList, fileName):
         f.write("| 乘风视频规则                     | xinggsf mv                                           |                                  |                                   |\n")
         f.write("| 乘风 广告过滤规则                | xinggsf rules                                        |                                  |                                   |\n")
         f.write("| 去 APP 下载提示规则              | NoAppDownload                                        |                                  |                                   |\n")
-        def GetBlackList():
+def GetBlackList():
     blackList = []
     fileName = os.getcwd() + "/filters/black.txt"   #改动路径
     if os.path.exists(fileName):
