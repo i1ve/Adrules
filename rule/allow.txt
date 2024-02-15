@@ -2,8 +2,8 @@
 ! Title: Adrules-allow
 ! Homepage: https://github.com/Sereinfy/Adrules
 ! Expires: 12 Hours
-! Version: 2024-02-15 13:41:41（北京时间） 
-! Total count: 14843
+! Version: 2024-02-15 14:03:18（北京时间） 
+! Total count: 14839
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=stfly.cc|blogbux.net
@@ -7837,7 +7837,6 @@
 @@||js.revsci.net/gateway/gw.js?$domain=t-online.de
 @@||js.sentry-cdn.com^$script,domain=app.homebinder.com|book.dmm.com|etsy.com|interacty.me|jobs.ch|pizzahut.com.au
 @@||js.spotx.tv/directsdk/*.js$domain=bloomberg.com
-@@||js.tv.itc.cn/gg.seed.js
 @@||js.vpro.nl/vpro/*/statcounter.js?
 @@||js.wpadmngr.com/static/adManager.js$domain=allcryptoz.net|crewbase.net|crewus.net|shinchu.net|thumb8.net|thumb9.net|topcryptoz.net|uniqueten.net|ultraten.net
 @@||js.wpadmngr.com/static/adManager.js$domain=blog.carstopia.net|blog.coinsvalue.net|blog.cookinguide.net|blog.freeoseocheck.com|blog.makeupguide.net
@@ -8922,7 +8921,6 @@
 @@||mmstat.com/eg.js$domain=aliexpress.*
 @@||mmstat.com/eg.js$domain=player.youku.com
 @@||mmstat.com/eg.js$script,domain=aliexpress.com
-@@||mmstat.com^$domain=youku.com
 @@||mmuu22.link^$generichide
 @@||mmy.la^*300*250
 @@||mnhaestate.com^$generichide
@@ -13077,7 +13075,6 @@
 @@||tatuajestatu.com^$generichide
 @@||tawk.to^$stealth
 @@||taximaxim.com/assets/*/fingerprint2.min.js
-@@||tb.mgtv.com/sdk/*/ad-sdk.
 @@||tb1.bdstatic.com/??/tb/_/*/ad_$script
 @@||tbcdn.cn^*/click_track.js
 @@||tboost.xyz^$generichide
@@ -13785,7 +13782,6 @@
 @@||unicode.org^$content
 @@||unikal.org/images/ad/*.js
 @@||unimedsorocaba.coop.br^$stealth=dpi
-@@||union.video.qq.com/fcgi-bin/$script,domain=qq.com
 @@||union.video.qq.com/fcgi-bin/data?$script
 @@||unionmanga.xyz^$generichide
 @@||unique-tutorials.info^$generichide
