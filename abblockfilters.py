@@ -84,7 +84,7 @@ def CreatReadme(ruleList, fileName):
         f.write("\n")
         f.write("https://github.com/fordes123/ad-filters-subscriber \n")
         f.write("## ℹ️规则列表\n")
-        f.write("### 划线表示未采用")
+        f.write("### 划线表示未采用 \n")
         f.write("| 拦截内容                         | Rule Name                                            | 对应的相似规则                   | Rule Name                         |\n")
         f.write("| -------------------------------- | ---------------------------------------------------- | -------------------------------- | --------------------------------- |\n")
         f.write("| 基础过滤器                       | AdGuard Base filter                                  | 反英文和国际网站广告             | EasyList                          |\n")
