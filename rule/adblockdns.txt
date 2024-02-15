@@ -2,9 +2,9 @@
 ! Title: AdBlock DNS
 ! Homepage: https://github.com/Sereinfy/Adrules
 ! Source: https://raw.githubusercontent.com/Sereinfy/Adrules/main/rule/adblockdns.txt
-! Version: 20240215131131
-! Last modified: 2024/02/15 13:11:31
-! Blocked domains: 66270
+! Version: 20240215133840
+! Last modified: 2024/02/15 13:38:40
+! Blocked domains: 66273
 ! unBlocked domains: 65
 !
 ||000123456789.online^
@@ -15368,6 +15368,7 @@
 ||marketing.clientsfirst-us.com^
 ||sense.cliexa.com^
 ||cliffaffectionateowners.com^
+||cliffnsc.xyz^
 ||marketing.cliffordpower.com^
 ||sisdtb.climatempo.com.br^
 ||info.climatepledgearena.com^
@@ -56002,6 +56003,7 @@
 ||szn0ehq.icu^
 ||countpage.sznews.com^
 ||gold.szonline.net^
+||szpnz.cn^
 ||szsbiw.xyz^
 ||a8cv.t-bang.jp^
 ||a8clk.cv.t-fic.co.jp^
@@ -64206,6 +64208,7 @@
 ||xcmz999.com^
 ||xctignum.uno^
 ||xcvwrj.xyz^
+||xcypgd.icu^
 ||xcysqq.com^
 ||xdazjxso.xyz^
 ||xdcngimejo.com^
