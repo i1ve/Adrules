@@ -27,3 +27,5 @@
 @@broadcastlv.chat.bilibili.com^
 !JD试用商品详情
 @@||wl.jd.com^$important
+!某料网弹窗
+##.modal-box
