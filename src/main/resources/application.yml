@@ -38,10 +38,7 @@ application:
         
       - name: EasyPrivacy
         path: https://easylist-downloads.adblockplus.org/easyprivacy.txt
-    
-      - name: EasyList Cookie List
-        path: https://secure.fanboy.co.nz/fanboy-cookiemonster.txt
-        
+     
       - name: CJX's Annoyance List
         path: https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt
         
@@ -56,9 +53,6 @@ application:
          
       - name: NoAppDownload
         path: https://raw.githubusercontent.com/Noyllopa/NoAppDownload/master/NoAppDownload.txt
-    
-      - name: I don't care about cookies
-        path: https://www.i-dont-care-about-cookies.eu/abp/
 
       - name: Adblock Warning Removal List
         path: https://easylist-downloads.adblockplus.org/antiadblockfilters.txt
