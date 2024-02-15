@@ -29,7 +29,10 @@ application:
         
       - name: AdGuard Chinese
         path: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_224_Chinese/filter.txt
-
+        
+      - name: AdGuard Annoyances filter
+        path: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_14_Annoyances/filter.txt
+        
       - name: EasyList
         path: https://easylist-downloads.adblockplus.org/easylist.txt
         
@@ -38,7 +41,10 @@ application:
         
       - name: EasyPrivacy
         path: https://easylist-downloads.adblockplus.org/easyprivacy.txt
-    
+        
+      - name: Fanboy's Annoyance List
+        path: https://easylist.to/easylist/fanboy-social.txt
+        
       - name: EasyList Cookie List
         path: https://secure.fanboy.co.nz/fanboy-cookiemonster.txt
         
@@ -65,6 +71,7 @@ application:
         
       - name: damengzhu
         path: https://raw.githubusercontent.com/damengzhu/banad/main/jiekouAD.txt
+        
     #本地规则
     local: #本地规则请将文件移动到项目路径rule目录中
       - name: 'private List'
