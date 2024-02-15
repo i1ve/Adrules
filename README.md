@@ -1,5 +1,5 @@
 ```
-更新时间: 2024-02-15 14:21:30  
+更新时间: 2024-02-15 14:28:08  
 
 拦截规则数量: 207694 
 白名单规则数量: 14839 
@@ -49,5 +49,3 @@ DNS检测已失效域名: 157148
 https://github.com/8680/GOODBYEADS 
 
 https://github.com/217heidai/adblockfilters 
-
-https://github.com/fordes123/ad-filters-subscriber 
