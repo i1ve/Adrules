@@ -44,10 +44,7 @@ application:
         
       - name: Fanboy's Annoyance List
         path: https://easylist.to/easylist/fanboy-social.txt
-        
-      - name: EasyList Cookie List
-        path: https://secure.fanboy.co.nz/fanboy-cookiemonster.txt
-        
+
       - name: CJX's Annoyance List
         path: https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt
         
