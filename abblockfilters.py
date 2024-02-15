@@ -76,7 +76,7 @@ def CreatReadme(ruleList, fileName):
         f.write("|:-|:-|:-|:-|:-|\n")
         for rule in ruleList:
             f.write("| %s | %s | [原始链接](%s) | [加速链接](https://mirror.ghproxy.com/https://raw.githubusercontent.com/Sereinfy/Adrules/main/filters/%s.txt) | %s |\n" % (rule[0],rule[1],rule[2],rule[0].replace(' ', '_'),rule[3]))
-
+        f.write("\n")
         f.write("## 🆙上游源码\n")
         f.write("https://github.com/8680/GOODBYEADS \n")
         f.write("\n")
