@@ -1,0 +1,56 @@
+name: Update Filters
+on:
+  schedule:
+    - cron: 0 12 * * *
+  workflow_dispatch:
+    
+env:
+  TZ: Asia/Shanghai
+
+jobs:
+  Update_Filters:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      actions: write
+      
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up JDK 17
+        uses: actions/setup-java@v3
+        with:
+          java-version: '17'
+          distribution: 'temurin'
+          cache: maven
+
+      - name: Run Jar
+        run:  mvn spring-boot:run
+
+      - name: Commit Changes
+        run: |
+          git init
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git branch -m main
+          git add --all
+          git commit -m "Updated at $(TZ=UTC-8 date +'%Y-%m-%d %H:%M:%S')" -a
+          git push -f -u origin main
+
+      - name: GitHub Push
+        if: steps.commit.outputs.changes_detected == 'true'
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{secrets.GITHUB_TOKEN}}
+          branch: ${{github.ref}}
+
+      - name: Mirror Refresh
+        run: sleep 10 && curl 'https://purge.jsdelivr.net/gh/${{github.repository}}/rule'
+
+      - name: Delete workflow runs 
+        uses: Mattraks/delete-workflow-runs@main
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          repository: ${{ github.repository }}
+          retain_days: 0
+          keep_minimum_runs: 1
