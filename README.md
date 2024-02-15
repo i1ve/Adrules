@@ -1,5 +1,5 @@
 ```
-更新时间: 2024-02-15 11:50:27  
+更新时间: 2024-02-15 12:07:58  
 
 拦截规则数量: 289652 
 白名单规则数量: 16633 
@@ -55,6 +55,7 @@ https://github.com/217heidai/adblockfilters
 
 https://github.com/fordes123/ad-filters-subscriber 
 ## ℹ️规则列表
+### 划线表示未采用 
 | 拦截内容                         | Rule Name                                            | 对应的相似规则                   | Rule Name                         |
 | -------------------------------- | ---------------------------------------------------- | -------------------------------- | --------------------------------- |
 | 基础过滤器                       | AdGuard Base filter                                  | 反英文和国际网站广告             | EasyList                          |
@@ -66,7 +67,7 @@ https://github.com/fordes123/ad-filters-subscriber
 | cookies 相关的警告               | I don't care about cookies                           | 阻止Cookie横幅、GDPR覆盖窗口     | EasyList Cookie List              |
 | ~~解除搜索广告和自我推销过滤器~~ | ~~Filter unblocking search ads and self-promotions~~ | 去自我推广                       | CJX's Annoyance List              |
 | ~~URL 跟踪过滤器~~               | ~~AdGuard URL Tracking filter~~                      |                                  |                                   |
-| DNS 过滤器                       | DNS filter                                           |                                  |                                   |
+| DNS 过滤器                       | ~~DNS filter~~                                      |                                  |                                   |
 | 反Adblock，警告删除              | Adblock Warning Removal List                         |                                  |                                   |
 | 乘风视频规则                     | xinggsf mv                                           |                                  |                                   |
 | 乘风 广告过滤规则                | xinggsf rules                                        |                                  |                                   |
