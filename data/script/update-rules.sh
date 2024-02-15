@@ -17,8 +17,9 @@ echo '下载规则'
 rules=(
   "https://raw.githubusercontent.com/Sereinfy/Adrules/main/rule/adblockdns.txt" #dns
   "https://raw.githubusercontent.com/Sereinfy/Adrules/main/rule/adblockfilters.txt" #filters
-  "https://raw.githubusercontent.com/Sereinfy/Adrules/main/rule/filters.txt" #filters
-
+  "https://secure.fanboy.co.nz/fanboy-cookiemonster.txt" #filters
+  "https://www.i-dont-care-about-cookies.eu/abp/" #filters
+)
 allow=(
   "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/ChineseFilter/sections/allowlist.txt"
   "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/GermanFilter/sections/allowlist.txt"
