@@ -17,11 +17,7 @@ echo '下载规则'
 rules=(
   "https://raw.githubusercontent.com/Sereinfy/Adrules/main/rule/adblockdns.txt" #dns
   "https://raw.githubusercontent.com/Sereinfy/Adrules/main/rule/adblockfilters.txt" #filters
-  "https://secure.fanboy.co.nz/fanboy-cookiemonster.txt" #Cookie规则补充
-  "https://www.i-dont-care-about-cookies.eu/abp/" #Cookie规则补充
-  "https://raw.githubusercontent.com/damengzhu/banad/main/jiekouAD.txt" #Cookie规则复写
-  "https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/mv.txt" #乘风视频规则
-  "https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/minority-mv.txt" #乘风视频规则补充
+  "https://raw.githubusercontent.com/Sereinfy/Adrules/main/rule/filters.txt" #Cookie规则补充
 )
 allow=(
   "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/ChineseFilter/sections/allowlist.txt"
