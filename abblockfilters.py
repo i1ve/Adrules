@@ -81,8 +81,6 @@ def CreatReadme(ruleList, fileName):
         f.write("https://github.com/8680/GOODBYEADS \n")
         f.write("\n")
         f.write("https://github.com/217heidai/adblockfilters \n")
-        f.write("\n")
-        f.write("https://github.com/fordes123/ad-filters-subscriber \n")
 
 def GetBlackList():
     blackList = []
