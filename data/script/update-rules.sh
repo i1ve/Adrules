@@ -18,6 +18,8 @@ rules=(
   "https://raw.githubusercontent.com/Sereinfy/Adrules/main/rule/adblockdns.txt" #dns
   "https://raw.githubusercontent.com/Sereinfy/Adrules/main/rule/adblockfilters.txt" #filters
   "https://raw.githubusercontent.com/Sereinfy/Adrules/main/rule/filters.txt" #filters
+  "https://secure.fanboy.co.nz/fanboy-cookiemonster.txt" #Cookie
+  "https://www.i-dont-care-about-cookies.eu/abp/" #Cookie
  )
 
 allow=(
