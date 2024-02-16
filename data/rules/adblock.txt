@@ -1,5 +1,6 @@
 !某料网弹窗
 ###notice_container
+##.event-notice
 !User 白名单
 ! 抖音网页端扫码支付
 @@||tp-pay.snssdk.com^
