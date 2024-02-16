@@ -121,7 +121,8 @@ python .././data/python/rule.py
 diffFile="$(ls|sort -u)"
 for i in $diffFile; do
  n=`cat $i | wc -l` 
- echo "! Version: $(TZ=UTC-8 date +'%Y-%m-%d %H:%M:%S')（北京时间） " >> tpdate.txt 
+ echo "! Version: $(TZ=UTC-8 date +'%Y%m%d%H%M%S')" >> tpdate.txt 
+ echo "! Last modified:: $(TZ=UTC-8 date +'%Y-%m-%d %H:%M:%S')" >> tpdate.txt
  new=$(echo "$i" |sed 's/tmp-//g') 
  echo "! Total count: $n" > $i-tpdate.txt 
  cat ./tpdate.txt ./$i-tpdate.txt ./$i > ./$new 
