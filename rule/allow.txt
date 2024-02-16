@@ -2,9 +2,9 @@
 ! Title: Adrules-allow
 ! Homepage: https://github.com/Sereinfy/Adrules
 ! Expires: 12 Hours
-! Version: 20240216163937
-! Last modified:: 2024-02-16 16:39:37
-! Total count: 16439
+! Version: 20240217011244
+! Last modified:: 2024-02-17 01:12:44
+! Total count: 16440
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=stfly.cc|blogbux.net
@@ -56,6 +56,7 @@
 @@.jpg#/adengage1./$image,domain=gotxx.com
 @@.jpg$stealth,domain=manga1001.com
 @@.jpg?$image,domain=el7l.tv
+@@.m3u8$stealth,domain=luluvdo.com
 @@.mp4$domain=crunchyroll.com,stealth
 @@.myvi.ru^$stealth
 @@.net/click-$domain=bradsdeals.com|coupons.com|dealigg.com|dealnews.com|goodsearch.com|groupon.com|hotukdeals.com|moneysavingexpert.com|offers.com|retailmenot.com|slickdeals.net
@@ -2029,7 +2030,6 @@
 @@||apmebf.com/ad/$domain=betfair.com
 @@||apnetv.me^$generichide
 @@||apnetv.tv^$generichide
-@@||app-advertise.zhihuishu.com^
 @@||app-sjf.marketo.com^$domain=live.altium.com
 @@||app.aboutyou.com/sign_in_with_apple$stealth
 @@||app.adjust.io/*&utm_source=desktop_kleiderkreisel.de
@@ -2825,6 +2825,7 @@
 @@||businessvoip.pw^$generichide
 @@||bux.codes^$generichide
 @@||buy-*.piano.io^$script,stylesheet,stealth,domain=piano.io
+@@||buyad.bi-xenon.cn^
 @@||buydekhke.com^$generichide
 @@||buymeacoffee.com/*/widget.$script,domain=langoguessr.com
 @@||bvdinfo.com/js/components/GDPR.js
@@ -4230,6 +4231,7 @@
 @@||consent.cookiebot.com/uc.js$domain=continente.pt
 @@||consent.cookiebot.com/uc.js$domain=dasinvestment.com
 @@||consent.cookiebot.com/uc.js$domain=deadwalk.io
+@@||consent.cookiebot.com/uc.js$domain=dimensione.com
 @@||consent.cookiebot.com/uc.js$domain=jagex.com
 @@||consent.cookiebot.com/uc.js$domain=lootboy.de
 @@||consent.cookiebot.com/uc.js$domain=netkom.de
@@ -7540,7 +7542,6 @@
 @@||hb.vntsm.com/v2/live/$xmlhttprequest,domain=aternos.org
 @@||hb.vntsm.io/content.html$domain=aternos.org
 @@||hbbtv.prosieben.de^
-@@||hbbtv.redbutton.de^
 @@||hbbtv.zdf.de^
 @@||hbimg.huabanimg.com^$stealth,domain=huaban.com
 @@||hboav.com/guga/adss.js
@@ -9315,9 +9316,11 @@
 @@||lso.ca^$stealth=dpi
 @@||lswcdn.net^$stealth
 @@||ltc24.com^$generichide
+@@||ltzn.9377.com^
 @@||lubetube.com^$generichide
 @@||lucidcam.com^$generichide
 @@||luciferdonghua.in^$generichide
+@@||luluvdo.com^$stealth=useragent
 @@||luminalearning.com/affiliate-content/$image,~third-party
 @@||lumpiastudio.com^$generichide
 @@||lun.com/*/Scripts/Analytics.js
@@ -9764,7 +9767,6 @@
 @@||mhn.quest/*.js$~third-party
 @@||mhscdnv*/images/$stealth,domain=manhuascan.com
 @@||mhxk.com^*/main/entry.common.$script
-@@||mi.cn^
 @@||mi.tigo.com.co/plugins/cordova-plugin-fingerprint-aio/$script,~third-party
 @@||miaandme.org^$generichide
 @@||miaminewtimes.com/js_cache/ads.js
@@ -12595,7 +12597,6 @@
 @@||rennagiuseppe.it^$generichide
 @@||rephrase.info^$generichide
 @@||replica-watch.info^$generichide
-@@||reports.adguard.com^
 @@||repubblica.it/pw/pw.js?deskurl=$domain=gelocal.it|ilsecoloxix.it|lastampa.it
 @@||repubblica.it^$generichide
 @@||reqlinks.net^$generichide
@@ -13690,6 +13691,7 @@
 @@||smog.moja-ostroleka.pl/mapa/sensorsdata.json$~third-party
 @@||smokingmeatforums.com/js/*/generic-ad.js
 @@||smotrim.ru/js/stat.js$script
+@@||smotrim.ru^$stealth=referrer
 @@||smp.sankei.co.jp/js/analytics/skd.Analysis.js
 @@||sms-receive.net/advertisment.js^
 @@||sms24.me^$generichide
@@ -16193,7 +16195,6 @@
 @@||xmissymedia.com/galleries/$domain=xmissy.nl,image
 @@||xmod.in^$generichide
 @@||xmpp.disk.yandex.net^$stealth
-@@||xmxing.net^
 @@||xn--mgba7fjn.*^$generichide
 @@||xn--nbkw38mlu2a.com^$generichide
 @@||xnimg.cn/n/apps/profile/modules/tuiguang/
