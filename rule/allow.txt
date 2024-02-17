@@ -2,9 +2,9 @@
 ! Title: Adrules-allow
 ! Homepage: https://github.com/Sereinfy/Adrules
 ! Expires: 12 Hours
-! Version: 20240217120241
-! Last modified:: 2024-02-17 12:02:41
-! Total count: 16434
+! Version: 20240217121248
+! Last modified:: 2024-02-17 12:12:48
+! Total count: 16437
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=stfly.cc|blogbux.net
@@ -141,6 +141,7 @@
 @@/adblockDetector.$domain=softwarebrother.com
 @@/adblock_$domain=xingk.cc
 @@/adfile/*$domain=cidianwang.com
+@@/adguard.$domain=llq.dml.ink
 @@/adimage/*$domain=scyts.com|wacom.tw
 @@/adimages/*$domain=p9.com.tw
 @@/adimg/*$domain=laniqu.com
@@ -4500,6 +4501,7 @@
 @@||credits-loan.pw^$generichide
 @@||crictracker.com^$generichide
 @@||cripto.co.in^$generichide
+@@||criteo.com/delivery/ajs.php?zoneid=$script,domain=gaus.ee
 @@||criteo.net/js/ld/publishertag.js$domain=novayagazeta.ru
 @@||criticecho.com^$generichide
 @@||crowdcompute-pa.clients*.google.com^$stealth
@@ -8612,6 +8614,7 @@
 @@||jbprogramnotes.com^$generichide
 @@||jbzdy.com.pl^$generichide
 @@||jccsmart.com^$stealth
+@@||jd.com/adclick?$popup,~third-party
 @@||jd.com/adclick?$~third-party
 @@||jd.com/setCookie?
 @@||jd.com^*&refer=http$script
