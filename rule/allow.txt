@@ -2,9 +2,9 @@
 ! Title: Adrules-allow
 ! Homepage: https://github.com/Sereinfy/Adrules
 ! Expires: 12 Hours
-! Version: 20240217114735
-! Last modified:: 2024-02-17 11:47:35
-! Total count: 16435
+! Version: 20240217120241
+! Last modified:: 2024-02-17 12:02:41
+! Total count: 16434
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=stfly.cc|blogbux.net
@@ -10272,7 +10272,6 @@
 @@||nextstream.org^$stealth,domain=animepahe.com|kwik.cx
 @@||nexusmods.com/Contents/Scripts/banger.js
 @@||nexusmods.com/contents/Scripts/ad*.js
-@@||nf.pl/js/libs/cookiesDirective.js$script
 @@||nflcdn.com/static/site/$script,domain=nfl.com
 @@||nfmovies.com/static/side.jpg$xmlhttprequest,domain=nfmovies.com
 @@||ngastatic.com/*/tracker.js$domain=ads.allegro.pl
