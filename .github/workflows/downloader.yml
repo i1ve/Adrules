@@ -1,4 +1,4 @@
-name: Update DNS
+name: auto-update
 
 on: 
   schedule:
