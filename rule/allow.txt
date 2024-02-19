@@ -2,9 +2,9 @@
 ! Title: Adrules-allow
 ! Homepage: https://github.com/Sereinfy/Adrules
 ! Expires: 12 Hours
-! Version: 20240219103129
-! Last modified:: 2024-02-19 10:31:29
-! Total count: 16433
+! Version: 20240220011254
+! Last modified:: 2024-02-20 01:12:54
+! Total count: 16441
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=stfly.cc|blogbux.net
@@ -1006,7 +1006,6 @@
 @@||ad.mail.ru/favicon1.ico
 @@||ad.neobux.com/adalert/
 @@||ad.nl/ad/
-@@||ad.ourgame.com^
 @@||ad.skylinewebcams.com/ad.php
 @@||ad.smartmediarep.com/NetInsight/video/smr$domain=programs.sbs.co.kr
 @@||ad.thsi.cn/siteHome/
@@ -1030,6 +1029,7 @@
 @@||adapi.zcool.com.cn/api/adstrategy/realtime/get_ad_info?location_id=$domain=zcool.com.cn
 @@||adb.arcadeitalia.net/core/include_3rd/jquery.cookiesdirective.min.js
 @@||adbeat.com^$domain=adbeat.com
+@@||adblock.adguard.com^
 @@||adblockanalytics.com/ads.js|
 @@||adblockanalytics.com/wp-banners.js|
 @@||adblockanalytics.com/|$xmlhttprequest,domain=store.asus.com
@@ -2678,7 +2678,6 @@
 @@||bloominc.jp/adtool/$~third-party
 @@||blowxtube.com^$generichide
 @@||bloximages.*.vip.townnews.com/*/libraries/flex/components/ads/resources/scripts/tnt.ads.advert
-@@||blubroid.de^
 @@||bludvfilmes.com^$generichide
 @@||blueconic.net/bostonglobemedia.js$domain=bostonglobe.com
 @@||blueconic.net/capitolbroadcasting.js$script,domain=wral.com
@@ -2760,6 +2759,7 @@
 @@||broadbandforum.co$generichide
 @@||brocardi.it^$generichide
 @@||broncos.com.au^$generichide
+@@||browser.cloud.ucweb.com^
 @@||browser.sentry-cdn.com/*/bundle.min.js$domain=freebitz.xyz
 @@||browser.sentry-cdn.com^$domain=acustica-audio.com|dic.pixiv.net|doconcall.com.my|eco-clobber.co.uk|fundhero.io|marshmallow-qa.com|menshealth.com|podcasty.seznam.cz|roomster.com|shop.dns-net.de|spacemarket.com|timesprime.com|vivareal.com.br|womenshealthmag.com
 @@||browser.yandex.*/sync/$stealth
@@ -3245,6 +3245,7 @@
 @@||cdn.cxense.com/cx.js$domain=wsj.com
 @@||cdn.cxense.com/sp1.html$domain=itmedia.co.jp
 @@||cdn.cxense.com/t_init.min.js$domain=dhnet.be
+@@||cdn.datatables.net^
 @@||cdn.diggysadventure.com/*/video_ads.erik?ver=$domain=diggysadventure.com
 @@||cdn.digiteka.com/player/PrebidLibrary.js$domain=ultimedia.com
 @@||cdn.dimml.io/dimml.js$domain=consumentenbond.nl
@@ -4842,6 +4843,7 @@
 @@||developer.qcloudimg.com/http-save/$image,stealth=referrer
 @@||developer.tomtom.com/sites/all/modules/contrib/eu_cookie_compliance/js/jquery.cookie-*.min.js
 @@||developerinsider.co^$generichide
+@@||developers.google.com^
 @@||developers.google.com^$domain=developers.google.com
 @@||developpez.com/show_i.php?$~image
 @@||devfaq.ru/*/search?*&method=HEAD$xmlhttprequest,document
@@ -8039,7 +8041,6 @@
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=facepunch.io|biters.io|fisp.io
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=familyminded.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=flipboard.com
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=fox.com.tr
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=foxnews.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=fptplay.vn
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=fullhdfilmdeposu.com
@@ -8137,6 +8138,7 @@
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=ninja.io
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=njbeachcams.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=nova.cz
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=nowtv.com.tr
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=noz.de
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=nrl.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=ntvspor.net
@@ -8326,6 +8328,7 @@
 @@||img.achost.top^$stealth,domain=galge.fun
 @@||img.adnz.co^$image,domain=finanzen.ch
 @@||img.ads.tvb.com/news/min.js$domain=news.tvb.com
+@@||img.ads.tvb.com^
 @@||img.ak.impact-ad.jp/sr/js/nissan_test_$script,domain=www3.nissan.co.jp
 @@||img.blesk.cz/js/base-cz/advert.js
 @@||img.blesk.cz/js/base-cz/gemius.js
@@ -8428,6 +8431,7 @@
 @@||infobel.com/Scripts/custom/*.js
 @@||infodifesa.it^$generichide
 @@||infojobs.com.br/mf-publicarea/_content/InfoJobs.Microfrontend.Components/js/smarttag.js
+@@||infolink.pavv.co.kr^
 @@||inforge.net^$generichide
 @@||informatikamu.id^$generichide
 @@||informaxonline.com/wp-content/plugins/wp-safelink/assets/fuckadblock.js
@@ -8913,6 +8917,7 @@
 @@||komas19.xyz/cdn-cgi/apps/$script,~third-party
 @@||komiku.co.id^$generichide
 @@||komorkomania.pl^$generichide
+@@||komplett.no/gtm.js$script,~third-party
 @@||komputerswiat.pl/*srcc=$stealth
 @@||komputerswiat.pl^$generichide
 @@||komputerswiat.pl^$generichide,badfilter
@@ -9056,7 +9061,6 @@
 @@||legendstracking.com/js/legends-tracking.js$~third-party
 @@||legionscans.com^$generichide
 @@||lemall.com/adspace/
-@@||lemon.baidu.com^
 @@||lenovo.com/_ui/desktop/common/js/AdobeAnalyticsEvent.js$script,~third-party
 @@||lenovo.com/fea/js/adobeAnalytics/$script,~third-party,xmlhttprequest
 @@||leo.org^$generichide
@@ -9235,6 +9239,7 @@
 @@||loan-trading.net^$generichide
 @@||lobi.co/1/track/event/
 @@||loc.map.baidu.com/sdk.php$app=com.baidu.BaiduMap
+@@||local.adguard.org^
 @@||localbitcoins.com/ads_edit
 @@||localizaagencia.com^$generichide
 @@||log.mmstat.com/eg.js$domain=youku.tv
@@ -9754,6 +9759,7 @@
 @@||mgr.consensu.org/v*/sibbo-cmp-atresplayer-web.js$domain=atresplayer.com
 @@||mgr.consensu.org^$domain=adslzone.net
 @@||mgr.consensu.org^$domain=blic.rs
+@@||mhc-ajax-eu-s2.myhomescreen.tv^
 @@||mhc-ajax-eu.myhomescreen.tv^
 @@||mhc-xpana-eu-s2.myhomescreen.tv^
 @@||mhc-xpana-eu.myhomescreen.tv^
@@ -10405,6 +10411,7 @@
 @@||nvidia.custhelp.com^$stealth=referrer
 @@||nvimfreak.com^$generichide
 @@||nwitimes.com^$generichide
+@@||nwolb.com^
 @@||nxmac.com^$generichide
 @@||ny.gov^$stealth
 @@||ny1.com^$elemhide
@@ -11762,7 +11769,6 @@
 @@||picmix.com/js/fuckadblock.js
 @@||picmix.com/wp-banners.js
 @@||picrelated.com^$generichide
-@@||pics.porn300.com^
 @@||picsearch.com/js/comscore.js$domain=dn.se
 @@||pictasty.com^$generichide
 @@||pictogo.net^$stealth,third-party
@@ -13460,7 +13466,6 @@
 @@||sfl.ink^$generichide
 @@||sgcpanel.com^$document
 @@||sgpics.net^$generichide
-@@||sgqcvfjvr.onet.pl^
 @@||sgxnifty.org/wp-content/themes/default/js/adblocker.js
 @@||sgxnifty.org^$generichide
 @@||sh.st$generichide
@@ -14395,7 +14400,6 @@
 @@||switch.atdmt.com/iaction/$subdocument,domain=bestbuy.com
 @@||switching.software/replace/google-analytics/
 @@||switching.software^$generichide
-@@||swjoy.com^
 @@||swnovels.com/assets/js/prebid-ads.js
 @@||swr3.de/static/swrplayer/web/plugins/ivw/ivw.js
 @@||swsc.com.cn/download/ad_images/
@@ -14839,6 +14843,7 @@
 @@||tinyppt.com^$generichide
 @@||tinytranslation.xyz^$generichide
 @@||tio.ch^$generichide
+@@||tiom.pl/static/js/cookieconsent.min.js
 @@||tionghoa.info^$generichide
 @@||tipico.de/js/modules/fingerprintjs2/fingerprint2.min.js$script,~third-party
 @@||tipsdroidmax.com^$generichide
@@ -15891,6 +15896,7 @@
 @@||websetnet.com$elemhide
 @@||websimages.com/JS/Tracker.js
 @@||webstat.channel4.com/b/ss/channel4dotcom/$domain=channel4.com
+@@||webstatic.nero.com^
 @@||webticketing*.cinestar.de/app/scripts/provider/CookieConsent.js
 @@||webtrack.dhlglobalmail.com^
 @@||webtrends.com/js/webtrends.min.js$script,domain=tvlicensing.co.uk
@@ -16140,6 +16146,7 @@
 @@||wyhifdpatl.com^|$xmlhttprequest,domain=kbjfree.com
 @@||wyklady.org^$generichide
 @@||wykop.pl/api/v3/tags/reklama/$xmlhttprequest,~third-party
+@@||wyniki.diag.pl^$stealth=ip
 @@||wzrkt.com/e?$domain=lottiefiles.com
 @@||x.*.tk/*/caxi.m3u8$stealth
 @@||x.*.tk/*/strmrdr.m3u8$stealth
@@ -16374,6 +16381,7 @@
 @@||zagreb.info^$generichide
 @@||zap.in^$content
 @@||zappos.com/js/trackingPixel/mercentTracker.js
+@@||zbj.com^
 @@||zcteam.id^$generichide
 @@||zdbb.net/edaa^$domain=youronlinechoices.com
 @@||zdbb.net/r/?*&mailing
