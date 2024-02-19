@@ -17,7 +17,7 @@ echo '下载规则'
 rules=(
   "https://raw.githubusercontent.com/Sereinfy/Adrules/main/rule/adblockdns.txt" #dns
   "https://raw.githubusercontent.com/Sereinfy/Adrules/main/rule/adblockfilters.txt" #filters
-  "https://raw.githubusercontent.com/Sereinfy/Adrules/main/rule/filters.txt" #Cookie规则补充
+  "https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/minority-mv.txt" #乘风 小众视频规则
 )
 allow=(
   "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/ChineseFilter/sections/allowlist.txt"
