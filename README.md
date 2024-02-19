@@ -1,5 +1,5 @@
 ```
-更新时间: 2024-02-19 09:32:29  
+更新时间: 2024-02-19 10:26:05  
 
 拦截规则数量: 241440 
 白名单规则数量: 16433 
@@ -19,7 +19,7 @@ DNS检测已失效域名: 26094
 | :-------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
 |    白名单     | [原始链接](https://raw.githubusercontent.com/Sereinfy/Adrules/main/rule/allow.txt) | [加速链接](https://mirror.ghproxy.com/https://raw.githubusercontent.com/Sereinfy/Adrules/main/rule/allow.txt) |
 |   DNS规则    | [原始链接](https://raw.githubusercontent.com/Sereinfy/Adrules/main/rule/adblockdns.txt) | [加速链接](https://mirror.ghproxy.com/https://raw.githubusercontent.com/Sereinfy/Adrules/main/rule/adblockdns.txt) |
-|   Filters规则    | [原始链接](https://raw.githubusercontent.com/Sereinfy/Adrules/main/rule/filters.txt) |[加速链接](https://mirror.ghproxy.com/https://raw.githubusercontent.com/Sereinfy/Adrules/main/rule/filters.txt) |
+|   Filters规则    | [原始链接](https://raw.githubusercontent.com/Sereinfy/Adrules/main/rule/adblockfilters.txt) |[加速链接](https://mirror.ghproxy.com/https://raw.githubusercontent.com/Sereinfy/Adrules/main/rule/adblockfilters.txt) |
 |   合并使用    | [原始链接](https://raw.githubusercontent.com/Sereinfy/Adrules/main/rule/rules.txt) | [加速链接](https://mirror.ghproxy.com/https://raw.githubusercontent.com/Sereinfy/Adrules/main/rule/rules.txt) |
 ## 🆓上游规则
 

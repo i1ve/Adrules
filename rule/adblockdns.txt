@@ -2,9 +2,9 @@
 ! Title: AdBlock DNS
 ! Homepage: https://github.com/Sereinfy/Adrules
 ! Source: https://raw.githubusercontent.com/Sereinfy/Adrules/main/rule/adblockdns.txt
-! Version: 20240219093157
-! Last modified: 2024/02/19 09:31:57
-! Blocked domains: 65795
+! Version: 20240219102605
+! Last modified: 2024/02/19 10:26:05
+! Blocked domains: 65798
 ! unBlocked domains: 65
 !
 ||unassumed-keel.000webhostapp.com^
@@ -28615,6 +28615,7 @@
 ||cpa.hh.ru^
 ||hhbypdoecp.com^
 ||hhcskj.com^
+||hhffnu135.shop^
 ||marketing.hhglobal.com^
 ||hhit.xyz^
 ||hhklc.com^
@@ -41618,6 +41619,7 @@
 ||njvacw.xyz^
 ||njxraqb.xyz^
 ||njzyjy.cn^
+||nkbkor.icu^
 ||nkbobsj.com^
 ||pop.nkiris.com^
 ||nkredir.com^
@@ -56296,6 +56298,7 @@
 ||tel.telegraaf.nl^
 ||telegramsit.com^
 ||telegramspun.com^
+||analytics.eip.telegraph.co.uk^
 ||metrics.telegraph.co.uk^
 ||smetrics.telegraph.co.uk^
 ||pix.telekom-dienste.de^
