@@ -5,7 +5,7 @@ import time
 from downloader import Downloader
 from resolver import Resolver
 
-# 定义文件夹名称
+# 定义文件夹mame
 folder_name = 'filters'
 
 # 检查文件夹是否存在
