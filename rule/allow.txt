@@ -2,8 +2,8 @@
 ! Title: Adrules-allow
 ! Homepage: https://github.com/Sereinfy/Adrules
 ! Expires: 12 Hours
-! Version: 20240221011243
-! Last modified:: 2024-02-21 01:12:43
+! Version: 20240222011152
+! Last modified:: 2024-02-22 01:11:52
 ! Total count: 16452
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
@@ -999,7 +999,6 @@
 @@||ad.doubleclick.net/favicon.ico$domain=tracker.gg
 @@||ad.doubleclick.net/searchads/link/click?
 @@||ad.ettoday.net/msg_liveshow.php^$domain=ettoday.net
-@@||ad.kazakinfo.com^
 @@||ad.linksynergy.com^$image,domain=extrarebates.com
 @@||ad.lkqd.net/serve/formats.js$domain=breitbart.com
 @@||ad.mail.ru/adp/?q=*&target_count=$domain=youla.ru
@@ -1328,6 +1327,7 @@
 @@||adv.*.ch^$xmlhttprequest,other,script,domain=tio.ch
 @@||adv.asahi.com^$popup
 @@||adv.bebad.it/js/ads.js$domain=badtaste.it
+@@||adv.bloop.info^
 @@||adv.clickadu.com^$domain=adv.clickadu.com
 @@||adv.gg^$popup
 @@||adv.lack-girl.com/_assets/$image,stylesheet,script,~third-party
@@ -1472,6 +1472,7 @@
 @@||akoam.net^$generichide
 @@||akoam.site^$generichide
 @@||akoam.ws^$generichide
+@@||aktion-holz.de^$generichide
 @@||aktion-solar.com^$generichide
 @@||aktuality.sk^$generichide
 @@||aktualne.cz^$subdocument,domain=aktualne.cz
@@ -1829,6 +1830,7 @@
 @@||api-maps.yandex.ru/services/startup/$stealth
 @@||api-mg2.db-ip.com^$xmlhttprequest,domain=journal-news.com
 @@||api-public.stoerungsauskunft.de/api$stealth
+@@||api-secure.solvemedia.com^
 @@||api-secure.solvemedia.com^$stealth
 @@||api-v*.trbo.com/r.php$domain=blau.de
 @@||api-v*.trbo.com/r.php$domain=o2online.de
@@ -2762,6 +2764,7 @@
 @@||broadbandforum.co$generichide
 @@||brocardi.it^$generichide
 @@||broncos.com.au^$generichide
+@@||browser.cloud.ucweb.com^
 @@||browser.sentry-cdn.com/*/bundle.min.js$domain=freebitz.xyz
 @@||browser.sentry-cdn.com^$domain=acustica-audio.com|dic.pixiv.net|doconcall.com.my|eco-clobber.co.uk|fundhero.io|marshmallow-qa.com|menshealth.com|podcasty.seznam.cz|roomster.com|shop.dns-net.de|spacemarket.com|timesprime.com|vivareal.com.br|womenshealthmag.com
 @@||browser.yandex.*/sync/$stealth
@@ -3172,7 +3175,7 @@
 @@||cdn.cookielaw.org/scripttemplates/otSDKStub.js$domain=eatingwell.com
 @@||cdn.cookielaw.org/scripttemplates/otSDKStub.js$domain=eu.patagonia.com
 @@||cdn.cookielaw.org/scripttemplates/otSDKStub.js$domain=everyeye.it
-@@||cdn.cookielaw.org/scripttemplates/otSDKStub.js$domain=hollywoodreporter.com|resmed.com|southpark.de|movistar.es|redbull.com|all.accor.com|karriere.mcdonalds.de|blaklader.*|wallapop.com|rts.ch|npr.org|upc.pl|next.co.uk|zoom.us|rtlplay.be|motorsport-total.com|player.pl|mensjournal.com|gqmagazine.fr|nintendo.*|mtv.com|ryobitools.eu|cc.com|3sat.de|zdf.de|costco.com|giantbomb.com|glovoapp.com|rte.ie|digitaltrends.com|spiele.bild.de|spiele.stern.de|vanityfair.com|saarbruecker-zeitung.de|olympics.com|tvn.pl|bergfreunde.de|oe24.at|epicgames.com|toteraz.pl|natgeotv.com|midomi.com|volksfreund.de|kawasaki.com|foxchannels.com.tr|ga.de|shop.mango.com|kralmuzik.com.tr|westernunion.com|roastmarket.de|new.cappex.com|vimeo.com|heute.at|ntv.com.tr|wargaming.net|metacritic.com|gq-magazine.co.uk|viafree.dk|viafree.fi|viafree.no|viafree.se|glamour.de|cbsnews.com|worldoftanks.ru|vg247.com|newyorker.com|games.miamiherald.com|eurogamer.es|eurogamer.de|bet.com|ikonpass.com|mcdelivery.de|id.trimble.com|skateboarding.transworld.net|newegg.com|docs.vmware.com|udemy.com|olx.pl|usmagazine.com|uefa.com|milwaukeetool.eu|muscleandfitness.com|20min.ch|ted.com|elisa.fi|nhl.com|porn300.com|indiewire.com|victorinox.com|darkreading.com|trustradius.com|start.gg|geappliances.com|popeyes.com|channel5.com|bigbearmountainresort.com|quora.com|vod.pl|blick.ch|elle.com|teenvogue.com|vogue.co.jp|vogue.co.uk|vogue.com|vogue.com.tw|vogue.de|vogue.es|vogue.fr|vogue.in|vogue.it|vogue.mx|vogue.ph|tvnturbo.pl|superporn.com|thebump.com|bk.com|safeway.com|motor1.com|southparkstudios.com.br|southpark.lat|southparkstudios.com|realsimple.com|538.nl|skyradio.nl|radio10.nl|radioveronica.nl|homedepot.ca|wired.com|europapark.de|jdpower.com|bonava.lv|nick.com|mtvema.com|mtv.co.uk|mtv.de|mtv.it|themessenger.com|nickjr.com
+@@||cdn.cookielaw.org/scripttemplates/otSDKStub.js$domain=hollywoodreporter.com|resmed.com|southpark.de|movistar.es|redbull.com|all.accor.com|karriere.mcdonalds.de|blaklader.*|wallapop.com|rts.ch|npr.org|upc.pl|next.co.uk|zoom.us|rtlplay.be|motorsport-total.com|player.pl|mensjournal.com|gqmagazine.fr|nintendo.*|mtv.com|ryobitools.eu|cc.com|3sat.de|zdf.de|costco.com|giantbomb.com|glovoapp.com|rte.ie|digitaltrends.com|spiele.bild.de|spiele.stern.de|vanityfair.com|saarbruecker-zeitung.de|olympics.com|tvn.pl|bergfreunde.de|oe24.at|epicgames.com|toteraz.pl|natgeotv.com|midomi.com|volksfreund.de|kawasaki.com|foxchannels.com.tr|ga.de|shop.mango.com|kralmuzik.com.tr|westernunion.com|roastmarket.de|new.cappex.com|vimeo.com|heute.at|ntv.com.tr|wargaming.net|metacritic.com|gq-magazine.co.uk|viafree.dk|viafree.fi|viafree.no|viafree.se|glamour.de|cbsnews.com|worldoftanks.ru|vg247.com|newyorker.com|games.miamiherald.com|eurogamer.es|eurogamer.de|bet.com|ikonpass.com|mcdelivery.de|id.trimble.com|skateboarding.transworld.net|newegg.com|docs.vmware.com|udemy.com|olx.pl|usmagazine.com|uefa.com|milwaukeetool.eu|muscleandfitness.com|20min.ch|ted.com|elisa.fi|nhl.com|porn300.com|indiewire.com|victorinox.com|darkreading.com|trustradius.com|start.gg|geappliances.com|popeyes.com|channel5.com|bigbearmountainresort.com|quora.com|vod.pl|blick.ch|elle.com|teenvogue.com|vogue.co.jp|vogue.co.uk|vogue.com|vogue.com.tw|vogue.de|vogue.es|vogue.fr|vogue.in|vogue.it|vogue.mx|vogue.ph|tvnturbo.pl|superporn.com|thebump.com|bk.com|safeway.com|motor1.com|southparkstudios.com.br|southpark.lat|southparkstudios.com|realsimple.com|538.nl|skyradio.nl|radio10.nl|radioveronica.nl|homedepot.ca|wired.com|europapark.de|jdpower.com|bonava.lv|nick.com|mtvema.com|mtv.co.uk|mtv.de|mtv.it|themessenger.com|nickjr.com|lnw.com
 @@||cdn.cookielaw.org/scripttemplates/otSDKStub.js$domain=idmobile.co.uk
 @@||cdn.cookielaw.org/scripttemplates/otSDKStub.js$domain=insideevs.*
 @@||cdn.cookielaw.org/scripttemplates/otSDKStub.js$domain=larousse.fr
@@ -4392,7 +4395,6 @@
 @@||convertexperiments.com^$domain=skratchlabs.com
 @@||convertfiles.com^$generichide
 @@||convincing-prettiest-firefly.quiknode.pro^$xmlhttprequest,domain=token.wallstmemes.com,stealth=referrer
-@@||cookie-bar.eu^
 @@||cookie-cdn.cookiepro.com/consent$domain=gameinformer.com
 @@||cookie-cdn.cookiepro.com/consent/$domain=turn-on.de
 @@||cookie-cdn.cookiepro.com/scripttemplates$domain=gameinformer.com
@@ -4412,6 +4414,7 @@
 @@||cookiebot.com^$domain=danbolig.dk
 @@||cookiebot.com^$domain=egmont.com|storyhouseegmont.dk|storyhouseegmont.no|storyhouseegmont.se
 @@||cookiebot.com^$domain=statisticshowto.com
+@@||cookieconsent.insites.com^
 @@||cookieinfoscript.com/js/cookieinfo.min.js$domain=cookieinfoscript.com
 @@||cookielaw.org/langswitch/$script,domain=lippu.fi
 @@||cookielaw.org^$domain=cookielaw.org
@@ -4462,6 +4465,7 @@
 @@||courseware-marketplace.com^$document
 @@||coursewikia.com^$generichide
 @@||cov19ent.kdca.go.kr^$stealth=dpi
+@@||coveo.com/rest/search/$stealth=3p-auth,domain=lg.com
 @@||covid19m.kdca.go.kr^$stealth=dpi
 @@||cowcotland.com/scripjs.php
 @@||cowcotland.com/scripjs.php$document
@@ -4849,7 +4853,6 @@
 @@||developer.qcloudimg.com/http-save/$image,stealth=referrer
 @@||developer.tomtom.com/sites/all/modules/contrib/eu_cookie_compliance/js/jquery.cookie-*.min.js
 @@||developerinsider.co^$generichide
-@@||developers.google.com^
 @@||developers.google.com^$domain=developers.google.com
 @@||developpez.com/show_i.php?$~image
 @@||devfaq.ru/*/search?*&method=HEAD$xmlhttprequest,document
@@ -5079,6 +5082,7 @@
 @@||download.com/ad-
 @@||download.hr/module/detector/adsbygoogle.js
 @@||download.inventivetalent.org/external/adfly/make.php
+@@||download.jumpw.com^
 @@||download.megaup.net/*.js$~third-party
 @@||download.mokeedev.com/ad*.php$generichide
 @@||download.mokeedev.com/ad.php$generichide
@@ -5646,7 +5650,6 @@
 @@||fedex.com/apps/myprofile/$generichide
 @@||feed.4strokemedia.com^$domain=video.corriere.it
 @@||feed.4strokemedia.com^$domain=video.gazzetta.it
-@@||feed.mix.sina.com.cn^
 @@||feedback-pa.clients*.google.com/*/google.internal.feedback.$stealth
 @@||feedback.userreport.com/*/*.csb.app$domain=csb.app
 @@||feedburner.com/~r/
@@ -7546,7 +7549,6 @@
 @@||hb.vntsm.io/content.html$domain=aternos.org
 @@||hbbtv.prosieben.de^
 @@||hbbtv.redbutton.de^
-@@||hbbtv.zdf.de^
 @@||hbimg.huabanimg.com^$stealth,domain=huaban.com
 @@||hboav.com/guga/adss.js
 @@||hboav.com/guga/images/$xmlhttprequest
@@ -9116,6 +9118,7 @@
 @@||ligainsider.de^$generichide
 @@||lightning.bleacherreport.com/launch/*-source.min.js$~third-party
 @@||lightning.bleacherreport.com^*/launch-$~third-party
+@@||lightning.cnn.com^$script,domain=wfmz.com
 @@||lightningmaps.org/min/index.php?f=css/$domain=lightningmaps.org
 @@||lightningmaps.org/min/index.php?f=js/
 @@||lightningmaps.org/min/index.php?f=js/$domain=lightningmaps.org
@@ -9833,6 +9836,7 @@
 @@||minhasreceita.in^$generichide
 @@||minigame.aeriagames.jp/*/ae-tpgs-$~third-party
 @@||minigame.aeriagames.jp/css/videoad.css
+@@||minigame.qq.com^
 @@||minigiants.io/ads.js
 @@||miniminiplus.pl$generichide
 @@||minioppai.org^$generichide
@@ -10133,7 +10137,6 @@
 @@||myneobuxportal.com/wp-content/plugins/*/adblock-detector/advertisement.js
 @@||mynexity.fr/App_Themes/V3/js/Didomi.js
 @@||mypapercraft.net^$generichide
-@@||myqqjd.com^
 @@||myqqjd.com^$generichide
 @@||myreadingmanga.info^$generichide
 @@||myrtlebeachonline.com^$generichide
@@ -11250,7 +11253,6 @@
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=soisk.pl
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=southindianactress.in
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=spiele.stern.de
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=sportshub.to
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=sportskeeda.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=srvy.ninja
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=stellarfaucet.info
@@ -12148,6 +12150,7 @@
 @@||privacyportal-eu.onetrust.com/webform^$domain=locatepeople.org
 @@||privacyportal.cookiepro.com/request/*/consentreceipts
 @@||privacyportal.onetrust.com/request/v*/consentreceipts$domain=channel5.com
+@@||privat24.privatbank.ua^
 @@||privatbank.ua/content/*/fp2.min.js$~third-party
 @@||privateuploads.net/%$stealth
 @@||pro-deals.com^$generichide
@@ -14110,7 +14113,6 @@
 @@||static.doubleclick.net/instream/ad_status.js$domain=nullpk.com|tkbsen.in|alttyab.net|shineads.org|portalizpro.com|drakescans.com|justpaste.top|whats-on-netflix.com|shineads.org|mhdtvworld.org|tv0800.com|gplastra.com|cybermania.ws|kuponigo.com|arponag.xyz|step-tech.pl|nulleb.com|thecustomrom.com|anonyviet.com|ymknow.xyz|jadukit.com|serverbd247.com|emptycode.in|techacode.com|azmath.info|gamedrive.org|mhdworldtv.com|kisahdunia.com|mixrootmods.com|chindohot.site|javindo.eu.org|filmisub.cc
 @@||static.doubleclick.net/instream/ad_status.js$domain=pewgame.com
 @@||static.doubleclick.net/instream/ad_status.js$domain=shineads.in
-@@||static.doubleclick.net/instream/ad_status.js$domain=sportshub.to
 @@||static.doubleclick.net/instream/ad_status.js$domain=tweakcentral.net
 @@||static.doubleclick.net/instream/ad_status.js$domain=youtube.com
 @@||static.doubleclick.net/instream/ad_status.js$script,domain=ignboards.com
@@ -14175,7 +14177,6 @@
 @@||static.shorte.st/bundles/smeweb/$domain=sh.st
 @@||static.shorte.st/js/packed/interstitial-page.js$domain=sh.st
 @@||static.shorte.st/js/packed/smeadvert-locked.js$domain=sh.st
-@@||static.softlayer.com^
 @@||static.stands4.com/app_common/js/prebid-ads.js
 @@||static.surfe.pro/js/net.js$domain=allfaucet.xyz
 @@||static.surfe.pro/js/net.js$domain=atefaucet.com|coinsrev.com
@@ -15531,7 +15532,6 @@
 @@||vb.icdrama.se/advertisement.js
 @@||vcdn.xszcdn.com/hls/$domain=xszav1.com
 @@||vcomic.net/app/*/assets/js/prebid-ads.js
-@@||vd.l.qq.com^
 @@||vdncloud.org/iframe/$stealth=referrer
 @@||vector.hereapi.com/v*/vectortiles/$stealth
 @@||vectorstock.com^$domain=vectorstock.com
