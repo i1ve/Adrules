@@ -5083,6 +5083,7 @@ newduba.cn###jq_youxi
 ##style + .need_grid_img
 ##style + .vdgdo
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
+##.TqAdShow
 ##td[id^="td_"] > a[href^="/htmm/"]
 ##vg-pause-d > .vg-v-p
 ##a[href*="/122.51.121.126:"]
@@ -5097,9 +5098,12 @@ newduba.cn###jq_youxi
 ||23.231.151.252^
 ||cupfox.app^$third-party
 ##a[href*=".bvftxy.com/"]
+##a[href*=".ipndyn.com/"]
 ##a[href*=".xwrfr.com/"]
+||0j775d.cn^
 ||1ny3r.icu^
 ||2jse6.icu^
+||51hir.cyou^
 ||88lm05.com^
 ||8xtm6i.cn^
 ||999xx999kk.com^
@@ -5108,11 +5112,13 @@ newduba.cn###jq_youxi
 ||anjdwmq.xyz^
 ||awuvcq.xyz^
 ||bba9603w.com^
+||bdtdat652.shop^
 ||bdxpdz.xyz^
 ||benpsbp.com^
 ||bjswhpy.cn^
 ||bmnbyn.icu^
 ||bwlcpr.xyz^
+||bzzxyyh.xyz^
 ||caomeixz7.xyz^
 ||ccsshn137.shop^
 ||cdfhidrk.xyz^
@@ -5120,18 +5126,22 @@ newduba.cn###jq_youxi
 ||cdmnlxtu.xyz^
 ||cdrvkdni.xyz^
 ||cdybwjpa.xyz^
+||chayassa.com^
 ||cliffnsc.xyz^
 ||clywws.xyz^
 ||cvbjctqs.xyz^
+||cvgrszkg.xyz^
 ||cvnxetmq.xyz^
 ||cvudqzoa.xyz^
 ||cwssfg632.shop^
 ||ddielv.cn^
 ||dsbqvj.xyz^
 ||dxrnksm.xyz^
+||dyegif.icu^
 ||ebgwdon.cn^
 ||fmfnrf.xyz^
 ||fwcnex.icu^
+||ghgasdb365.shop^
 ||ghgasdt963.shop^
 ||gicjtss.cn^
 ||gvbta.icu^
@@ -5167,9 +5177,11 @@ newduba.cn###jq_youxi
 ||qzalsk.xyz^
 ||rarcff.xyz^
 ||rfnvqpo.xyz^
+||rktddv.xyz^
 ||ruqwgb.icu^
 ||rydyvv.xyz^
 ||shuocyw.cn^
+||soffersk.com^
 ||spsfupq.cn^
 ||szbhb.cn^
 ||szpnz.cn^
@@ -5185,6 +5197,7 @@ newduba.cn###jq_youxi
 ||uu22662.com^
 ||uxrdg.cn^
 ||veaiyl.icu^
+||vxfdepn.cn^
 ||wkywrc.cn^
 ||wnmaoc.xyz^
 ||wqcfg.cn^
@@ -5196,33 +5209,31 @@ newduba.cn###jq_youxi
 ||xliffnsc.xyz^
 ||xszw0.icu^
 ||xvbjctqs.xyz^
+||xvgrszkg.xyz^
 ||xvudqzoa.xyz^
 ||ycqbgm.xyz^
 ||ydfhidrk.xyz^
 ||ydrvkdni.xyz^
 ||ydybwjpa.xyz^
+||yhqukg.xyz^
 ||yliffnsc.xyz^
 ||yvbjctqs.xyz^
 ||yvnxetmq.xyz^
 ||yvudqzoa.xyz^
 ||yyddkm526.shop^
+||zagyjnn.cn^
 ||zopuqv.icu^
 ||ztxjutz.xyz^
-||bdtdat652.shop^
-||ghgasdb365.shop^
-||rktddv.xyz^
-||yhqukg.xyz^
-||0j775d.cn^
-||dyegif.icu^
-||soffersk.com^
-||51hir.cyou^
-||vxfdepn.cn^
-||bzzxyyh.xyz^
-||chayassa.com^
-||zagyjnn.cn^
-||cvgrszkg.xyz^
-||xvgrszkg.xyz^
-##a[href*=".ipndyn.com/"]
+||zuvbzl.xyz^
+||arqvm.cn^
+||yddjmpjo.xyz^
+||ktoioo.xyz^
+||srzpsbf.xyz^
+||pjzxdl.xyz^
+||sjaaquj.cn^
+||wbvfj.xyz^
+||luofk.xyz^
+||xn--wgvp78a61swpe6zdozj.cn^
 ##[style*="sotv.me"]
 ##a[href$="/lm2p2.com"]
 ##a[href$="/lm39h.com"]
@@ -14270,6 +14281,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzc.cn/b1/live_b_
 ||zzsky.com/images/a_d_
 ||zztongyun.com/static/js/sh.
+||duo*.top/Runtime/js/psData.js
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
 szxx.com.cn###A0

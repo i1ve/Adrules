@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: t0vvG8Lo5cnu12PGXUFsTQ
-! Version: 202402231601
+! Checksum: mbXRi8dllWGPNFsDNHyySQ
+! Version: 202402241601
 ! Title: EasyPrivacy
-! Last modified: 23 Feb 2024 16:01 UTC
+! Last modified: 24 Feb 2024 16:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1132,6 +1132,7 @@
 /ibeat.min.js
 /icf-analytics.js
 /id?d_visid_
+/if/services/tdg?hs=
 /IIQUniversalID.min.js
 /image.ng/*
 /iMAWebCookie.js
@@ -2726,6 +2727,7 @@ _WebVitalsReporter_
 ! parked domains
 /ls.php?t=
 /track.php?domain=
+/track.php?toggle=
 ! pinterest.*
 /ContextLogResource/*
 /statslogresource/*
@@ -3701,6 +3703,7 @@ omni.soundestlink.com$image
 ||bigreal.org^$third-party
 ||bigtracker.com^$third-party
 ||bionicclick.com^$third-party
+||birdeatsbug.com^$third-party
 ||bizible.com^$third-party
 ||bizo.com^$third-party
 ||bizspring.net^$third-party
@@ -4910,6 +4913,7 @@ omni.soundestlink.com$image
 ||otoshiana.com^$third-party
 ||ournet-analytics.com^$third-party
 ||outbid.io^$third-party
+||outbrainimg.com^$third-party
 ||overstat.com^$third-party
 ||overtracking.com^$third-party
 ||owltrack.com^$third-party
@@ -5000,6 +5004,7 @@ omni.soundestlink.com$image
 ||pointillist.com^$third-party
 ||pointmediatracker.com^$third-party
 ||pointomatic.com^$third-party
+||polaranalytics.com^$third-party
 ||polarbyte.com^$third-party
 ||polarcdn-pentos.com^$third-party
 ||pop6serve.com^$third-party
@@ -5132,6 +5137,7 @@ omni.soundestlink.com$image
 ||remailtarget.com^$third-party
 ||remarketstats.com^$third-party
 ||remind.me^$third-party
+||renderbetter.net^$third-party
 ||repixel.co^$third-party
 ||report-uri.com^$third-party
 ||report-uri.io^$third-party
@@ -5758,6 +5764,7 @@ omni.soundestlink.com$image
 ||webtuna.com^$third-party
 ||wecantrack.com^$third-party
 ||wgsas.com^$third-party
+||whale.camera^$third-party
 ||wheredoyoucomefrom.ovh^$third-party
 ||whitepixel.com^$third-party
 ||whoaremyfriends.com^$third-party
@@ -8383,7 +8390,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||log.nordot.jp^
 ||log.olark.com^
 ||log.outbrain.com^
-||log.outbrainimg.com^
 ||log.pinterest.com^
 ||log.reformal.ru^
 ||log.seekda.com^
@@ -8649,6 +8655,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||paypal.com/xoplatform/logger/api/logger
 ||paypal.com^*/pixel.gif$third-party
 ||paypalobjects.com^*/pixel.gif
+||pbjs-stream.bydata.com^
 ||pcrl.co/js/jstracker.min.js
 ||pega.com/logserver
 ||pegasus.unifygroup.com^
@@ -9409,6 +9416,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||vidazoo.com/aggregate?
 ||vidazoo.com/event/
 ||video-ad-stats.googlesyndication.com^
+||video-analytics-api.cloudinary.com^
 ||video-cdn.net/event?
 ||video.google.com/api/stats/
 ||videoevents.outbrain.com^
@@ -11048,6 +11056,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||camgirls.casa/p.php
 ||campsaver.com/nelmio-js-logger/
 ||canstockphoto.com/server.php?rqst=track
+||capital.com^$ping
 ||capitalone.com/collector/
 ||cargurus.com/cars/cganalyticspageview.action
 ||cargurus.com/tr/
@@ -11488,6 +11497,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||kkam.com/rest/high/api/cogitoergosum^
 ||klm.us/CWZUvc/
 ||kloth.net/images/pixel.gif
+||knewz.com/api/event
 ||kohls.com/mtFndb/
 ||kohls.com/test_rum_nv?
 ||komoot.*/api/t/event
@@ -46768,6 +46778,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||rt.bunte.de^
 ||schnaeppchenfuchs.com/js/default-
 ||shoop.de/mgtrx/
+||sparkasse.de/frontend/setTrackingCookie.htm
 ||sportnews.bz/pcookie?
 ||spreewaldkarte.de/t.gif
 ||sqs.quoka.de^
