@@ -1,7 +1,8 @@
 name: auto-update
 
 on: 
-  schedule:
+  push:
+    branches: [ main ]
   - cron: 0 16 * * * 
   workflow_dispatch:
 env:
