@@ -1,5 +1,4 @@
 name: auto-update
-
 on: 
   push:
     branches: [ main ]
