@@ -2,8 +2,10 @@ name: auto-update
 on: 
   push:
     branches: [ main ]
-  - cron: 0 16 * * * 
   workflow_dispatch:
+  schedule:
+  - cron: 0 16 * * * 
+
 env:
   TZ: Asia/Shanghai
 
