@@ -2,8 +2,8 @@
 ! Title: Adrules-allow
 ! Homepage: https://github.com/Sereinfy/Adrules
 ! Expires: 12 Hours
-! Version: 20240225203259
-! Last modified:: 2024-02-25 20:32:59
+! Version: 20240225203631
+! Last modified:: 2024-02-25 20:36:31
 ! Total count: 16145
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
