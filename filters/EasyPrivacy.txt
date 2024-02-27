@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: w4rbt4SLpSd4JRG78py8KQ
-! Version: 202402261601
+! Checksum: Gf1wLY32LQpYD2HBcMhshA
+! Version: 202402271601
 ! Title: EasyPrivacy
-! Last modified: 26 Feb 2024 16:01 UTC
+! Last modified: 27 Feb 2024 16:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -79,6 +79,7 @@
 /1px.php?
 /1x1.gif?
 /1x1.png?
+/2.120.0/main.js
 /2.gif?
 /24h-analytics.
 /2x2.gif?$image
@@ -1984,6 +1985,7 @@
 /smmch-mine.js
 /smmch-own.js
 /snowman.gif?p=
+/snowplow-tracker.tatest.js
 /snowplow.js
 /snowplow/*$script
 /snowplow_$script
@@ -4472,6 +4474,7 @@ omni.soundestlink.com$image
 ||intervigil.com^$third-party
 ||investingchannel.com^$third-party
 ||invitemedia.com^$third-party
+||invitereferrals.com^$third-party
 ||invoc.us^$third-party
 ||invoca.net^$third-party
 ||invoca.solutions^$third-party
@@ -11139,6 +11142,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||counter.darkreader.app^
 ||coursehero.com/v1/data-tracking
 ||coursera.org/eventing
+||cpb.esprit.*/91405.js
 ||cpt.itv.com^
 ||crayfish.thingelstad.com^
 ||creately.com/static/js/creately-analytics-
