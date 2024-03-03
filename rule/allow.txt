@@ -2,8 +2,7 @@
 ! Title: Sereinfy Adrules
 ! Homepage: https://github.com/Sereinfy/Adrules
 ! Expires: 12 Hours
-! Version: 2024-03-03 14:38:05（北京时间）
-! Version: time.strftime(%Y%m%d%H%M%S, time.localtime()) 
+! Version: 2024-03-03 14:42:56（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
 ! Total count: 16149
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
