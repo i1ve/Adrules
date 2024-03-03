@@ -21,5 +21,5 @@ sed -i 's/^拦截规则数量.*/拦截规则数量: '$num_rules' /g' README.md
 sed -i 's/^白名单规则数量.*/白名单规则数量: '$num_allow' /g' README.md
 
 sed -i 's/^DNS检测已失效域名.*/DNS检测已失效域名: '$black_count' /g' README.md
-
+mv rules.txt allow.txt dns.txt rule/
 exit

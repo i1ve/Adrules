@@ -112,5 +112,5 @@ python .././data/python/title.py
 wait
 
 echo '更新成功'
-mv rules.txt allow.txt dns.txt rule/
+
 exit
