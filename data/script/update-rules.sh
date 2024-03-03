@@ -109,13 +109,8 @@ python .././data/python/filter-dns.py
 
 # Start Add title and date
 python .././data/python/title.py
-
-
-wait
-
-mv rules.txt allow.txt dns.txt rule/
 wait
 
 echo '更新成功'
-
+mv rules.txt allow.txt dns.txt rule/
 exit
