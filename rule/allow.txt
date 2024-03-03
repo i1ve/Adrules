@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Title: Adrules-allow
-! Homepage: https://github.com/Sereinfy/Adrules
+! Title: GOODBYEADS
+! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 20240303011137
-! Last modified:: 2024-03-03 01:11:37
-! Total count: 16136
+! Version: 2024-03-03 12:12:53（北京时间）
+! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
+! Total count: 16141
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=stfly.cc
@@ -3045,6 +3045,7 @@
 @@||cdn.blueconic.net/salemmediagroup.js$domain=biblestudytools.com
 @@||cdn.bmcdn3.com/js/*aab.js$domain=earnhub.net
 @@||cdn.boomtrain.com/analyticstrain/snopes^$domain=snopes.com
+@@||cdn.bootcdn.net^
 @@||cdn.bootcdn.net^$script,domain=38kanshu.net|tianz.la
 @@||cdn.bootcss.com/fuckadblock/$domain=1090ys2.com
 @@||cdn.bootcss.com/fuckadblock/3.2.1/fuckadblock.min.js$domain=1090ys8.com
@@ -9908,6 +9909,7 @@
 @@||my.asos.com/identity^$stealth
 @@||my.bmi.ir^$elemhide,jsinject
 @@||my.foxnews.com^$stealth
+@@||my.goabode.com/assets/js/fp2.min.js$script,~third-party
 @@||my.leadpages.net/template/$script,domain=weddingjams.com|thesaturdaypaper.com.au|careercontessa.com
 @@||my.leadpages.net^*/public/
 @@||my.minecraft.net/static/site/minecraft/privacy^
@@ -13276,6 +13278,7 @@
 @@||shinsori.com^$generichide
 @@||shipstation.com^$generichide
 @@||shmeea.edu.cn^$generichide
+@@||shminorshort.weixin.qq.com^
 @@||shoemoney.com^$generichide
 @@||shogaisha-techo.com^$generichide
 @@||shon.xyz^$generichide
@@ -14104,6 +14107,7 @@
 @@||support.google.com^$domain=support.google.com
 @@||support.logi.com/*/articles/$stealth=useragent
 @@||support.thesslstore.com/visitor/index.php
+@@||support.weixin.qq.com^
 @@||supportcanon.com^$generichide
 @@||supremacy1914.com/fileadmin/templates/$~third-party
 @@||supremejav.com/supjav.php^$stealth
