@@ -1,4 +1,0 @@
-[Adblock Plus 2.0]
-! Title: Adrules
-! Homepage: https://github.com/Sereinfy/Adrules
-! Expires: 12 Hours
