@@ -1,6 +1,7 @@
 import datetime
 import pytz
 import glob
+import time
 
 # 获取当前时间并转换为北京时间
 utc_time = datetime.datetime.now(pytz.timezone('UTC'))
@@ -24,6 +25,7 @@ for file_path in file_list:
                   f"! Homepage: https://github.com/Sereinfy/Adrules\n" \
                   f"! Expires: 12 Hours\n" \
                   f"! Version: {beijing_time}（北京时间）\n" \
+                  f"! Version: time.strftime(%Y%m%d%H%M%S, time.localtime()) \n" \
                   f"! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列\n" \
                   f"! Total count: {line_count}\n" \
                   f"{content}"
