@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2024-03-03 12:12:53（北京时间）
+! Version: 2024-03-03 12:24:45（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 67395
+! Total count: 67396
 ||*serror*.wo.com.cn^
 ||0.101tubeporn.com^
 ||0.net.easyjet.com^
@@ -17680,6 +17680,7 @@
 ||ddlvpmt.xyz^
 ||ddmfrg.modivo.bg^
 ||ddmuiijrdvv0s.cloudfront.net^
+||ddome-tag.blablacar.com^
 ||ddpaowanji.com^
 ||ddqkqq.com^
 ||ddrsemxv.com^
