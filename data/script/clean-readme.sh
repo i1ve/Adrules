@@ -1,10 +1,7 @@
 #!/bin/sh
-mv rules.txt allow.txt dns.txt rule/
-wait
-echo '移动文件到rule目录'
 
-num_rules=`sed -n 's/^! Total count: //p' rule/rules.txt`
-num_allow=`sed -n 's/^! Total count: //p' rule/allow.txt`
+num_rules=`sed -n 's/^! Total count: //p' rules.txt`
+num_allow=`sed -n 's/^! Total count: //p' allow.txt`
 
 # filters/black.txt文件的行数
 black_file="filters/black.txt"
@@ -12,9 +9,6 @@ if [ -f "$black_file" ]; then
   black_count=$(wc -l < "$black_file")
   echo "black.txt 的行数: $black_count"
 fi
-
-
-
 
 # 打印以"!"开头的行的行数和总行数
 echo "以\"!\"开头的行的行数: $count"
@@ -26,4 +20,7 @@ sed -i 's/^白名单规则数量.*/白名单规则数量: '$num_allow' /g' READM
 
 sed -i 's/^DNS检测已失效域名.*/DNS检测已失效域名: '$black_count' /g' README.md
 
+mv rules.txt allow.txt dns.txt rule/
+wait
+echo '移动文件到rule目录'
 exit
