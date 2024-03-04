@@ -3,8 +3,8 @@ mv rules.txt allow.txt dns.txt rule/
 wait
 echo '移动文件到rule目录'
 
-num_rules=`sed -n 's/^! Total count: //p' rules.txt`
-num_allow=`sed -n 's/^! Total count: //p' allow.txt`
+num_rules=`sed -n 's/^! Total count: //p' rule/rules.txt`
+num_allow=`sed -n 's/^! Total count: //p' rule/allow.txt`
 
 # filters/black.txt文件的行数
 black_file="filters/black.txt"
