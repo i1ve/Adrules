@@ -33,10 +33,9 @@ jobs:
           python abblockfilters.py
           rm -rf __pycache__
           
-      - name: Update Rules
-        continue-on-error: true
+      - name: Update ReadMe
         run: |
-          bash ./data/script/update-rules.sh
+          bash ./data/script/clean-readme.sh
             
       - name: Commit Changes
         id: commit
