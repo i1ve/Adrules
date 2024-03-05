@@ -2,8 +2,8 @@
 ! Title: AdBlock DNS
 ! Homepage: https://github.com/Sereinfy/Adrules
 ! Source: https://raw.githubusercontent.com/Sereinfy/Adrules/main/rule/adblockdns.txt
-! Version: 20240305191630
-! Last modified: 2024/03/05 19:16:30
+! Version: 20240305191934
+! Last modified: 2024/03/05 19:19:34
 ! Blocked domains: 70766
 ! unBlocked domains: 76
 !
