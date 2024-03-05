@@ -307,6 +307,7 @@
 @@/img/tab_$stealth,image,domain=mangakakalot.com
 @@/img_ad/*$domain=tkec.com.tw
 @@/inc/embed/*ads.js$domain=wcostream.org|watchanimesub.net|wco.tv|wcostream.net|wcostream.com
+@@/inc/embed/suv4.js$domain=wcostream.org|watchanimesub.net|wco.tv|wcostream.net|wcostream.com
 @@/index.m3u8?wmsAuthSign=$stealth
 @@/invoke.js$domain=emurom.net
 @@/iplookup.$domain=cankaoxiaoxi.com|dongfeng-nissan.com.cn|huomao.com|loldk.com|sina.com.cn
@@ -802,7 +803,7 @@
 @@||a.magsrv.com/video-slider.js$domain=daemonanime.net
 @@||a.mailmunch.co/app/$domain=getfitwithjen.net
 @@||a.poki.com/prebid/$script,domain=poki-gdn.com|repuls.io
-@@||a.pub.network/core/prebid-universal-creative.js$script,domain=hostednovel.com|getemoji.com|concertarchives.org
+@@||a.pub.network/core/prebid-universal-creative.js$script,domain=hostednovel.com|getemoji.com|concertarchives.org|mouse-sensitivity.com
 @@||a.pub.network/core/pubfig/cls.css$domain=vrcmods.com
 @@||a.pub.network/crewbase-net/pubfig.min.js$script,domain=allcryptoz.net|crewbase.net|crewus.net|shinchu.net|thumb8.net|thumb9.net|uniqueten.net
 @@||a.pub.network/vrcmods-com/pubfig.min.js$domain=vrcmods.com
@@ -5301,6 +5302,7 @@
 @@||emoji.gg^$generichide
 @@||emome.net/files/advertising/
 @@||empregovaga.com^$generichide
+@@||emturbovid.com/t/*?poster=$stealth=referrer
 @@||emurom.net^$generichide
 @@||en.bongacash.com/js/videojs/video.js$domain=pornsocket.com
 @@||en.bongacash.com/js/videojs/videojs_*.vast.vpaid.min.js$domain=pornsocket.com
@@ -5316,7 +5318,7 @@
 @@||england101.com/assets/js/prebid-add.js
 @@||enit.in^$generichide
 @@||ens.nzz.ch^$~third-party
-@@||ensighten.com^*/Bootstrap.js$domain=americanexpress.com|bestbuy.com|britishairways.com|capitalone.com|caranddriver.com|cart.autodesk.com|citi.com|citigold.com.sg|citizensbank.com|dell.com|fidelity.com|france24.com|hp.com|norton.com|rfi.fr|sbs.com.au|sfgate.com|staples.com|target.com|verizonwireless.com|williamhill.com|womenshealthmag.com|zales.com
+@@||ensighten.com^*/Bootstrap.js$domain=americanexpress.com|ba.com|bestbuy.com|britishairways.com|capitalone.com|caranddriver.com|cart.autodesk.com|citi.com|citigold.com.sg|citizensbank.com|dell.com|fidelity.com|france24.com|hp.com|norton.com|rfi.fr|sbs.com.au|sfgate.com|staples.com|target.com|verizonwireless.com|williamhill.com|womenshealthmag.com|zales.com
 @@||ensighten.com^*/code/$script
 @@||ensighten.com^*/scode/$script,domain=norton.com
 @@||ensighten.com^*/serverComponent.php?$script
@@ -10353,7 +10355,7 @@
 @@||oms.dowjoneson.com/b/ss/$image,domain=wsj.com
 @@||omtrdc.net/*/mbox/json$domain=apps.pnc.com
 @@||omtrdc.net/b/ss/$domain=macworld.com
-@@||omtrdc.net/b/ss/$image,domain=britishairways.com|halifax-online.co.uk
+@@||omtrdc.net/b/ss/$image,domain=ba.com|britishairways.com|halifax-online.co.uk
 @@||omtrdc.net/b/ss/acsca-prod/$domain=amazon.ca|amazon.co.uk|amazon.com
 @@||omtrdc.net/m2/hsbcbankhase/mbox/ajax?$domain=hangseng.com
 @@||omtrdc.net/rest/$xmlhttprequest
@@ -11954,6 +11956,7 @@
 @@||profhalazayed.gnomio.com^$generichide
 @@||profile.microsoft.com/RegSysProfileCenter/$stealth
 @@||profitsfly.com/*/ad*.js$domain=tiktokcounter.net
+@@||profitsfly.com/*/btcmatias.js$domain=tiktokcounter.net
 @@||prog.co.il^$generichide
 @@||programasvirtualespc.net^$generichide
 @@||programiz.com/ads.js
@@ -14527,6 +14530,7 @@
 @@||theverge.com/*/*/*/*/*-*-
 @@||theverge.com/_next/data/*.json
 @@||theverge.com/platform/amp/*/eu-cookie-consent-policy-updated-guidelines-cookie-wall
+@@||theverge.com^$content
 @@||thevideo.me/js/jspc.js?ab
 @@||thewatchcartoononline.tv*inc/embed/ads.js
 @@||thewatchcartoononline.tv/inc/videojs-qualityselector/videojs-qualityselector.min.js
