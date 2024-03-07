@@ -2,9 +2,9 @@
 ! Title: Sereinfy Adrules
 ! Homepage: https://github.com/Sereinfy/Adrules
 ! Expires: 12 Hours
-! Version: 2024-03-07 01:13:22（北京时间）
+! Version: 2024-03-08 01:15:04（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 16165
+! Total count: 16174
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=stfly.cc
@@ -118,8 +118,8 @@
 @@/^https?:\/\/[0-9a-z]+\.cloudfront\.net\/\?[a-z]+=[0-9]+$/$domain=workink.click,xmlhttprequest
 @@/_js/pubfig.min.js$~third-party,domain=svethardware.cz|relaxuj.cz|svetmobilne.cz|digimanie.cz
 @@/ad-close.png$domain=ch.com
-@@/ad-inserter*/*/*.js$domain=bi-girl.net|itbusiness.com.ua|wikirise.com|mejoresmodsminecraft.site|blackwot.ru|5moviesporn.net|freewebcart.com|wristreview.com|pasend.cam|javnow.net|gcertificationcourse.com|pinayvids.com|secondlifetranslations.com|mettablog.com|freebulksmsonline.com|victor-mochere.com
-@@/ad-inserter*/images/ads.png$domain=bi-girl.net|itbusiness.com.ua|wikirise.com|mejoresmodsminecraft.site|blackwot.ru|5moviesporn.net|freewebcart.com|wristreview.com|pasend.cam|javnow.net|gcertificationcourse.com|pinayvids.com|secondlifetranslations.com|mettablog.com|freebulksmsonline.com|victor-mochere.com
+@@/ad-inserter*/*/*.js$domain=bi-girl.net|itbusiness.com.ua|wikirise.com|mejoresmodsminecraft.site|5moviesporn.net|freewebcart.com|wristreview.com|pasend.cam|javnow.net|gcertificationcourse.com|pinayvids.com|secondlifetranslations.com|mettablog.com|freebulksmsonline.com|victor-mochere.com
+@@/ad-inserter*/images/ads.png$domain=bi-girl.net|itbusiness.com.ua|wikirise.com|mejoresmodsminecraft.site|5moviesporn.net|freewebcart.com|wristreview.com|pasend.cam|javnow.net|gcertificationcourse.com|pinayvids.com|secondlifetranslations.com|mettablog.com|freebulksmsonline.com|victor-mochere.com
 @@/ad.aspx|$domain=biqudao.com|ldzw.com|xdingdiann.com
 @@/ad.js$~third-party,domain=giveaway.su
 @@/ad.sense/ad-m.js$~third-party
@@ -287,7 +287,7 @@
 @@/fuckadblock.$domain=datehub.co|golangnote.com|joyk.com|liumingye.cn|lnk2.cc|poedb.tw|share1223.com
 @@/fuckadblock.js$domain=camiris.com
 @@/fuckadblock.js$domain=uniqueten.net|allcryptoz.net|meucdn.vip|yandexcdn.com|scenelife.org|hqq.tv|czxxx.org|waaw.tv
-@@/gen.php?playerid$subdocument,stealth=referrer,domain=fastreams.live|xestreams.sx|fastreams.com
+@@/gen.php?playerid$subdocument,stealth=referrer,domain=fastreams.live|xestreams.sx|fastreams.com|ftmstreams.com
 @@/gettoken.php?$xmlhttprequest,domain=dropgalaxy.com
 @@/google-adwords$domain=t3n.de,~third-party
 @@/googleads.g.doubleclick.net/[a-z0-9]*$/$xmlhttprequest,domain=sovetromantica.com
@@ -497,6 +497,7 @@
 @@_cpc_cpm_$domain=fydy8.com|saraba1st.com
 @@adm.fwmrm.net/p/aetn_live/AdManager.swf$domain=mylifetime.com|aetnd.com
 @@analytics^$domain=wwe.com
+@@assets/dist//bts2$xmlhttprequest,stealth=referrer,domain=previbes.online
 @@broadcastlv.chat.bilibili.com^
 @@cdn.eporner.com^$stealth=referrer
 @@clicks.$domain=cimbclicks.com.my,~third-party
@@ -1880,6 +1881,7 @@
 @@||api.dropboxapi.com^$stealth
 @@||api.ebay-kleinanzeigen.de/api/ads/
 @@||api.enthusiastgaming.net^$xmlhttprequest,domain=diep.io
+@@||api.foodthinkers.com/commercetools/graphql$stealth=3p-auth,domain=sageappliances.com
 @@||api.friends.ponta.jp/api/$~third-party
 @@||api.fw.tv/embed/$domain=filmibeat.com
 @@||api.geetest.com^$stealth
@@ -2611,7 +2613,7 @@
 @@||blackmod.net^$generichide
 @@||blackpoolgazette.co.uk^$generichide
 @@||blackwot.ru/ads/ads.js$domain=blackwot.ru
-@@||blackwot.ru^$generichide
+@@||blackwot.ru/ads/gads.js$domain=blackwot.ru
 @@||blancvpn.com/_nuxt/CookieConsent.
 @@||blazing.network/imagenes/$image,stealth,domain=dontorrent.to
 @@||bleachernation.com/headerprebid/bn_prebid_logic_*.js
@@ -3973,6 +3975,7 @@
 @@||cmp.inmobi.com/choice/*/choice.js$domain=thefunpost.com
 @@||cmp.inmobi.com/tcfv2/*.js$domain=express.co.uk
 @@||cmp.inmobi.com/tcfv2/*.js$domain=thefunpost.com
+@@||cmp.osano.com/*/osano.js$domain=businessinsider.com
 @@||cmp.osano.com/*/osano.js$domain=clickorlando.com
 @@||cmp.osano.com/*/osano.js$domain=lucidchart.com
 @@||cmp.osano.com^$domain=telesign.com
@@ -4298,7 +4301,7 @@
 @@||content.wazimo.com/engine/common/css/$domain=showsnob.com
 @@||contentx.me^$stealth
 @@||contextual.media.net/dmedianet.js$domain=apkmaza.net
-@@||contextual.media.net/dmedianet.js$domain=bi-girl.net|itbusiness.com.ua|wikirise.com|mejoresmodsminecraft.site|blackwot.ru|5moviesporn.net|freewebcart.com|wristreview.com|pasend.cam|javnow.net|gcertificationcourse.com|pinayvids.com|secondlifetranslations.com|mettablog.com|freebulksmsonline.com|victor-mochere.com
+@@||contextual.media.net/dmedianet.js$domain=bi-girl.net|itbusiness.com.ua|wikirise.com|mejoresmodsminecraft.site|5moviesporn.net|freewebcart.com|wristreview.com|pasend.cam|javnow.net|gcertificationcourse.com|pinayvids.com|secondlifetranslations.com|mettablog.com|freebulksmsonline.com|victor-mochere.com
 @@||contextual.media.net/dmedianet.js$domain=biopills.net
 @@||contextual.media.net/dmedianet.js$domain=dramahd.me
 @@||contextual.media.net/dmedianet.js$domain=elektrikmen.com
@@ -4578,6 +4581,7 @@
 @@||d2ty8gaf6rmowa.cloudfront.net/ad/ads.js
 @@||d2ujtyf7wfmq6y.cloudfront.net/ads/ads.html$domain=reisefrage.net|motorradfrage.net|autofrage.net|sportlerfrage.net|gesundheitsfrage.net|finanzfrage.net|computerfrage.net|gutefrage.net
 @@||d2y8ttytgze7qt.cloudfront.net^$domain=streamingcommunity.tech
+@@||d2zf5gu5e5mp87.cloudfront.net^$script,domain=ebaticalfel.com
 @@||d2zl2n5iz2c0l7.cloudfront.net/ad/ads.js|
 @@||d31j93rd8oukbv.cloudfront.net/metrika/watch_*.js$domain=gazeta.ru
 @@||d31j93rd8oukbv.cloudfront.net/metrika/watch_ua.js$domain=novayagazeta.ru
@@ -5548,6 +5552,7 @@
 @@||fedex.com/apps/myprofile/$generichide
 @@||feed.4strokemedia.com^$domain=video.corriere.it
 @@||feed.4strokemedia.com^$domain=video.gazzetta.it
+@@||feed.mix.sina.com.cn^
 @@||feedback-pa.clients*.google.com/*/google.internal.feedback.$stealth
 @@||feedback.userreport.com/*/*.csb.app$domain=csb.app
 @@||feedburner.com/~r/
@@ -6347,7 +6352,7 @@
 @@||google-analytics.com/analytics.js$domain=beinsports.com
 @@||google-analytics.com/analytics.js$domain=beinsports.com|brooklinen.com|carnesvizzera.ch|cmoa.jp|enmotive.com|healthrangerstore.com|hobbyhall.fi|infoconso-multimedia.fr|jackbox.tv|k2radio.com|koel.com|kowb1290.com|ligtv.com.tr|meritonsuites.com.au|nabortu.ru|news.gamme.com.tw|novatv.bg|papajohns.com|poiskstroek.ru|rzd.ru|saturn.at|schweizerfleisch.ch|skaties.lv|stressless.com|teddyfood.com|tracking.narvar.com|tradera.com|tribuna.com|truwin.com|tuasaude.com|unicef.de|viandesuisse.ch|vox.de|westernunion.com|worldsbiggestpacman.com|xxl.se
 @@||google-analytics.com/analytics.js$domain=beymen.com
-@@||google-analytics.com/analytics.js$domain=bi-girl.net|itbusiness.com.ua|wikirise.com|mejoresmodsminecraft.site|blackwot.ru|5moviesporn.net|freewebcart.com|pasend.cam|javnow.net|freebulksmsonline.com|victor-mochere.com
+@@||google-analytics.com/analytics.js$domain=bi-girl.net|itbusiness.com.ua|wikirise.com|mejoresmodsminecraft.site|5moviesporn.net|freewebcart.com|pasend.cam|javnow.net|freebulksmsonline.com|victor-mochere.com
 @@||google-analytics.com/analytics.js$domain=biomedglobal.net
 @@||google-analytics.com/analytics.js$domain=blt.se
 @@||google-analytics.com/analytics.js$domain=blue-tomato.com
@@ -7726,7 +7731,7 @@
 @@||ib.adnxs.com/ut/$domain=youmath.it
 @@||ib.adnxs.com/ut/v3$domain=aftonbladet.se
 @@||ib.adnxs.com^$image,domain=apkmaza.net
-@@||ib.adnxs.com^$image,domain=bi-girl.net|itbusiness.com.ua|wikirise.com|mejoresmodsminecraft.site|blackwot.ru|5moviesporn.net|freewebcart.com|pasend.cam|javnow.net|gcertificationcourse.com|pinayvids.com|secondlifetranslations.com|mettablog.com|freebulksmsonline.com|victor-mochere.com
+@@||ib.adnxs.com^$image,domain=bi-girl.net|itbusiness.com.ua|wikirise.com|mejoresmodsminecraft.site|5moviesporn.net|freewebcart.com|pasend.cam|javnow.net|gcertificationcourse.com|pinayvids.com|secondlifetranslations.com|mettablog.com|freebulksmsonline.com|victor-mochere.com
 @@||ib.adnxs.com^$image,domain=elektrikmen.com
 @@||ib.adnxs.com^$image,domain=exbulletin.com
 @@||ib.adnxs.com^$image,domain=fantasyfootballgeek.co.uk
@@ -8563,7 +8568,7 @@
 @@||js.appboycdn.com/web-sdk/*/appboy.min.js$domain=equinox.com
 @@||js.appboycdn.com/web-sdk/*/appboy.min.js$domain=learning.edx.org
 @@||js.appboycdn.com/web-sdk/*/braze.min.js$domain=forum.paradoxplaza.com
-@@||js.datadome.co/tags.js$script,domain=sso.garena.com
+@@||js.datadome.co/tags.js$script,domain=sso.garena.com|thefork.com
 @@||js.digitalriverws.com/*/components/$stealth
 @@||js.dmtry.com/channel.js$domain=zillow.com
 @@||js.dogannet.tv/q/s/player/html5^
@@ -9349,6 +9354,7 @@
 @@||marketplace.xbox.com^$document
 @@||markipli.com^$generichide
 @@||marriedgames.com.br/wp-content/cache/*/js/advertising-*.js
+@@||martech.condenastdigital.com/lib/martech.js$script,domain=wired.com
 @@||martinfowler.com/articles/asyncJS.css$stylesheet,~third-party
 @@||marvelousga.com^$generichide
 @@||mas-13.site^$generichide
@@ -9667,6 +9673,7 @@
 @@||minhaoperadora.com.br^$generichide
 @@||minigame.aeriagames.jp/*/ae-tpgs-$~third-party
 @@||minigame.aeriagames.jp/css/videoad.css
+@@||minigame.qq.com^
 @@||minigiants.io/ads.js
 @@||miniminiplus.pl$generichide
 @@||minioppai.org^$generichide
@@ -10679,6 +10686,7 @@
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=blogs.sapib.ca
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=boards.vinylcollective.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=boo.tw|b00.tw
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=botrix.live
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=bowfile.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=boyhoodmovies.net
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=breatheheavy.com
@@ -12469,7 +12477,7 @@
 @@||rota.cc^$stealth
 @@||router.asus.com^$document
 @@||router.infolinks.com/dyn/apn-usync$image,domain=apkmaza.net
-@@||router.infolinks.com/dyn/apn-usync$image,domain=bi-girl.net|itbusiness.com.ua|wikirise.com|mejoresmodsminecraft.site|blackwot.ru|5moviesporn.net|freewebcart.com|pasend.cam|javnow.net|gcertificationcourse.com|pinayvids.com|secondlifetranslations.com|mettablog.com|freebulksmsonline.com|victor-mochere.com
+@@||router.infolinks.com/dyn/apn-usync$image,domain=bi-girl.net|itbusiness.com.ua|wikirise.com|mejoresmodsminecraft.site|5moviesporn.net|freewebcart.com|pasend.cam|javnow.net|gcertificationcourse.com|pinayvids.com|secondlifetranslations.com|mettablog.com|freebulksmsonline.com|victor-mochere.com
 @@||router.infolinks.com/dyn/apn-usync$image,domain=elektrikmen.com
 @@||router.infolinks.com/dyn/apn-usync$image,domain=exbulletin.com
 @@||router.infolinks.com/dyn/apn-usync$image,domain=fantasyfootballgeek.co.uk
@@ -14895,6 +14903,7 @@
 @@||tudogostoso.de^$generichide
 @@||tudogostoso.de^$stealth
 @@||tudogostoso.xyz^$generichide
+@@||tuhu.cn^
 @@||tui.click/js/ads.js
 @@||tui.click^$generichide
 @@||tumangaonline.com*/_adsense_/*.json
