@@ -26,7 +26,7 @@ for file_path in file_list:
                   f"! Expires: 12 Hours\n" \
                   f"! Last modified: {beijing_time}（北京时间）\n" \
                   f"! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列\n" \
-                  f"! Version: {Version_time} \
+                  f"! Version: {Version_time} \n" \
                   f"! Total count: {line_count}\n" \
                   f"{content}"
 
