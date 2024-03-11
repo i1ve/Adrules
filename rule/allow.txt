@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
 ! Title: Sereinfy Adrules
 ! Homepage: https://github.com/Sereinfy/Adrules
-! Expires: 12 Hours
-! Last modified: 2024-03-11 20:54:07（北京时间
+! Expires: 24 Hours
+! Last modified: 2024-03-12 01:13:32（北京时间)
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Version: 20240311205407
-! Total count: 16191
+! Version: 20240312011332
+! Total count: 16192
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=stfly.cc
@@ -495,10 +495,11 @@
 @@_468x60_$domain=top100arena.com
 @@_ad_300.$domain=bleacherreport.com
 @@_ads_cpc_$domain=90lover.cn
+@@_adview_$domain=52xkdy.com
+@@_adview_$domain=fydy8.com
 @@_adview_$domain=muzlan.top
-@@_cpa_cpm_$domain=52xkdy.com
 @@_cpc_cpm/$domain=youranshare.com
-@@_cpc_cpm_$domain=fydy8.com|saraba1st.com
+@@_cpc_cpm_$domain=saraba1st.com
 @@adm.fwmrm.net/p/aetn_live/AdManager.swf$domain=mylifetime.com|aetnd.com
 @@analytics^$domain=wwe.com
 @@assets/dist//bts2$xmlhttprequest,stealth=referrer,domain=previbes.online
@@ -5383,6 +5384,7 @@
 @@||etsy.com/api/v3/ajax/bespoke/*log_performance_metrics=$~third-party
 @@||etsy.com/your/shops/$document
 @@||ettoday.net^$generichide
+@@||eu.spgo.io/*~/aaa$~image
 @@||eu4cn.com^$generichide
 @@||euconfesso.com^$generichide
 @@||euoptout.mookie1.com^$domain=optout.mookie1.com
@@ -7417,9 +7419,7 @@
 @@||hanjuwang.com^$script,~third-party
 @@||hanjuwang.net^$script,~third-party
 @@||hao123img.com/resource/zt/widget/service/util/clickTrack.
-@@||haokoubei.top/check_img_block.js
-@@||haokoubei.top/dl/rfo_v_f_pc.js
-@@||haokoubei.top/sz/to_v_f.js
+@@||haokoubei.top/sz/tos_v_f.js
 @@||haoweichi.com/Public/js/ads.js
 @@||happy2hub.me^$generichide
 @@||happypancake.se/static/prebid.*.js$domain=happypancake.se|happypancake.fi
@@ -8804,6 +8804,7 @@
 @@||kotaku.com/x-kinja-static/assets/new-client/adManager.$~third-party
 @@||kotaku.com/x-kinja-static/assets/new-client/adManager~video-html5-playlist~videoHtml5.*.js$domain=kotaku.com
 @@||koyi.pub/wp-content/plugins/fuzqing-ad-plus/assets/js/*.js
+@@||kozkutak.hu/getdata.php?v*=pageview$~third-party
 @@||kphim.tv/resources/js/fuckadblock.js
 @@||kphim.tv^$generichide
 @@||kpliker.net^$generichide
