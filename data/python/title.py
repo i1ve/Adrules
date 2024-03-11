@@ -6,7 +6,7 @@ import glob
 # 获取当前时间并转换为北京时间
 utc_time = datetime.datetime.now(pytz.timezone('UTC'))
 beijing_time = utc_time.astimezone(pytz.timezone('Asia/Shanghai')).strftime('%Y-%m-%d %H:%M:%S')
-Version = utc_time.astimezone(pytz.timezone('Asia/Shanghai')).strftime('%Y%m%d%H%M%S')
+Version_time = utc_time.astimezone(pytz.timezone('Asia/Shanghai')).strftime('%Y%m%d%H%M%S')
 # 获取文件列表
 file_list = glob.glob('.././*.txt')  # 将路径替换为你的文件所在的目录
 
@@ -26,7 +26,7 @@ for file_path in file_list:
                   f"! Expires: 12 Hours\n" \
                   f"! Last modified: {beijing_time}（北京时间）\n" \
                   f"! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列\n" \
-                  f"! Version: {Version} \
+                  f"! Version: {Version_time} \
                   f"! Total count: {line_count}\n" \
                   f"{content}"
 
