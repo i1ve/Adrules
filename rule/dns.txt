@@ -2,9 +2,9 @@
 ! Title: Sereinfy Adrules
 ! Homepage: https://github.com/Sereinfy/Adrules
 ! Expires: 12 Hours
-! Last modified: 2024-03-11 20:52:10（北京时间）
+! Last modified: 2024-03-11 20:54:07（北京时间
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Version: 20240311205210 
+! Version: 20240311205407
 ! Total count: 72884
 ||*serror*.wo.com.cn^
 ||0.101tubeporn.com^
