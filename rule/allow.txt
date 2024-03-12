@@ -2,10 +2,10 @@
 ! Title: Sereinfy Adrules
 ! Homepage: https://github.com/Sereinfy/Adrules
 ! Expires: 24 Hours
-! Last modified: 2024-03-12 01:13:32（北京时间)
+! Last modified: 2024-03-13 01:13:27（北京时间)
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Version: 20240312011332
-! Total count: 16192
+! Version: 20240313011327
+! Total count: 16193
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=stfly.cc
@@ -495,8 +495,7 @@
 @@_468x60_$domain=top100arena.com
 @@_ad_300.$domain=bleacherreport.com
 @@_ads_cpc_$domain=90lover.cn
-@@_adview_$domain=52xkdy.com
-@@_adview_$domain=fydy8.com
+@@_adview_$domain=52xkdy.com|fydy8.com
 @@_adview_$domain=muzlan.top
 @@_cpc_cpm/$domain=youranshare.com
 @@_cpc_cpm_$domain=saraba1st.com
@@ -816,7 +815,7 @@
 @@||a.magsrv.com/video-slider.js$domain=daemonanime.net
 @@||a.mailmunch.co/app/$domain=getfitwithjen.net
 @@||a.poki.com/prebid/$script,domain=poki-gdn.com|repuls.io
-@@||a.pub.network/core/prebid-universal-creative.js$script,domain=hostednovel.com|getemoji.com|concertarchives.org|mouse-sensitivity.com|thisisanfield.com|titantv.com|baeldung.com|creaders.net
+@@||a.pub.network/core/prebid-universal-creative.js$script,domain=hostednovel.com|getemoji.com|concertarchives.org|mouse-sensitivity.com|thisisanfield.com|titantv.com|baeldung.com|creaders.net|virtualpiano.net
 @@||a.pub.network/core/pubfig/cls.css$domain=vrcmods.com
 @@||a.pub.network/crewbase-net/pubfig.min.js$script,domain=allcryptoz.net|crewbase.net|crewus.net|shinchu.net|thumb8.net|thumb9.net|uniqueten.net
 @@||a.pub.network/vrcmods-com/pubfig.min.js$domain=vrcmods.com
@@ -3135,7 +3134,7 @@
 @@||cdn.cookielaw.org/scripttemplates/otSDKStub.js$domain=eatingwell.com
 @@||cdn.cookielaw.org/scripttemplates/otSDKStub.js$domain=eu.patagonia.com
 @@||cdn.cookielaw.org/scripttemplates/otSDKStub.js$domain=everyeye.it
-@@||cdn.cookielaw.org/scripttemplates/otSDKStub.js$domain=hollywoodreporter.com|resmed.com|southpark.de|movistar.es|redbull.com|all.accor.com|karriere.mcdonalds.de|blaklader.*|wallapop.com|rts.ch|npr.org|upc.pl|next.co.uk|zoom.us|rtlplay.be|motorsport-total.com|player.pl|mensjournal.com|gqmagazine.fr|nintendo.*|mtv.com|ryobitools.eu|cc.com|3sat.de|zdf.de|costco.com|giantbomb.com|glovoapp.com|rte.ie|digitaltrends.com|spiele.bild.de|spiele.stern.de|vanityfair.com|saarbruecker-zeitung.de|olympics.com|tvn.pl|bergfreunde.de|oe24.at|epicgames.com|toteraz.pl|natgeotv.com|midomi.com|volksfreund.de|kawasaki.com|ga.de|shop.mango.com|kralmuzik.com.tr|westernunion.com|roastmarket.de|new.cappex.com|vimeo.com|heute.at|ntv.com.tr|wargaming.net|metacritic.com|gq-magazine.co.uk|viafree.dk|viafree.fi|viafree.no|viafree.se|glamour.de|cbsnews.com|worldoftanks.ru|vg247.com|newyorker.com|games.miamiherald.com|eurogamer.es|eurogamer.de|bet.com|ikonpass.com|mcdelivery.de|id.trimble.com|skateboarding.transworld.net|newegg.com|docs.vmware.com|udemy.com|olx.pl|usmagazine.com|uefa.com|milwaukeetool.eu|muscleandfitness.com|20min.ch|ted.com|elisa.fi|nhl.com|porn300.com|indiewire.com|victorinox.com|darkreading.com|trustradius.com|start.gg|geappliances.com|popeyes.com|channel5.com|bigbearmountainresort.com|quora.com|vod.pl|blick.ch|elle.com|teenvogue.com|vogue.co.jp|vogue.co.uk|vogue.com|vogue.com.tw|vogue.de|vogue.es|vogue.fr|vogue.in|vogue.it|vogue.mx|vogue.ph|tvnturbo.pl|superporn.com|thebump.com|bk.com|safeway.com|motor1.com|southparkstudios.com.br|southpark.lat|southparkstudios.com|realsimple.com|538.nl|skyradio.nl|radio10.nl|radioveronica.nl|homedepot.ca|wired.com|europapark.de|jdpower.com|bonava.lv|nick.com|mtvema.com|mtv.co.uk|mtv.de|mtv.it|themessenger.com|nickjr.com|lnw.com|otodom.pl
+@@||cdn.cookielaw.org/scripttemplates/otSDKStub.js$domain=hollywoodreporter.com|resmed.com|southpark.de|movistar.es|redbull.com|all.accor.com|karriere.mcdonalds.de|blaklader.*|wallapop.com|rts.ch|npr.org|upc.pl|next.co.uk|zoom.us|rtlplay.be|motorsport-total.com|player.pl|mensjournal.com|gqmagazine.fr|nintendo.*|mtv.com|ryobitools.eu|cc.com|3sat.de|zdf.de|costco.com|giantbomb.com|glovoapp.com|rte.ie|digitaltrends.com|spiele.bild.de|spiele.stern.de|vanityfair.com|saarbruecker-zeitung.de|olympics.com|tvn.pl|bergfreunde.de|oe24.at|epicgames.com|toteraz.pl|natgeotv.com|midomi.com|volksfreund.de|kawasaki.com|ga.de|shop.mango.com|kralmuzik.com.tr|westernunion.com|roastmarket.de|new.cappex.com|vimeo.com|heute.at|ntv.com.tr|wargaming.net|metacritic.com|gq-magazine.co.uk|viafree.dk|viafree.fi|viafree.no|viafree.se|glamour.de|cbsnews.com|worldoftanks.ru|vg247.com|newyorker.com|games.miamiherald.com|eurogamer.es|eurogamer.de|bet.com|ikonpass.com|mcdelivery.de|id.trimble.com|skateboarding.transworld.net|newegg.com|docs.vmware.com|udemy.com|olx.pl|usmagazine.com|uefa.com|milwaukeetool.eu|muscleandfitness.com|20min.ch|ted.com|elisa.fi|nhl.com|porn300.com|indiewire.com|victorinox.com|darkreading.com|trustradius.com|start.gg|geappliances.com|popeyes.com|channel5.com|bigbearmountainresort.com|quora.com|vod.pl|blick.ch|elle.com|teenvogue.com|vogue.co.jp|vogue.co.uk|vogue.com|vogue.com.tw|vogue.de|vogue.es|vogue.fr|vogue.in|vogue.it|vogue.mx|vogue.ph|tvnturbo.pl|superporn.com|thebump.com|bk.com|safeway.com|motor1.com|southparkstudios.com.br|southpark.lat|southparkstudios.com|realsimple.com|538.nl|skyradio.nl|radio10.nl|radioveronica.nl|homedepot.ca|wired.com|europapark.de|jdpower.com|bonava.lv|nick.com|mtvema.com|mtv.co.uk|mtv.de|mtv.it|themessenger.com|nickjr.com|lnw.com|otodom.pl|irishtimes.com
 @@||cdn.cookielaw.org/scripttemplates/otSDKStub.js$domain=idmobile.co.uk
 @@||cdn.cookielaw.org/scripttemplates/otSDKStub.js$domain=insideevs.*
 @@||cdn.cookielaw.org/scripttemplates/otSDKStub.js$domain=larousse.fr
@@ -5771,7 +5770,6 @@
 @@||franklymedia.com/*/300x150_WBNQ_TEXT.png$image,domain=wbnq.com
 @@||freaktab.com^$generichide
 @@||free-hearts.com/game/js/lib/cookie-consent/cookieconsent.js
-@@||free-mp3-download.net^$generichide
 @@||free-premium.maxidbr.com^$generichide
 @@||free-proxy.cz/js/showads.js
 @@||free-reseau.fr/css/publicite.css|$stylesheet
@@ -6973,6 +6971,7 @@
 @@||googletagmanager.com/gtm.js$domain=info.lifecell.ua
 @@||googletagmanager.com/gtm.js$domain=infoq.com
 @@||googletagmanager.com/gtm.js$domain=iphoneitalia.com
+@@||googletagmanager.com/gtm.js$domain=irishtimes.com
 @@||googletagmanager.com/gtm.js$domain=isunfar.com.tw
 @@||googletagmanager.com/gtm.js$domain=itv.com
 @@||googletagmanager.com/gtm.js$domain=jalan.net
@@ -7379,6 +7378,7 @@
 @@||guru3d.com/core_javaload/$document
 @@||gvmp.de^$generichide
 @@||gvt1.com/videoplayback/id/*/source/gfp_video_ads/*/file.mp4$domain=rx.iscdn.net
+@@||gw2mists.com/assets/CookieConsent-*.
 @@||gymhuntr.com^$generichide
 @@||gymnasedeburier.ch/themes/segment/js/$~third-party
 @@||h-cast.jp^$script,domain=bookoffonline.co.jp
@@ -9813,7 +9813,6 @@
 @@||motortrendondemand.com/advertisements-ad-unit/
 @@||moulinex.com/js/xtroi.js
 @@||movie.momo-net.com/_embed/video.php$domain=german-porno-deutsch.info
-@@||movie2free.com/wp-content/themes/next/images/nav-bullet
 @@||moviehousememories.com/wp-content/themes/jannah/assets/js/ad.js
 @@||moviejones.de/lib/ads.js
 @@||moviemakeronline.com/resources/jsc/ads.js
@@ -10591,7 +10590,6 @@
 @@||pagead2.googlesyndication.com/pagead/$script,domain=soranews24.com
 @@||pagead2.googlesyndication.com/pagead/$stealth,domain=adshnk.com|adshrink.it
 @@||pagead2.googlesyndication.com/pagead/*/show_ads_impl*_fy*.js$domain=forum.release-apk.com
-@@||pagead2.googlesyndication.com/pagead/*/show_ads_impl_with_ama_fy2021.js$domain=free-mp3-download.net
 @@||pagead2.googlesyndication.com/pagead/*?fcd=true$domain=adshnk.com
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl$domain=adzsafe.com
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl$domain=aiarticlespinner.co
@@ -10816,7 +10814,6 @@
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=forum.release-apk.com,stealth,important
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=forums-fastunlock.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=fox.com
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=free-mp3-download.net
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=freebinchecker.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=freebnbcoin.com|exotictgirl.blogspot.com|bospedia.com|rockmods.net|aiimsneetshortnotes.com|arabseed.onl|poppamr.com|adnit.xyz|miuiku.com|tatangga.com|flash-firmware.blogspot.com|ghostsnet.com|rezkozpatch.xyz|rumahit.id|sekilastekno.com|romfirmware.com|orirom.com|gsmfirmware.net|akwam.*|health-and.me|fc-lc.com|fc.lc|note1s.com|paste1s.com|playstore.pw|yoshare.net|pes-patches.com|1shorten.com|publicananker.com|ipacrack.com|codevn.net|traffic1s.com|adnews.me|eg-akw.com|ak4eg.*|xn--mgba7fjn.*|akw.to|mawsueaa.com|ak4ar.*|anhdep24.com|nguyenvanbao.com|akw-cdn1.link|akw.mov|ak.sv|akw.cam|shahid4u.charity|indokontraktor.com|shahee4u.cam|batch-kun.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=freecoursesonline.me
@@ -11167,6 +11164,7 @@
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=vrcmods.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=vstdrive.in
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=w3resource.com
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=wandhi.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=web2.0calc.com|ebookdz.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=wellness4live.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=wgod.co
@@ -12770,6 +12768,7 @@
 @@||scorecardresearch.com$domain=bt.com
 @@||scorecardresearch.com/beacon.js$domain=agame.com|allrecipes.com|apl.tv|babycenter.com|cbc.ca|deviantart.com|fastcompany.com|firstwefeast.com|hitfix.com|laptopmag.com|last.fm|linkinpark.com|mainstreet.com|ning.com|ouramazingplanet.com|outsideonline.com|plixi.com|radaronline.com|salon.com|thedailybeast.com|thinkatheist.com
 @@||scorecardresearch.com/beacon.js$domain=hktvmall.com
+@@||scorecardresearch.com/beacon.js$domain=ofiii.com
 @@||scorecardresearch.com/beacon.js$domain=spielen.com
 @@||scorecardresearch.com/crossdomain.xml$domain=web.de
 @@||scorecardresearch.com/internal-c2/plugins/streamingtag_plugin_jwplayer.js$domain=indiatoday.in
@@ -12872,6 +12871,7 @@
 @@||sdk.privacy-center.org^$domain=lalsace.fr
 @@||sdk.privacy-center.org^$domain=lasprovincias.es
 @@||sdk.privacy-center.org^$domain=lavanguardia.com
+@@||sdk.privacy-center.org^$domain=le10sport.com
 @@||sdk.privacy-center.org^$domain=leboncoin.fr
 @@||sdk.privacy-center.org^$domain=ledauphine.com
 @@||sdk.privacy-center.org^$domain=lequipe.fr
@@ -13102,6 +13102,7 @@
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=abccar.com.tw
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=agario-play.com
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=alternativeto.net
+@@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=ani.gamer.com.tw
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=blog.carstopia.net|blog.coinsvalue.net|blog.cookinguide.net|blog.freeoseocheck.com|blog.makeupguide.net
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=blog.wiki-topia.com
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=bloomberg.com
@@ -14472,7 +14473,6 @@
 @@||th.thgim.com/static/js/adsframe.min.js$domain=thehindu.com
 @@||th7.cn/sanda2015/css/ads.js
 @@||thaiairways.com/static/common/js/wt_js/webtrends.min.js$~third-party
-@@||thaitv3.com/js/video_ads.js
 @@||thatoneguy.com.au^$generichide
 @@||thaudray.com^$domain=streamingcommunity.tech
 @@||thdstatic.com/experiences/local-ad/$domain=homedepot.com
@@ -15549,6 +15549,7 @@
 @@||walmartimages.com/webanalytics/wmStat/wmStat.jsp$domain=walmart.com
 @@||wamiz.com/css/ads.css
 @@||wancaibb.com/share/js/share.min.js
+@@||wandhi.com^$generichide
 @@||wappass.baidu.com/static/touch/js/lib/fingerprint.js$domain=tieba.baidu.com
 @@||ware.shop.jd.com^$genericblock,generichide
 @@||warezstream.link/mp4$stealth=referrer
