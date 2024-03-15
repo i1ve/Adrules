@@ -2,10 +2,10 @@
 ! Title: Sereinfy Adrules
 ! Homepage: https://github.com/Sereinfy/Adrules
 ! Expires: 24 Hours
-! Last modified: 2024-03-15 01:12:52（北京时间)
+! Last modified: 2024-03-16 01:13:30（北京时间)
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Version: 20240315011252
-! Total count: 16195
+! Version: 20240316011330
+! Total count: 16204
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=stfly.cc
@@ -816,7 +816,7 @@
 @@||a.magsrv.com/video-slider.js$domain=daemonanime.net
 @@||a.mailmunch.co/app/$domain=getfitwithjen.net
 @@||a.poki.com/prebid/$script,domain=poki-gdn.com|repuls.io
-@@||a.pub.network/core/prebid-universal-creative.js$script,domain=hostednovel.com|getemoji.com|concertarchives.org|mouse-sensitivity.com|thisisanfield.com|titantv.com|baeldung.com|creaders.net|virtualpiano.net
+@@||a.pub.network/core/prebid-universal-creative.js$script,domain=hostednovel.com|getemoji.com|concertarchives.org|mouse-sensitivity.com|thisisanfield.com|titantv.com|baeldung.com|creaders.net|virtualpiano.net|phoronix.com
 @@||a.pub.network/core/pubfig/cls.css$domain=vrcmods.com
 @@||a.pub.network/crewbase-net/pubfig.min.js$script,domain=allcryptoz.net|crewbase.net|crewus.net|shinchu.net|thumb8.net|thumb9.net|uniqueten.net
 @@||a.pub.network/vrcmods-com/pubfig.min.js$domain=vrcmods.com
@@ -1807,6 +1807,7 @@
 @@||api-*.spot.im/v*/widget/spot/sp_*/conversation_header$domain=bizpacreview.com
 @@||api-*us1*.cludo.com/api/*/search$stealth
 @@||api-analytics.magstimconnect.net^$~third-party
+@@||api-edge.cognitive.microsofttranslator.com/translate?
 @@||api-gw.spot.im/v*/feed/spot/sp_*/$domain=bizpacreview.com
 @@||api-js.datadome.co/js/$domain=sso.garena.com
 @@||api-js.datadome.co/js/|$stealth,domain=auth.garena.com
@@ -2279,6 +2280,7 @@
 @@||automeme.io/assets/html/ad1.html
 @@||automeme.io/assets/html/ad2.html
 @@||automobile-catalog.com^$generichide
+@@||automothink.com^$generichide
 @@||automotur.club^$stealth
 @@||autoroad.cz^$generichide
 @@||autos.souq.com/$elemhide
@@ -3143,6 +3145,7 @@
 @@||cdn.cookielaw.org/scripttemplates/otSDKStub.js$domain=larousse.fr
 @@||cdn.cookielaw.org/scripttemplates/otSDKStub.js$domain=mcdonalds.com
 @@||cdn.cookielaw.org/scripttemplates/otSDKStub.js$domain=mtvuutiset.fi
+@@||cdn.cookielaw.org/scripttemplates/otSDKStub.js$domain=rtl.nl
 @@||cdn.cookielaw.org/scripttemplates/otSDKStub.js$domain=sn.at
 @@||cdn.cookielaw.org/scripttemplates/otSDKStub.js$domain=tripadvisor.*
 @@||cdn.cookielaw.org/scripttemplates/otSDKStub.js$domain=tvguide.com
@@ -4068,7 +4071,6 @@
 @@||cohesionapps.com/preamp/$subdocument,xmlhttprequest,domain=frontier.com
 @@||coinadster.com^$script,stylesheet,xmlhttprequest,other,image,domain=coinadster.com
 @@||coinbid.org/fuckadblock.js
-@@||coinblocktyrusmiram.com^$script,domain=rgeyyddl.skin
 @@||coincity.in^$generichide
 @@||coindice.win^$generichide
 @@||coingrabr.com^$generichide
@@ -5213,6 +5215,7 @@
 @@||eddiebauer.com/__ssobj/core.js+ssdomvar.js+generic-adapter.js
 @@||eden.international/script/ad_banner/
 @@||eden.org.tw^*/ad_banner/
+@@||edge-*.gcdn.app/st/$stealth=referrer,domain=anilife.live
 @@||edge.api.brightcove.com/playback/v1/accounts/*/videos/$xmlhttprequest,domain=tver.jp,stealth=ip
 @@||edge.microsoft.com/translate/auth
 @@||edge.mycdn.live/live/*.m3u8$stealth
@@ -5503,6 +5506,7 @@
 @@||facebook.com/tr$domain=rusradio.ru
 @@||facebook.com/videocall/$stealth=webrtc
 @@||facebook.com^$generichide
+@@||facebook.com^$generichide,badfilter
 @@||facebook.com^*/plugins/page.php?$domain=cieplikpodrozuje.pl|makulscy.com
 @@||facepunch.io^$generichide
 @@||faculty.uml.edu/klevasseur/ads/
@@ -9899,6 +9903,7 @@
 @@||multics.eu/comunidad/js/*.js
 @@||multifaucet.org^$generichide
 @@||multirecommend.com^$generichide
+@@||multitest.ua/static/bower_components/boomerang/boomerang.js$~third-party
 @@||multiup.org/*/mirror^
 @@||multiup.org/pop.js
 @@||munchkin.marketo.net/munchkin.js$domain=st.com|telus.com
@@ -11172,7 +11177,7 @@
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=win10.vn
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=windowsbulletin.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=worder.cat
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=workxvacation.jp|itopmusics.com|medeberiya1.com|calvyn.com|huhulist.com|quicktelecast.com|freemagazinespdf.com|hobbykafe.com|gtf.com.ng|splashbase.co|xn--nbkw38mlu2a.com|yuki0918kw.com|bcanotesnepal.com|conoscereilrischioclinico.it|nvimfreak.com|ralli.ee|openstartup.tm|stablediffusionxl.com|techsbucket.com|f1ingenerale.com|maketoss.com|certificateland.com|camcam.cc|euskalnews.tv|mundovideoshd.com|studybullet.com|e-kitapstore.com|studybullet.com|zapcourses.com|eventiavversinews.it|sapphirescan.com|limontorrent.com|downloadtanku.org|techacode.com|claimsatoshi.xyz|claimtrx.com|onroid.com|codehelppro.com|sysguides.com|branditechture.agency|starwarsaddicted.it|ladypopularblog.com|novelasligeras.net|teluguflix.lol|branditechture.agency|team-octavi.com|azdly.com|mxcity.mx|softcobra.com|technorj.com|cizgifilmizle.info|kawaguchimaeda.com|herenscan.com|coursesdaddy.com|forum.release-apk.com|erreguete.gal|milanreports.com|freedom3d.art|plantswith.com|gazzettarossonera.it|network-knowledge.work|minioppai.org|bugswave.com|tech-bloggers.in|khohieu.com
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=workxvacation.jp|itopmusics.com|medeberiya1.com|calvyn.com|huhulist.com|quicktelecast.com|freemagazinespdf.com|hobbykafe.com|gtf.com.ng|splashbase.co|xn--nbkw38mlu2a.com|yuki0918kw.com|bcanotesnepal.com|conoscereilrischioclinico.it|nvimfreak.com|ralli.ee|openstartup.tm|stablediffusionxl.com|techsbucket.com|f1ingenerale.com|maketoss.com|certificateland.com|camcam.cc|euskalnews.tv|mundovideoshd.com|studybullet.com|e-kitapstore.com|studybullet.com|zapcourses.com|eventiavversinews.it|sapphirescan.com|limontorrent.com|downloadtanku.org|techacode.com|claimsatoshi.xyz|claimtrx.com|onroid.com|codehelppro.com|sysguides.com|branditechture.agency|starwarsaddicted.it|ladypopularblog.com|novelasligeras.net|teluguflix.lol|branditechture.agency|team-octavi.com|azdly.com|mxcity.mx|softcobra.com|technorj.com|cizgifilmizle.info|kawaguchimaeda.com|herenscan.com|coursesdaddy.com|forum.release-apk.com|erreguete.gal|milanreports.com|freedom3d.art|plantswith.com|gazzettarossonera.it|network-knowledge.work|minioppai.org|bugswave.com|tech-bloggers.in|khohieu.com|automothink.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=worldappsstore.xyz
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=wp.pl
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=wp.pl|o2.pl|pudelek.pl|so-magazyn.pl
@@ -12135,6 +12140,8 @@
 @@||qbox.me/static/js/ads.js$domain=linux.cn
 @@||qccommunity.qcloudimg.com^$stealth,domain=cloud.tencent.com
 @@||qcheng.cc/x/statics/js/guanggao.
+@@||qds.it/wp-content/plugins/digistream/digiplayer/js/videojs-share.min.js?$script,~third-party
+@@||qds.it/wp-content/plugins/digistream/digiplayer/js/videojs.ga.js?$script,~third-party
 @@||qhimg.com^*/monitor_analytic.
 @@||qhres.com^*/monitor_analytic.js$domain=mse.360.cn
 @@||qhres2.com^$domain=baike.so.com
@@ -13258,6 +13265,7 @@
 @@||sexgalaxy.net/wp-includes/js^
 @@||sexkbj.com^$generichide
 @@||sextb.net^$generichide
+@@||sextb.xyz^$generichide
 @@||sexwebvideo.com/js/ad*.js
 @@||sexwebvideo.me/js/advertising.js
 @@||seyise8.com^$generichide
@@ -15936,6 +15944,7 @@
 @@||xfreehd.com^$generichide
 @@||xg4ken.com/trk/*&adgroupid=
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
+@@||xhamster*.*/*/api/ads$xmlhttprequest,~third-party
 @@||xhamster*/*/api/ad/common/banners/ads/assets/*/clever_ads.js$~third-party
 @@||xhamster.com/ajax/
 @@||xhcdn.com/*.mp4$domain=xhamster.com
