@@ -2,10 +2,10 @@
 ! Title: Sereinfy Adrules
 ! Homepage: https://github.com/Sereinfy/Adrules
 ! Expires: 24 Hours
-! Last modified: 2024-03-16 01:13:30（北京时间)
+! Last modified: 2024-03-17 01:12:35（北京时间)
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Version: 20240316011330
-! Total count: 16204
+! Version: 20240317011235
+! Total count: 16205
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=stfly.cc
@@ -8736,6 +8736,8 @@
 @@||kikra.jp.com^$generichide
 @@||kiktu.com^$generichide
 @@||kikupload.xyz^$generichide
+@@||kilimall.co.ke/sensorsdata.min.js$~third-party
+@@||kilimall.co.tz/sensorsdata.min.js$~third-party
 @@||kimcartoon.me/Scripts/$~third-party
 @@||kimcartoon.me/Search/$xmlhttprequest
 @@||kimcartoon.me/Special/AreYouHuman$xmlhttprequest
@@ -14154,7 +14156,7 @@
 @@||suntory.co.jp/beer/kinmugi/css2020/ad.css?
 @@||suntory.co.jp/beer/kinmugi/img/ad/$image,~third-party
 @@||super-ethanol.com^$generichide
-@@||supercloudsms.com/static/js/taboola_ads.js
+@@||supercloudsms.com/static/ad/ads.js
 @@||supersoluce.com^$generichide
 @@||superwall.us/js/adsbygoogle.js
 @@||superyachtfan.com^$generichide
@@ -15897,7 +15899,6 @@
 @@||www.statcounter.com/images/$image,third-party
 @@||www.ticketmaster.$popup,domain=adclick.g.doubleclick.net
 @@||www.ups.com/WebTracking/processInputRequest
-@@||www.youtube.com/s/desktop/ad$script
 @@||www.youtube.com^$generichide
 @@||www.zee5.com^$stealth,domain=zee5.com
 @@||wwwcache.wral.com/presentation/v3/scripts/providers/analytics/ga.js$~third-party
