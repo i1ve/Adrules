@@ -2,10 +2,10 @@
 ! Title: Sereinfy Adrules
 ! Homepage: https://github.com/Sereinfy/Adrules
 ! Expires: 24 Hours
-! Last modified: 2024-03-21 01:11:17（北京时间)
+! Last modified: 2024-03-22 01:13:08（北京时间)
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Version: 20240321011117
-! Total count: 16218
+! Version: 20240322011308
+! Total count: 16228
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=stfly.cc
@@ -124,7 +124,7 @@
 @@/ad-inserter*/*/*.js$domain=bi-girl.net|itbusiness.com.ua|wikirise.com|mejoresmodsminecraft.site|5moviesporn.net|freewebcart.com|wristreview.com|pasend.cam|javnow.net|gcertificationcourse.com|pinayvids.com|secondlifetranslations.com|mettablog.com|freebulksmsonline.com|victor-mochere.com
 @@/ad-inserter*/images/ads.png$domain=bi-girl.net|itbusiness.com.ua|wikirise.com|mejoresmodsminecraft.site|5moviesporn.net|freewebcart.com|wristreview.com|pasend.cam|javnow.net|gcertificationcourse.com|pinayvids.com|secondlifetranslations.com|mettablog.com|freebulksmsonline.com|victor-mochere.com
 @@/ad.aspx|$domain=biqudao.com|ldzw.com|xdingdiann.com
-@@/ad.js$domain=tiktokcounter.net
+@@/ad.js$domain=tiktokcounter.net|crypto-radio.eu
 @@/ad.js$~third-party,domain=giveaway.su
 @@/ad.sense/ad-m.js$~third-party
 @@/ad/banner/_adsense_/_adserver/_adview_.ad.json
@@ -154,7 +154,7 @@
 @@/adlink-$domain=electronics-lab.com|intel.com
 @@/admanager.$domain=player.theplatform.com
 @@/admanager/*$domain=woego.cn
-@@/adpartner.min.js$domain=tiktokcounter.net
+@@/adpartner.min.js$domain=tiktokcounter.net|crypto-radio.eu
 @@/adpic/*$domain=baike.baidu.com|czsrc.com|nieyou.com|ontheup.com.tw|zform.net
 @@/adpro.js$domain=tingfm.com
 @@/adrum.js$domain=usbank.com
@@ -817,7 +817,7 @@
 @@||a.magsrv.com/video-slider.js$domain=daemonanime.net
 @@||a.mailmunch.co/app/$domain=getfitwithjen.net
 @@||a.poki.com/prebid/$script,domain=poki-gdn.com|repuls.io
-@@||a.pub.network/core/prebid-universal-creative.js$script,domain=hostednovel.com|getemoji.com|concertarchives.org|mouse-sensitivity.com|thisisanfield.com|titantv.com|baeldung.com|creaders.net|virtualpiano.net|phoronix.com|androidheadlines.com
+@@||a.pub.network/core/prebid-universal-creative.js$script,domain=hostednovel.com|getemoji.com|concertarchives.org|mouse-sensitivity.com|thisisanfield.com|titantv.com|baeldung.com|creaders.net|virtualpiano.net|phoronix.com|androidheadlines.com|myabandonware.com
 @@||a.pub.network/core/pubfig/cls.css$domain=vrcmods.com
 @@||a.pub.network/crewbase-net/pubfig.min.js$script,domain=allcryptoz.net|crewbase.net|crewus.net|shinchu.net|thumb8.net|thumb9.net|uniqueten.net
 @@||a.pub.network/vrcmods-com/pubfig.min.js$domain=vrcmods.com
@@ -1722,6 +1722,7 @@
 @@||animesanka.club^$generichide
 @@||animesanka.com^$generichide
 @@||animeshouse.net/mp4doo/$stealth
+@@||animesonline.nz/noance/$subdocument,stealth=referrer
 @@||animesrbija.com^$generichide
 @@||animesvision.biz^$generichide
 @@||animet.tv^$generichide
@@ -4737,7 +4738,6 @@
 @@||debijenkorf.de/etc/designs/debijenkorf-website/responsive-assets/bundles/clientlib-dbk/*/CookieBar-chunk.$domain=debijenkorf.de
 @@||decomaniacos.es^$generichide
 @@||decorardicas.com.br^$stealth
-@@||decrypt.day^$generichide
 @@||deep-vision.cloud/graphql$stealth=3p-auth,domain=doveze.cz
 @@||deepbrid.com/backend-dl/app/views/site/default/ads/advertisement.js
 @@||deezer.com^$generichide
@@ -4884,7 +4884,6 @@
 @@||diysideas.com^$generichide
 @@||dizhi99.com^$generichide
 @@||diziflix.co^$generichide
-@@||dizigom1.com^$generichide
 @@||dizipal*.com^$generichide
 @@||dizzall.com/online/plus/$stealth=referrer
 @@||djnf6e5yyirys.cloudfront.net/js/friendbuy.min.js$domain=coursera.org
@@ -5027,7 +5026,6 @@
 @@||download.com/ad-
 @@||download.hr/module/detector/adsbygoogle.js
 @@||download.inventivetalent.org/external/adfly/make.php
-@@||download.jumpw.com^
 @@||download.megaup.net/*.js$~third-party
 @@||download.mokeedev.com/ad*.php$generichide
 @@||download.mokeedev.com/js/show_ads_impl.js$domain=download.mokeedev.com
@@ -6797,6 +6795,7 @@
 @@||googletagmanager.com/gtag/js$domain=hitta.se
 @@||googletagmanager.com/gtag/js$domain=hmoeh.com
 @@||googletagmanager.com/gtag/js$domain=html5.gamedistribution.com
+@@||googletagmanager.com/gtag/js$domain=kaft.com
 @@||googletagmanager.com/gtag/js$domain=klix.ba
 @@||googletagmanager.com/gtag/js$domain=lightrun.com
 @@||googletagmanager.com/gtag/js$domain=linkpoi.me|exey.io|eririo.club|freshi.site|exe.app|eio.io
@@ -8104,6 +8103,7 @@
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=supergames.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=swiatgwiazd.pl
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=swipeto.pl
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=syok.my
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=tarnowska.tv
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=telegraf.rs|telegraf.tv
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=tenceretv.com
@@ -8491,6 +8491,7 @@
 @@||japan.techinsight.jp^$generichide
 @@||japanreader.com/uploads/$image,stealth,domain=visortmo.com
 @@||jav-asia.top^$generichide
+@@||jav-scvp.com^$generichide
 @@||jav777.cc/advertise/
 @@||jav777.xyz/advertise/
 @@||jav777.xyz^$generichide
@@ -9371,6 +9372,7 @@
 @@||markenmehrwert.com/static/js/cookie-consent/$domain=jura-haendlerfinder.de
 @@||market.correos.es/static/cookie-consent/css/style.css
 @@||marketing.dropbox.com/?referrer=$stealth
+@@||marketing.unionpayintl.com/offer-promote/static/sensorsdata.min.js$script,~third-party
 @@||marketingautomation.services^$script,domain=leeuwerik.nl
 @@||marketmovers.it^$generichide
 @@||marketo.com//index.php/form/
@@ -9938,6 +9940,7 @@
 @@||mx-sh.net/advertisements.js
 @@||mx-sh.net^$generichide
 @@||mxcity.mx^$generichide
+@@||mxcontent.net/*.mp4$media,stealth=referrer
 @@||mxpnl.com/libs/mixpanel-*.min.js$domain=change.org|frigidaire.com
 @@||mxpnl.com/libs/mixpanel-*.min.js$domain=change.org|thefrisky.com
 @@||mxpnl.com/libs/mixpanel-*.min.js$domain=deezer.com
@@ -9963,6 +9966,7 @@
 @@||my.prom.ua/*/iframe$stealth
 @@||my.prom.ua/remote/
 @@||my.westfieldinsurance.com^$document
+@@||myabandonware.com/wp-content/plugins/wp-banners/js/wp-banners.js
 @@||myaccount.chicagotribune.com/assets/scripts/tag-manager/googleTag.js$~third-party
 @@||myaccount.google.com^$generichide
 @@||myadcash.com/video_landing/js/jquery.inview.min.js$domain=multiup.org
@@ -10550,6 +10554,7 @@
 @@||ott.yandex.ru^$stealth
 @@||ouestfrance-immo.com/min/*/js/common/*/cmp_didomi.js
 @@||ouofly.com^$generichide
+@@||outbrainimg.com^$third-party,domain=computerbild.de|fitbook.de|metal-hammer.de|rollingstone.de|stylebook.de
 @@||outkick.com/wp-content/plugins/advanced-ads-pro/assets/js/
 @@||outkick.com/wp-content/plugins/advanced-ads/public/assets/js/advanced.min.js
 @@||outlook.live.com/owa/projection.aspx$document
@@ -10754,7 +10759,6 @@
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=darkwiki.in
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=dausel.co
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=deblocker.merkulov.design
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=decrypt.day
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=deezloaded.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=di.fm
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=diffnow.com
@@ -11174,6 +11178,7 @@
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=uploadbox.io
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=upshrink.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=vector-eps.com
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=veev.to
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=viajarsinmotivo.site
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=vidlii.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=viki.com
@@ -12340,6 +12345,7 @@
 @@||rd.ias.global.rakuten.com/adv/$domain=24.rakuten.co.jp
 @@||rddywd.com/adcode.png$domain=joblo.com
 @@||rddywd.com/adcode.png$domain=populistpress.com|canadafreepress.com|thelibertydaily.com|writerscafe.org|populist.press|welovetrump.com|grammarist.com|protrumpnews.com|concomber.com|videogamesblogger.com|gamersheroes.com|letocard.fr|100percentfedup.com|thepalmierireport.com|kresy.pl|beforeitsnews.com|thepatriotjournal.com|phoenixnewtimes.com|thepoke.co.uk|comicallyincorrect.com|thegatewaypundit.com
+@@||rddywd.com/advertising.js$domain=herokuapp.com
 @@||rddywd.com/advertising.js$domain=populistpress.com|canadafreepress.com|thelibertydaily.com|writerscafe.org|populist.press|welovetrump.com|grammarist.com|protrumpnews.com|concomber.com|videogamesblogger.com|gamersheroes.com|letocard.fr|100percentfedup.com|thepalmierireport.com|kresy.pl|beforeitsnews.com|thepatriotjournal.com|phoenixnewtimes.com|thepoke.co.uk|comicallyincorrect.com|thegatewaypundit.com
 @@||rdrtr.com/*url=
 @@||rdsubfrm.relateddigital.com/api/Unsubscription
@@ -12972,8 +12978,10 @@
 @@||securenetsystems.net/*/scripts/ads/prebid.js
 @@||securenetsystems.net/cirruscontent/js/prebid.js
 @@||securenetsystems.net/v5/scripts/
+@@||securepubads.g.doubleclick.net/*/gpt.js$domain=tiktokcounter.net|crypto-radio.eu
 @@||securepubads.g.doubleclick.net/*/pubads_impl*.js$domain=cinemaxx.de
 @@||securepubads.g.doubleclick.net/*/pubads_impl*.js$script,domain=financemonk.net|rtxkeeda.com|houseofblogger.com|dropgalaxy.com|djxmaza.in|miuiflash.com|thecubexguide.com|jytechs.in
+@@||securepubads.g.doubleclick.net/*/pubads_impl.js$domain=tiktokcounter.net|crypto-radio.eu
 @@||securepubads.g.doubleclick.net/gampad/ads$domain=castlesiege.io
 @@||securepubads.g.doubleclick.net/gampad/ads$domain=cinemaxx.de
 @@||securepubads.g.doubleclick.net/gampad/ads$domain=cityam.com
@@ -15216,6 +15224,7 @@
 @@||usercentrics.eu^$domain=kicker.de
 @@||usercentrics.eu^$domain=liebscher-bracht.com
 @@||usercentrics.eu^$domain=paketshop.myhermes.de
+@@||usercentrics.eu^$domain=rts.ch
 @@||usercentrics.eu^$domain=villeroy-boch.fr
 @@||usercentrics.eu^$script,xmlhttprequest,domain=muenchen.de
 @@||usercentrics.eu^$third-party,domain=festool.*|festoolcanada.com|festoolusa.com
@@ -15494,6 +15503,7 @@
 @@||vnhax.com^$generichide
 @@||vo.msecnd.net^$domain=gsmarena.com
 @@||vod*.myqcloud.com^$stealth,domain=cloud.tencent.com
+@@||vod-*=video/mp4$media,stealth=referrer,domain=animesonline.nz
 @@||vod.olympics2010.msn.com/beacon?
 @@||vod.tvp.pl^$generichide
 @@||vod.universalsports.com/beacon?
