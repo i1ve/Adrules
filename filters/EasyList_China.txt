@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: rn9P0RqvFm56oK3uJRWsig
-! Version: 202403201602
+! Checksum: JH/wpewaXphJH6cHcLsxKQ
+! Version: 202403211601
 ! Title: EasyList China
-! Last modified: 20 Mar 2024 16:02 UTC
+! Last modified: 21 Mar 2024 16:01 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -2078,6 +2078,16 @@ newduba.cn###jq_youxi
 ||zjrtxt.xyz^
 ||znhlxvb.xyz^
 ||zojyob.icu^
+||eaqlos.xyz^
+||jqbddp.xyz^
+||uxzvjoj.cn^
+||cfrtdmb.xyz^
+||vcnpnf.xyz^
+||ctyusif.top^
+||grtarpcf963.top^
+||dngbjyc.cn^
+||qhemphox.com^
+||f7fe0.cyou^
 ||zopuqv.icu^
 ||zsjpi.cn^
 ||zttuvj.xyz^
@@ -16886,6 +16896,7 @@ android-doc.com,apk.tw,chaojizhibo.net,chtoen.com,dizhishengcheng.com,doitwell.t
 @@||9zvip.net^$elemhide
 @@||a.alimama.cn/tkapi$domain=ieeee.com
 @@||abchina.com^*ad
+@@||tvbanywherena.com^$generichide
 @@||aboluowang.com^$generichide
 @@||acgbenzi.com//dist/images/top.png
 @@||acgdraw.com/ad$xmlhttprequest
