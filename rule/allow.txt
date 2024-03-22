@@ -2,10 +2,10 @@
 ! Title: Sereinfy Adrules
 ! Homepage: https://github.com/Sereinfy/Adrules
 ! Expires: 24 Hours
-! Last modified: 2024-03-22 01:13:08（北京时间)
+! Last modified: 2024-03-23 01:17:33（北京时间)
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Version: 20240322011308
-! Total count: 16228
+! Version: 20240323011733
+! Total count: 16230
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=stfly.cc
@@ -2359,7 +2359,6 @@
 @@||b24-*.bitrix24.ru^$xmlhttprequest,elemhide,jsinject,extension
 @@||b90.yahoo.co.jp/conv.js$domain=www3.nissan.co.jp
 @@||b92.yahoo.co.jp/js/s_retargeting.js$domain=www3.nissan.co.jp
-@@||babia.to^$generichide
 @@||babiato.co^$generichide
 @@||bachhoaxanh.com^$stealth=dpi
 @@||backerkit.com/backer/survey$stealth
@@ -3937,7 +3936,7 @@
 @@||cloudflare.com/ajax/libs/fingerprintjs2/*/fingerprint2.min.js$domain=nfmovies.com
 @@||cloudflare.com/ajax/libs/fuckadblock/$domain=seselah.com
 @@||cloudflare.com/analytics?$domain=cloudflare.com
-@@||cloudflare.com/cdn-cgi/trace$domain=infyspringboard.onwingspan.com|myair.resmed.com
+@@||cloudflare.com/cdn-cgi/trace$domain=infyspringboard.onwingspan.com|injora.com|myair.resmed.com
 @@||cloudflare.com^$script,domain=rule34hentai.net
 @@||cloudflare.com^$script,stylesheet,domain=canyoublockit.com
 @@||cloudflare.com^*/videojs-contrib-ads.js$domain=wtk.pl
@@ -4864,6 +4863,7 @@
 @@||discretemath.org/ads/
 @@||discretemath.org^$image,stylesheet
 @@||disneyplus.com^$generichide
+@@||disneyplus.com^$generichide,badfilter
 @@||disneyplus.disney.co.jp/view/vendor/analytics/$~third-party
 @@||dispatcher.oewabox.at^$domain=krone.at
 @@||display.ad.daum.net/sdk/native?ctag=$domain=daum.net
@@ -5026,6 +5026,7 @@
 @@||download.com/ad-
 @@||download.hr/module/detector/adsbygoogle.js
 @@||download.inventivetalent.org/external/adfly/make.php
+@@||download.jumpw.com^
 @@||download.megaup.net/*.js$~third-party
 @@||download.mokeedev.com/ad*.php$generichide
 @@||download.mokeedev.com/js/show_ads_impl.js$domain=download.mokeedev.com
@@ -6096,7 +6097,6 @@
 @@||gdr-online.com/adv/ads.js
 @@||gdr-online.com^$generichide
 @@||gdrivez.xyz^$generichide
-@@||gearingcommander.com/js/adsbygoogle.js
 @@||geekbang.org/resource/image/ad/14/addb521e20de1a302206f4286eac3914.png
 @@||geekering.com^$generichide
 @@||geekermag.com^$generichide
@@ -10854,6 +10854,7 @@
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=gamingnews.live
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=garoetpos.com|ketubanjiwa.com|movierulzhd.skin|ayatoon.com|gaminplay.com|dbsysupgrade.com|therootdroid.com|sevenjournals.com|7apple.net|jorgemoncada.com|hollywoodsmagazine.com|anicosplay.net|ewybory.eu|nanoroms.com|egymanga.net|flipreview.com|hiphopa.net|pngtosvg.com|compartilhandobr.com|loksado.com|ecoursefree.com|daemon-hentai.com|yigeplus.xyz|launcherfull.com|cheatbyte.com|techycoder.com|arasindakifark.net|kitguru.net|gsmxt.com|mangaxp.com|technicalatg.com|technicalatg.xyz|freetutorialsdownload.online|toolss.net|vipmods.net|adonisfansub.com|bitcoinegypt.news|talkjarvis.com|satcesc.com|getfreecourses.net|citychilli.com|livenewsof.com|pinayvids.com|hardcoregames.ca|pasend.cam|unityassetcollection.com|crypto-fun-faucet.de|fileoops.com|samuraiscan.com|3dmodelshare.org|cgtips.org|dailyvideoreports.net|codesnail.com|ma-x.org|sitarchive.com|onlyfanesse.com|codingshiksha.com|graphicux.com|w3layouts.com|musike.net|windowsmatters.com|avoiderrors.com|gatcha.org|4horlover.com|topnewsshow.com|3dzip.org|ovagames.com|lewdsenpai.com|mitsmits.com|openculture.com|udemycoursesfree.me|asyadrama.com|apfelpatient.de|agorablog.it|r3ndy.com|mylivewallpapers.com|e-sanatatea.ro|latestjav.com|sakpot.com|wallpaperwaifu.com|news.claimfey.com|mangacrab.com|baddiehub.com|asuralightnovel.com|javboys.com|joyplot.com|cyberstockofficial.in|pastlinkvn.com|rpclip.com|doibihar.org|ffworld.xyz|31mag.nl|luutrukienthuc.com|poapan.xyz|guiadaengenharia.com|magesypro.pro|magesypro.com|magesy.blog|majesy.org|magesy.eu|magesy.fr|magesy.eu|leviatanscans.com|taurusfansub.com|movierulzhd.site|fastssh.com|igay69.com|mangapt.com|kodlamamerkezi.com|novelasligera.com|descargaspcpro.net|bbsnews.co.id|4allprograms.me|ethernalworld.com|gaypornhot.com|javgay.com|boyfuck.me|javboys.tv|smarttips.in|engtranslations.com|lascimmiapensa.com|powerup-gaming.com|infortechno.com|watchfacebook.com|domhouse.it|aquiyahorajuegos.net|informatykit.it|gourmetsupremacy.com|summertoon.com|meganei.net
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=gaypornhdfree.com|dvdgayonline.com
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=gearingcommander.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=genesisowners.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=genoanime.tv
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=germancarforum.com
@@ -15743,6 +15744,7 @@
 @@||whowantstuffs.blogspot.com^$generichide
 @@||widget.beesender.com/*/chunk-vendors.js$domain=cab.meest.cn
 @@||widget.beesender.com/*/widget.js$domain=cab.meest.cn
+@@||widget.fitanalytics.com/widget.js$domain=pullandbear.com
 @@||widget.fitanalytics.com/widget.js$script,domain=pullandbear.com
 @@||widget.kassa.rambler.ru/CrossDomainInteraction/$stealth
 @@||widget.myrentacar.me^$script,subdocument
@@ -16144,7 +16146,7 @@
 @@||yoututosjeff.es^$generichide
 @@||yt.upshrink.com/adex.js
 @@||ytimg.com^*_banner$domain=youtube.com
-@@||ytlarge.com^$script,~third-party
+@@||ytlarge.com^$script,subdocument,~third-party
 @@||ytmp3.eu/en45/pagead/js/adsbygoogle.js$xmlhttprequest,~third-party
 @@||yu.xyz.mn/images/event.gif?$image,~third-party
 @@||yuki0918kw.com^$generichide
