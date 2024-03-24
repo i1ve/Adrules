@@ -2,10 +2,10 @@
 ! Title: Sereinfy Adrules
 ! Homepage: https://github.com/Sereinfy/Adrules
 ! Expires: 24 Hours
-! Last modified: 2024-03-24 01:12:24（北京时间)
+! Last modified: 2024-03-25 01:12:18（北京时间)
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Version: 20240324011224
-! Total count: 16231
+! Version: 20240325011218
+! Total count: 16233
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=stfly.cc
@@ -12844,6 +12844,7 @@
 @@||sdk.privacy-center.org/*/loader.js$domain=naszemiasto.pl|dziennikbaltycki.pl|dzienniklodzki.pl|dziennikpolski24.pl|echodnia.eu|expressbydgoski.pl|expressilustrowany.pl|gazetakrakowska.pl|gazetalubuska.pl|gazetawroclawska.pl|gk24.pl|gloswielkopolski.pl|gol24.pl|gp24.pl|gra.pl|gs24.pl|kurierlubelski.pl|motofakty.pl|nowiny24.pl|nowosci.com.pl|nto.pl|polskatimes.pl|pomorska.pl|poranny.pl|sportowy24.pl|strefaagro.pl|strefabiznesu.pl|stronakobiet.pl|telemagazyn.pl|to.com.pl|wspolczesna.pl|stronazdrowia.pl|strefaedukacji.pl|stronapodrozy.pl|stronakuchni.pl|gra.pl|e-ogrodek.pl
 @@||sdk.privacy-center.org/*/loader.js$domain=numerama.com
 @@||sdk.privacy-center.org/*/loader.js$domain=orf.at
+@@||sdk.privacy-center.org/*/loader.js?$domain=euronews.com
 @@||sdk.privacy-center.org/*/loader.js?$domain=krone.at|goplay.be
 @@||sdk.privacy-center.org/loader.js$domain=nieuwsblad.be
 @@||sdk.privacy-center.org/loader.js$domain=standaard.be
@@ -12860,6 +12861,7 @@
 @@||sdk.privacy-center.org/sdk/*.js$domain=gmenhq.com|jaysjournal.com|aroundthefoghorn.com
 @@||sdk.privacy-center.org/sdk/*.js$domain=goplay.be
 @@||sdk.privacy-center.org/sdk/*.js$domain=numerama.com
+@@||sdk.privacy-center.org/sdk/*/modern/*.js$domain=euronews.com
 @@||sdk.privacy-center.org/ui-gdpr*.js$domain=krone.at|goplay.be
 @@||sdk.privacy-center.org/ui-gdpr-*.js$domain=filmweb.pl
 @@||sdk.privacy-center.org/ui-gdpr-*.js$domain=gamepro.de
