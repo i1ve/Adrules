@@ -2,10 +2,10 @@
 ! Title: Sereinfy Adrules
 ! Homepage: https://github.com/Sereinfy/Adrules
 ! Expires: 24 Hours
-! Last modified: 2024-03-26 01:13:41（北京时间)
+! Last modified: 2024-03-27 01:12:39（北京时间)
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Version: 20240326011341
-! Total count: 16238
+! Version: 20240327011239
+! Total count: 16243
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=stfly.cc
@@ -2571,6 +2571,7 @@
 @@||bild.met.vgwort.de/na^$domain=bild.de
 @@||bilder-a.akamaihd.net/ip/js/ipdvdc/blockadblock.min.js$domain=rtl.de
 @@||bilder-a.akamaihd.net/ip/js/ipdvdc/ipdvdc.min.js$domain=n-tv.de|toggo.de|vip.de
+@@||bilibili.com/*/newplayer.html$stealth=referrer
 @@||bilibili.com^*/web_page_view?$domain=message.bilibili.com
 @@||bilivideo.com^$stealth,domain=bilibili.com
 @@||billiger.de/js/emos2.js
@@ -3010,6 +3011,7 @@
 @@||cdn-ukwest.onetrust.com/scripttemplates/otSDKStub.js$domain=nintendolife.com|pushsquare.com|purexbox.com|timeextension.com
 @@||cdn-ukwest.onetrust.com/vendorlist/iab2Data.json$domain=nintendolife.com|pushsquare.com|purexbox.com|timeextension.com
 @@||cdn-ukwest.onetrust.com^$domain=skyshowtime.com
+@@||cdn-ukwest.onetrust.com^$domain=super6.skysports.com
 @@||cdn.*.exponea.com/production*/consent?$subdocument,domain=proffsmagasinet.se|staypro.*
 @@||cdn.ablyft.com/s/$domain=giesswein.com
 @@||cdn.ad4game.com/ad4game_html5_sdk.js$domain=anime47.com
@@ -6661,6 +6663,7 @@
 @@||google.com/js/gweb/analytics/doubletrack.js$domain=android.com
 @@||google.com/maps/api/$stealth
 @@||google.com/maps/embed/v*/place?key=$stealth
+@@||google.com/pagead/landing$domain=godaddy.com
 @@||google.com/recaptcha/$csp,subdocument
 @@||google.com/recaptcha/$domain=pornhub.com|pornhub.org|pornhub.net
 @@||google.com/recaptcha/$domain=vidoza.net
@@ -10813,6 +10816,7 @@
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=examsnet.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=exey.io
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=exiledros.net
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=exuce.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=facciabuco.com|mifirm.net|derechadiario.com.ar|comnuan.com|zeelandnet.nl|abcya.com|vectorizer.io|alpinforum.com|infopedia.su|studopedia.net|studopedia.su|studopedia.org|studopedia.ru|studopedia.com.ua|lektsii.org|mydocx.ru|vimm.net|erfahrungen.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=faqwiki.us
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=faucet4news.xyz
@@ -13735,6 +13739,7 @@
 @@||srv.clickfuse.com/showads/showad.js$domain=aha-music.com
 @@||srv.tunefindforfans.com/showads/track/srvclk.php?
 @@||srv.vhls.ru.com/cdn/*/*/*.m3u8$stealth
+@@||srvtrck.com/assets/css/LineIcons.css$domain=work.ink
 @@||ss.phncdn.com^$script,domain=redtube.com|redtube.net
 @@||ssante.com^$generichide
 @@||sshagan.net^$generichide
