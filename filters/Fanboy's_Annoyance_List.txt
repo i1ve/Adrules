@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202403271547
+! Version: 202403311112
 ! Title: Fanboy's Social Blocking List
-! Last modified: 27 Mar 2024 15:47 UTC
+! Last modified: 31 Mar 2024 11:12 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -2215,8 +2215,6 @@ _twitter_follow.
 ###social-bar
 ###social-bar-bottom
 ###social-bar-top
-###social-block
-###social-block-wrapper
 ###social-bookmark-container
 ###social-bookmarks-menu
 ###social-border
@@ -2237,7 +2235,6 @@ _twitter_follow.
 ###social-buttons-wrapper
 ###social-channels
 ###social-col
-###social-column
 ###social-community-popup
 ###social-context-container
 ###social-count
@@ -12401,6 +12398,7 @@ straitstimes.com##.field-name-telegram
 peepingmoon.com##.fixed-action-btn
 onegreenplanet.org##.fixed-ad
 indiatoday.in##.fixedshared
+testbook.com##.fl-social
 kick.com##.flex.flex-col.space-y-3
 techradar.com##.flipboard-icon
 thehackernews.com##.float-share
@@ -12611,6 +12609,7 @@ iranwire.com##.opinion-advertising
 dictionary.com##.otd-socials
 otakumode.com##.p-product-detail__social-buttons
 rogerebert.com##.page-content--byline-share--share
+brennancenter.org##.page-info-header__social
 odt.co.nz##.pane-odt-social-odt-social-rsb
 lifezette.com##.parler
 mondediplo.com##.partage
@@ -12695,6 +12694,7 @@ fintech.tv,war.ukraine.ua##.share-news
 thehackernews.com##.share-open-modal
 ig.com.br,rebelnews.com##.share-page
 commondreams.org,spectrum.ieee.org,theblaze.com##.share-panel
+thenationalpulse.com##.share-post-button
 aajtak.in,gnttv.com,indiatoday.in,indiatodayne.in##.share-social-icons
 alarabiya.net,timeextension.com##.share-this
 apkpure.net##.share-toolbox
@@ -12728,6 +12728,7 @@ japantimes.co.jp##.single-sns-area
 foodsforbetterhealth.com##.single-social-icon
 flyingmag.com##.single-social-share
 nme.com##.site-footer-social
+news.sky.com,skysports.com##.site-share-wrapper
 simplejoy.com##.sj-recipe-callout
 medcraveonline.com##.slide-on-scroll
 leagle.com##.sm-btns
@@ -12862,6 +12863,7 @@ hindustantimes.com##.subscribe-social
 newsandguts.com##.subscribeBar
 techweekmag.com##.supersharer
 locals.com##.support-now
+elsate.com##.swBar
 arigatojapan.co.jp##.swp-hover-pin-button
 dcrainmaker.com##.swp_floating_horizontal_wrapper
 elements.visualcapitalist.com,marktechpost.com##.swp_social_panel
@@ -12948,6 +12950,7 @@ retbit.com##.zox-post-soc-scroll-out
 retbit.com##.zox-post-soc-stat
 footwearnews.com,indiewire.com##[class^="_socialMedia_"]
 motortrend.com##[data-c="social-share"]
+news.sky.com##[data-component-name="sdc-article-strapline"]
 lifehacker.com##[data-ga-element="social-link"]
 sundayworld.com##[data-testid="article-share"]
 nytimes.com##[data-testid="social-group"]
@@ -13236,11 +13239,13 @@ terresinovia.fr##.lksociaux
 lesnumeriques.com##.ln__m-shr
 autoplus.fr##.nl-social
 europe1.fr##.partage
+quechoisir.org##.qc-footer_social-media-links
 moneyvox.fr##.reseau-soc-page
 terresinovia.fr##.reseaux-list
 pulsaroptics.fr##.reseaux_sociaux
 madagascar-tribune.com##.rezo_sociaux
 bledina.com##.rs-icon
+liberation.fr##.sc-eVBRet.htUQLJ
 la-croix.com##.send-article-icon
 quebeccoupongratuit.com##.share-site
 homap.fr##.share_content_button
