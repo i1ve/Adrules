@@ -25,7 +25,6 @@ DNS检测已失效域名: 21994
 
 | 规则 | 类型 | 原始链接 | 加速链接 | 更新日期 |
 |:-|:-|:-|:-|:-|
-| ADgk | filter | [原始链接](https://raw.githubusercontent.com/banbendalao/ADgk/master/ADgk.txt) | [加速链接](https://mirror.ghproxy.com/https://raw.githubusercontent.com/Sereinfy/Adrules/main/filters/ADgk.txt) | 2024/02/15 |
 | AdGuard Base filters | filter | [原始链接](https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_Base/filter.txt) | [加速链接](https://mirror.ghproxy.com/https://raw.githubusercontent.com/Sereinfy/Adrules/main/filters/AdGuard_Base_filters.txt) | 2024/03/28 |
 | AdGuard Chinese filters | filter | [原始链接](https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_224_Chinese/filter.txt) | [加速链接](https://mirror.ghproxy.com/https://raw.githubusercontent.com/Sereinfy/Adrules/main/filters/AdGuard_Chinese_filters.txt) | 2024/03/28 |
 | AdGuard Annoyances filter | filter | [原始链接](https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_14_Annoyances/filter.txt) | [加速链接](https://mirror.ghproxy.com/https://raw.githubusercontent.com/Sereinfy/Adrules/main/filters/AdGuard_Annoyances_filter.txt) | 2024/03/28 |
