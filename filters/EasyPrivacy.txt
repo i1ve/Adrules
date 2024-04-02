@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: WyPOwLV4y9T5Y/vqmlIoAA
-! Version: 202404011611
+! Checksum: Xh7K4zJHC05f1/jHBSxWbg
+! Version: 202404021611
 ! Title: EasyPrivacy
-! Last modified: 01 Apr 2024 16:11 UTC
+! Last modified: 02 Apr 2024 16:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -2899,6 +2899,7 @@ _WebVitalsReporter_
 .mjt.lu/oo/$image
 .mkt2684.com/eos/
 .mozilla.org/eos/$image
+.na1.hs-sales-engage.com/$image
 .ne16.com/do/
 .netcologne.de/-open2/$image
 .oculus.com/collect/
@@ -48205,6 +48206,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||indeed.com/rpc/log/myjobs/$~third-party
 @@||ipapi.co/json/$xmlhttprequest,domain=168.dailymaverick.co.za|audius.co
 @@||ipinfo.io/?token=$domain=assurancemortgage.com|webtv.ert.gr
+@@||ipinfo.io/json$domain=queye.co
 @@||ipv4.seeip.org/jsonip$domain=empire-streaming.app
 @@||join.southerncross.co.nz/quote/_assets/js/sx/app/helpers/gtm.js
 @@||js-agent.newrelic.com^$domain=alliantcreditunion.com|giftcards.com|kapwing.com
