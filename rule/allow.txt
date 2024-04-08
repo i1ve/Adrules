@@ -2,10 +2,10 @@
 ! Title: Sereinfy Adrules
 ! Homepage: https://github.com/Sereinfy/Adrules
 ! Expires: 24 Hours
-! Last modified: 2024-04-08 01:00:45（北京时间)
+! Last modified: 2024-04-09 01:00:46（北京时间)
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Version: 20240408010045
-! Total count: 16136
+! Version: 20240409010046
+! Total count: 16144
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=stfly.cc
@@ -454,6 +454,7 @@
 @@185.88.236.76:443$network
 @@185.88.236.77:443$network
 @@212.103.68.8:443$network
+@@43.240.156.118:8443^$stealth=referrer
 @@5.148.189.203:443$network
 @@5.148.189.204:443$network
 @@5.148.189.205:443$network
@@ -1289,6 +1290,7 @@
 @@||adsterra.com/images/*.png$image,domain=unlockapk.com
 @@||adswizz.com/adswizz/js/SynchroClient*.js$script,third-party,domain=jjazz.net
 @@||adswizz.com/sca_newenco/$xmlhttprequest,domain=triplem.com.au
+@@||adswizz.com^$domain=noz.de
 @@||adsy.pw^$generichide
 @@||adtech.de/dt/common/DAC.js$domain=ekstrabladet.dk
 @@||adtech.de/dt/common/DAC.js$domain=mitti.se
@@ -1898,6 +1900,7 @@
 @@||api.mapy.cz^$stealth
 @@||api.mercari.jp^$stealth
 @@||api.mghubcdn.com/graphql$stealth
+@@||api.mi-img.com^$stealth=referrer
 @@||api.minecraftservices.com^$stealth
 @@||api.mixpanel.com/engage/?data=$xmlhttprequest,domain=deezer.com
 @@||api.mixpanel.com/track/*$domain=etcher.io
@@ -4129,6 +4132,7 @@
 @@||config.eu.usercentrics.eu/settings/*.json$domain=dealer.porsche.com
 @@||config.eu.usercentrics.eu/translations/*.json$domain=dealer.porsche.com
 @@||config.eu.usercentrics.eu^$domain=loewenbraeukeller.com
+@@||config.gorgias.chat^$domain=thefeed.com
 @@||config.playwire.com/*/zeus.json$domain=explosm.net
 @@||connatix.com*/connatix.player.$script,domain=ebaumsworld.com|funker530.com|tvinsider.com|washingtonexaminer.com
 @@||connatix.com/min/connatix.renderer.infeed.min.js$domain=accuweather.com|collider.com|gamepress.gg|salon.com
@@ -4202,6 +4206,7 @@
 @@||consent.cookiefirst.com^$domain=proaurum.de
 @@||consent.faz.net/Notice.*.js$domain=consent.faz.net
 @@||consent.gutefrage.net/Notice.*.js
+@@||consent.noz.de/unified/wrapperMessagingWithoutDetection.js$domain=noz.de
 @@||consent.portsmouth.co.uk/Notice.*.js$domain=consent.portsmouth.co.uk
 @@||consent.shieldsgazette.com/Notice.*.js
 @@||consent.snmmd.nl/js/cookiebar-latest.js$domain=libelletv.nl
@@ -10897,6 +10902,7 @@
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=magesy.blog|magesy.pro
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=malaysianwireless.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=malekal.com
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=maos4alaw.online
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=mathdf.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=mazmorra.io
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=md5hashing.net
@@ -10985,7 +10991,7 @@
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=quizack.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=radiotunes.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=ravenscans.com|oatuu.org|techedubyte.com
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=rbtv77.*|live-streamfootball.*|superabbit77.*|superabbit33.*|superdom77.*|superlee77.*|superleo77.*|superargo77.*|superbarca77.*|linelocatemfsn.*|homebasis4d.*|mindmotion93y8.*
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=rbtv77.*|live-streamfootball.*|superabbit77.*|superabbit33.*|superdom77.*|superlee77.*|superleo77.*|superargo77.*|superbarca77.*|linelocatemfsn.*|homebasis4d.*|mindmotion93y8.*|monkeynecktj4w.*
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=realadmin.ru
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=receive-sms-online.info
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=receivesms.org|receivesms.co
@@ -14178,6 +14184,7 @@
 @@||t.adcell.com/forward?*pepper.$popup
 @@||t.adcell.com/p/click?$popup,domain=pepper.*
 @@||t.adcell.com/p/click?*pepper.$popup
+@@||t.cpdsrv.de/cpt.js$domain=noz.de
 @@||t.huv.kr/thumb_crop_resize.php$stealth
 @@||t.propbn.com/redirect/?spot_id=$domain=proporn.com
 @@||t2.hulu.com/*/adinteraction^$domain=player.hulu.com
@@ -14345,6 +14352,7 @@
 @@||tecknity.com^$generichide
 @@||teclane.com^$generichide
 @@||tecnomusic-evolution.com^$generichide
+@@||teenstar.it/wp-content/plugins/webtoffee-gdpr-cookie-consent/public/js/cookie-law-info-public.js
 @@||teenvogue.com/js/eventTracker.js
 @@||tehnotone.com^$generichide
 @@||tekfame.com/wp-content/plugins/ad-inserter/*/*.js
