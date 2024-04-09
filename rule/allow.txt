@@ -2,10 +2,10 @@
 ! Title: Sereinfy Adrules
 ! Homepage: https://github.com/Sereinfy/Adrules
 ! Expires: 24 Hours
-! Last modified: 2024-04-09 01:00:46（北京时间)
+! Last modified: 2024-04-10 01:00:38（北京时间)
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Version: 20240409010046
-! Total count: 16144
+! Version: 20240410010038
+! Total count: 16154
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=stfly.cc
@@ -265,7 +265,7 @@
 @@/dh-new-anti-adblocker-lite/public/js/prebid-ads.js
 @@/dist/cookieconsent.js$domain=apexlegendsstatus.com
 @@/email-decode.min.js$domain=linkneverdie.net
-@@/embed/*$stealth=referrer,subdocument,domain=sportsonline.*|sportstream.website|elixx.xyz|primefoot.ru
+@@/embed/*$stealth=referrer,subdocument,domain=ldcstreaming.info|sportsonline.*|sportstream.website|elixx.xyz|primefoot.ru
 @@/embed/*$subdocument,stealth,domain=strims.*|daddylive.*
 @@/eu_cookie_compliance.$domain=maanmittauslaitos.fi
 @@/favicon.ico$domain=avaxhome.co
@@ -292,8 +292,8 @@
 @@/hitCount_$xmlhttprequest,domain=on.cc
 @@/hls.key$stealth
 @@/hls/*.m3u8$stealth
-@@/hls/*.m3u8$stealth=referrer,domain=lovesomecommunity.com|b4ucast.com|thegentleclass.com
-@@/hls/*.ts$stealth=referrer,domain=abolishstand.net|planetfastidious.net|thegentleclass.com
+@@/hls/*.m3u8$stealth=referrer,domain=techclips.net|focus4ca.com|lovesomecommunity.com|b4ucast.com|thegentleclass.com
+@@/hls/*.ts$stealth=referrer,domain=techclips.net|abolishstand.net|planetfastidious.net|thegentleclass.com
 @@/home/ads/*$domain=esunbank.com.tw
 @@/iframe*.php$subdocument,stealth,domain=dizipal700.com|dizipal701.com|dizipal702.com|dizipal703.com|dizipal704.com|dizipal705.com|dizipal706.com|dizipal707.com|dizipal709.com|dizipal710.com|dizipal711.com|dizipal712.com|dizipal713.com|dizipal714.com|dizipal715.com|dizipal716.com|dizipal717.com|dizipal718.com|dizipal719.com|dizipal720.com|dizipal721.com|dizipal722.com|dizipal723.com|dizipal724.com|dizipal725.com|dizipal726.com|dizipal727.com|dizipal728.com|dizipal730.com|dizipal731.com|dizipal732.com|dizipal733.com|dizipal734.com|dizipal735.com|dizipal736.com|dizipal737.com|dizipal738.com|dizipal739.com|dizipal740.com|dizipal741.com|dizipal743.com|dizipal745.com|dizipal755.com|dizipal801.com|dizipal802.com|dizipal803.com|dizipal804.com|dizipal805.com|dizipal806.com|dizipal807.com|dizipal808.com|dizipal809.com|dizipal810.com|dizipal811.com|dizipal812.com|dizipal813.com|dizipal814.com|dizipal815.com|dizipal816.com|dizipal817.com|dizipal818.com|dizipal819.com|dizipal820.com|dizipal821.com|dizipal822.com|dizipal823.com|dizipal824.com|dizipal825.com|dizipal826.com|dizipal827.com|dizipal828.com|dizipal829.com|dizipal830.com|dizipal831.com|dizipal832.com|dizipal833.com|dizipal834.com|dizipal835.com|dizipal836.com|dizipal837.com|dizipal838.com|dizipal839.com|dizipal840.com|dizipal841.com|dizipal842.com|dizipal843.com
 @@/image/*$xmlhttprequest,stealth,domain=turkanime.co
@@ -341,7 +341,7 @@
 @@/linkshare/*$domain=bradsdeals.com|coupons.com|dealigg.com|dealnews.com|goodsearch.com|groupon.com|hotukdeals.com|moneysavingexpert.com|offers.com|retailmenot.com|slickdeals.net
 @@/live/*.$stealth,domain=futbolfullenvivo.com
 @@/live/*.m3u8$stealth,domain=futbollibre2.net
-@@/live/*.m3u8$xmlhttprequest,stealth=referrer,domain=weakspell.org|streamocean.online|gameshdlive.net|bestsolaris.com|itssportstime.info|weakspell.to
+@@/live/*.m3u8$xmlhttprequest,stealth=referrer,domain=itssportstime.info|gamehdlive.net|weakspell.to|weakspell.org|streamocean.online|gameshdlive.net|bestsolaris.com|itssportstime.info|weakspell.to
 @@/live/*.ts|$xmlhttprequest,stealth=referrer,domain=weakspell.org|streamocean.online
 @@/live/*/jpeg|$xmlhttprequest,stealth=referrer,domain=weakspell.org
 @@/log/report/*$script,domain=bilibili.com
@@ -366,7 +366,9 @@
 @@/playstream/*/embed*.php$xmlhttprequest,stealth=referrer,domain=playstream.site
 @@/playstream/*/event.php$xmlhttprequest,stealth=referrer,domain=playstream.site
 @@/pop.js|$domain=pornve.com
+@@/premium*/*.php$subdocument,stealth=referrer,domain=stronstream.shop|dailytechs.shop|sportzlive.shop
 @@/premium*/index.m3u8$xmlhttprequest,stealth=referrer,domain=claplivehdplay.ru
+@@/premium*/playlist.m3u8$xmlhttprequest,stealth=referrer,domain=claplivehdplay.ru
 @@/premium*/tracks-*.html$xmlhttprequest,stealth=referrer
 @@/premium*/tracks-*/*$xmlhttprequest,stealth=referrer,domain=claplivehdplay.ru
 @@/progress.php?callback=$script,domain=ytmp3.cc
@@ -381,6 +383,7 @@
 @@/scripts/*m3u8$xmlhttprequest,stealth=referrer,domain=1stream.eu|1stream.soccer|streameast.app|thecrackstreams.live
 @@/scripts/ads.js|$script,~third-party,domain=fijitimes.com.fj|fijitimes.com
 @@/scripts/adv.js$domain=securenetsystems.net
+@@/sd0embed/*$subdocument,stealth=referrer,domain=vipbox.lc
 @@/securepubads.$script,other,~third-party,domain=bicycling.com|menshealth.com|prevention.com|rodalesorganiclife.com|rodalewellness.com|runnersworld.com|womenshealthmag.com
 @@/sensorsdata-$domain=aixiaoyuan.cn|zkh.com
 @@/sensorsdata.$domain=36kr.com|binance.com|by56.com|canon.com.cn|chuanglan.com|fenbi.com|guancha.cn|imooc.com|kuque.com|modian.com|saicskoda.com.cn|shanbay.com|tianyancha.com|ttcdw.cn|xinrenxinshi.com|zzjiasuqi.com
@@ -3106,6 +3109,7 @@
 @@||cdn.cookielaw.org/scripttemplates/otSDKStub.js$domain=authentication.nutmeg.com
 @@||cdn.cookielaw.org/scripttemplates/otSDKStub.js$domain=beko.com
 @@||cdn.cookielaw.org/scripttemplates/otSDKStub.js$domain=bikeforums.net
+@@||cdn.cookielaw.org/scripttemplates/otSDKStub.js$domain=blog.unity.com
 @@||cdn.cookielaw.org/scripttemplates/otSDKStub.js$domain=bongo.be
 @@||cdn.cookielaw.org/scripttemplates/otSDKStub.js$domain=breitbart.com
 @@||cdn.cookielaw.org/scripttemplates/otSDKStub.js$domain=brightside.me
@@ -6105,6 +6109,7 @@
 @@||geolocation.onetrust.com/cookieconsentpub/*/geo/location$domain=nintendolife.com
 @@||geolocation.onetrust.com/cookieconsentpub/*/geo/location$domain=zdf.de|3sat.de
 @@||geolocation.onetrust.com/cookieconsentpub/v*/geo/location$domain=apnews.com
+@@||geolocation.onetrust.com/cookieconsentpub/v*/geo/location$domain=blog.unity.com
 @@||geolocation.onetrust.com/cookieconsentpub/v*/geo/location$domain=bongo.be
 @@||geolocation.onetrust.com/cookieconsentpub/v*/geo/location$domain=brightside.me
 @@||geolocation.onetrust.com/cookieconsentpub/v*/geo/location$domain=channel5.com
@@ -10382,7 +10387,10 @@
 @@||onetag-sys.com/prebid-request$domain=linkneverdie.net
 @@||onetrust.com/consent/*.json$domain=konami.com
 @@||onetrust.com/consent/*.json$domain=nintendolife.com|pushsquare.com|purexbox.com|timeextension.com
+@@||onetrust.com/consent/*.json$domain=uw.co.uk
 @@||onetrust.com/consent/*/OtAutoBlock.js$domain=nintendolife.com|pushsquare.com|purexbox.com|timeextension.com
+@@||onetrust.com/consent/*/otSDKStub.js$domain=uw.co.uk
+@@||onetrust.com/scripttemplates/*/otBannerSdk.js$domain=uw.co.uk
 @@||onetrust.com/scripttemplates/*/otBannerSdk.js$script,domain=konami.com
 @@||onetrust.com/scripttemplates/otSDKStub.js$domain=konami.com
 @@||onetrust.com/vendorlist/iab2V2Data.json$domain=nintendolife.com|pushsquare.com|purexbox.com|timeextension.com
@@ -13865,6 +13873,7 @@
 @@||static.doubleclick.net/instream/ad_status.js$domain=mhdtvmax.net
 @@||static.doubleclick.net/instream/ad_status.js$domain=pewgame.com
 @@||static.doubleclick.net/instream/ad_status.js$domain=shineads.in
+@@||static.doubleclick.net/instream/ad_status.js$domain=sonixgvn.net
 @@||static.doubleclick.net/instream/ad_status.js$domain=tweakcentral.net
 @@||static.doubleclick.net/instream/ad_status.js$domain=youtube.com
 @@||static.doubleclick.net/instream/ad_status.js$script,domain=ignboards.com
@@ -15490,6 +15499,7 @@
 @@||wakudan.seesaa.net^$generichide
 @@||walla.co.il^$csp
 @@||walla.co.il^$generichide
+@@||walletkeyslocker.me/?scode=$xmlhttprequest,stealth=referrer,domain=cuervotv.me
 @@||walletkeyslocker.me/?stream$stealth=referrer
 @@||walletkeyslocker.me^$domain=nolive.me,stealth=referrer
 @@||wallpaper-house.com^$generichide
