@@ -2,10 +2,10 @@
 ! Title: Sereinfy Adrules
 ! Homepage: https://github.com/Sereinfy/Adrules
 ! Expires: 24 Hours
-! Last modified: 2024-04-15 06:42:01（北京时间)
+! Last modified: 2024-04-16 01:00:38（北京时间)
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Version: 20240415064201
-! Total count: 16173
+! Version: 20240416010038
+! Total count: 16180
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=stfly.cc
@@ -869,7 +869,7 @@
 @@||account.withings.com^$stealth
 @@||accounts.ea.com^$stealth
 @@||accounts.google.com/gsi/$stealth
-@@||accounts.google.com/gsi/client|$third-party,script,domain=g123.jp|accounts.binance.com
+@@||accounts.google.com/gsi/client|$third-party,script,domain=g123.jp|accounts.binance.com|tango.me|iloveimg.com
 @@||accounts.google.com^$generichide
 @@||accounts.google.com^$jsinject,generichide
 @@||accounts.google.com^$popup
@@ -1353,6 +1353,7 @@
 @@||affiliates.sankmo.com/iframe-redirect$domain=latestcooldeals.blogspot.com
 @@||affyun.com^$generichide
 @@||afisha.ru/proxy/videonetworkproxy.ashx?$xmlhttprequest
+@@||afk.guide/wp-content/plugins/wordpress-popup/assets/js/ad.min.js
 @@||aflac.com/js/wt_capi.js
 @@||afly.pro^$generichide
 @@||afreesms.com^$generichide
@@ -4526,12 +4527,14 @@
 @@||cxense.com/cx.js$domain=mainichi.jp
 @@||cxense.com/cx.js$domain=nlab.itmedia.co.jp
 @@||cxense.com/cx.js$domain=shueisha.co.jp
+@@||cxense.com/cx.js$domain=str.toyokeizai.net
 @@||cxense.com/cx.js$domain=tarzanweb.jp
 @@||cxense.com/cx.js$script,domain=tv-tokyo.co.jp
 @@||cxense.com/document/search?
 @@||cxense.com/public/widget/$domain=bizjournals.com|businessinsider.de|computerbild.de|cxpublic.com|cyclestyle.net|friday.gold|friday.kodansha.co.jp|handelsblatt.com|inquirer.com|ksml.fi|mainichi.jp|marketwatch.com|nippon.com|savonsanomat.fi|shueisha.co.jp|tn.com.ar|tvnet.lv|wsj.com
 @@||cxense.com^$domain=ikea.com
 @@||cxense.com^$domain=thelocal.fr
+@@||cxpublic.com/ToyoKeizai.js$domain=str.toyokeizai.net
 @@||cy.com/hz/*/ad
 @@||cy.com^$generichide
 @@||cyberdean.fr/js/advertisement.js
@@ -7093,6 +7096,7 @@
 @@||googletagmanager.com/gtm.js$domain=starlingbank.com
 @@||googletagmanager.com/gtm.js$domain=store-jp.nintendo.com
 @@||googletagmanager.com/gtm.js$domain=store.line.me
+@@||googletagmanager.com/gtm.js$domain=str.toyokeizai.net
 @@||googletagmanager.com/gtm.js$domain=stressless.com
 @@||googletagmanager.com/gtm.js$domain=superesportes.com.br
 @@||googletagmanager.com/gtm.js$domain=suwen.com.tr
@@ -8312,7 +8316,7 @@
 @@||ing-diba.de^*/sitestat.js
 @@||ing.blueconic.net^$domain=ing.jobs
 @@||ingdirect.com.au^$document
-@@||ingest.sentry.io/api/$xmlhttprequest,domain=orionprotocol.io|play.tv3.lv|tesco.com|tesco.hu
+@@||ingest.sentry.io/api/$xmlhttprequest,domain=core.app|orionprotocol.io|play.tv3.lv|tesco.com|tesco.hu
 @@||ingka.com^$stealth,domain=ikea.com
 @@||injections.adguard.com^$document
 @@||inklinkor.com/tag.min.js$domain=aii.sh|oko.sh|tii.la
@@ -9610,6 +9614,7 @@
 @@||mi.tigo.com.co/plugins/cordova-plugin-fingerprint-aio/$script,~third-party
 @@||miaandme.org^$generichide
 @@||miaminewtimes.com/js_cache/ads.js
+@@||miaozhen.com^$domain=miaozhen.com
 @@||miaozhen.com^*/m.suning.
 @@||miauscan.com^$generichide
 @@||micano4u.org^$generichide
@@ -10670,6 +10675,7 @@
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=bfas237blog.info
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=bg-gledai.*
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=biletomat.pl
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=bilinovel.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=bitefaucet.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=bizjournals.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=bleachmx.fr
@@ -10923,7 +10929,7 @@
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=magesy.blog|magesy.pro
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=malaysianwireless.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=malekal.com
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=maos4alaw.online
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=maos4alaw.online|net4you.xyz
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=mathdf.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=mazmorra.io
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=md5hashing.net
@@ -11012,7 +11018,7 @@
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=quizack.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=radiotunes.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=ravenscans.com|oatuu.org|techedubyte.com
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=rbtv77.*|live-streamfootball.*|superabbit77.*|superabbit33.*|superdom77.*|superlee77.*|superleo77.*|superargo77.*|superbarca77.*|linelocatemfsn.*|homebasis4d.*|mindmotion93y8.*|monkeynecktj4w.*|masterenjoyao.*|differenceprimitive85p.*
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=rbtv77.*|live-streamfootball.*|superabbit77.*|superabbit33.*|superdom77.*|superlee77.*|superleo77.*|superargo77.*|superbarca77.*|linelocatemfsn.*|homebasis4d.*|mindmotion93y8.*|monkeynecktj4w.*|masterenjoyao.*|differenceprimitive85p.*|blewdiffera3j2.*
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=realadmin.ru
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=receive-sms-online.info
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=receivesms.org|receivesms.co
@@ -12311,7 +12317,7 @@
 @@||readmng.com^$csp=script-src 'self' * 'unsafe-inline'
 @@||readmoo.com/images/social/
 @@||readonepunchman.net^$generichide
-@@||readpai.com^$stealth,image,domain=linovelib.com
+@@||readpai.com^$stealth=referrer,image
 @@||readshingekinokyojin.com^$generichide
 @@||readsmsonline.com^$generichide
 @@||readyssh.net^$generichide
@@ -12891,6 +12897,7 @@
 @@||sdk.privacy-center.org^$script,domain=movilzona.es
 @@||sdk.privacy-center.org^$script,domain=oqee.tv
 @@||sdk.privacy-center.org^$script,domain=vecernji.hr
+@@||sdk.split.io/api/$stealth=3p-auth,domain=rewardlink.io
 @@||sdltutorials.com/Data/Ads/AppStateBanner.jpg$~third-party
 @@||sdn-global-audio-adswizz-cache.3qsdn.com/*/files/$other,media,domain=noz.de
 @@||sdn.cz^$stealth,domain=televizeseznam.cz
