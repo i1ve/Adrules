@@ -2,10 +2,10 @@
 ! Title: Sereinfy Adrules
 ! Homepage: https://github.com/Sereinfy/Adrules
 ! Expires: 24 Hours
-! Last modified: 2024-04-19 01:00:48（北京时间)
+! Last modified: 2024-04-20 01:00:31（北京时间)
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Version: 20240419010048
-! Total count: 16203
+! Version: 20240420010031
+! Total count: 16205
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=stfly.cc
@@ -266,7 +266,7 @@
 @@/dh-new-anti-adblocker-lite/public/js/prebid-ads.js
 @@/dist/cookieconsent.js$domain=apexlegendsstatus.com
 @@/email-decode.min.js$domain=linkneverdie.net
-@@/embed/*$stealth=referrer,subdocument,domain=ldcstreaming.info|sportsonline.*|sportstream.website|elixx.xyz|primefoot.ru
+@@/embed/*$stealth=referrer,subdocument,domain=lol-foot.ru|flashsports.org|ldcstreaming.info|sportsonline.*|sportstream.website|elixx.xyz|primefoot.ru
 @@/embed/*$subdocument,stealth,domain=strims.*|daddylive.*
 @@/eu_cookie_compliance.$domain=maanmittauslaitos.fi
 @@/favicon.ico$domain=avaxhome.co
@@ -2531,6 +2531,7 @@
 @@||bhookedcrochet.com^$generichide
 @@||bi-girl.net^$generichide
 @@||bidder.criteo.com/cdb?$xmlhttprequest,domain=aternos.org
+@@||bidder.criteo.com/cdb|$domain=app.axenthost.com
 @@||biddr.brealtime.com/*.js$domain=airlinepilotforums.com
 @@||bids.proper.io/api/bidding$domain=salon.com
 @@||bigad.me^$domain=bigad.me
@@ -6052,6 +6053,7 @@
 @@||gaydelicious.com^$generichide
 @@||gaynetwork.co.uk/Images/ads/bg/$image,~third-party
 @@||gaypornhdfree.com^$generichide
+@@||gaypornhot.com^$generichide
 @@||gaypornmasters.com^$generichide
 @@||gazeteduvar.com.tr^$generichide
 @@||gazettetimes.com^$generichide
