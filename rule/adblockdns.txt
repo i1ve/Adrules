@@ -1,10 +1,9 @@
 !
 ! Title: AdBlock DNS
 ! Homepage: https://github.com/Sereinfy/Adrules
-! Source: https://raw.githubusercontent.com/Sereinfy/Adrules/main/rule/adblockdns.txt
-! Version: 20240421175859
-! Last modified: 2024/04/21 17:58:59
-! Blocked domains: 71908
+! Version: 20240421192149
+! Last modified: 2024/04/21 19:21:49
+! Blocked domains: 71910
 ! unBlocked domains: 53
 !
 ||kwcdn.000dn.com^
@@ -65823,6 +65822,8 @@
 ||vanishedpatriot.com^
 ||vanishedunreal.com^
 ||vanityassassinationsobbing.com^
+||c.vanityfair.com^
+||qc.vanityfair.com^
 ||sstats.vanityfair.com^
 ||stats2.vanityfair.com^
 ||metrics.vanquis.co.uk^
