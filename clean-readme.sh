@@ -19,5 +19,27 @@ sed -i 's/^DNS拦截规则数量.*/拦截规则数量: '$num_filters' /g' README
 
 sed -i 's/^DNS检测已失效域名.*/DNS检测已失效域名: '$black_count' /g' README.md
 
+cat rule/adblockdns.txt rule/adblockfilters.txt > rule/rules.txt
+cat rule/allow.txt >> rule/rules.txt
+
+# 检查文件是否存在
+if [ ! -f "rule/rules.txt" ]; then
+    echo "Error: File rule/rules.txt not found!"
+    exit 1
+fi
+
+# 处理文件
+lines=()
+line_num=1
+while IFS= read -r line; do
+    if [ "$line_num" -lt 10 ] || [ "${line:0:1}" != '!' ]; then
+        lines+=("$line")
+    fi
+    line_num=$((line_num+1))
+done < "rule/rules.txt"
+
+# 输出结果到原文件
+printf '%s\n' "${lines[@]}" > "rule/rules.txt"
+echo "Result saved to rule/rules.txt"
 
 exit

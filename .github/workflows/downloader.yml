@@ -30,14 +30,17 @@ jobs:
       - name: Download Filters
         run: |
           curl -sSL -o filters/white.txt https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/white.txt
+          curl -sSL -o rule/allow.txt https://raw.githubusercontent.com/8680/GOODBYEADS/master/allow.txt
+
           python white.py
           python abblockfilters.py
           rm -rf __pycache__
           
       - name: Update ReadMe
         run: |
-          bash ./data/script/clean-readme.sh
-            
+          chmod +x clean-readme.sh
+          bash clean-readme.sh
+
       - name: Commit Changes
         id: commit
         run: |

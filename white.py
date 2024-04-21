@@ -32,7 +32,9 @@ def remove_duplicates_and_sort(file_path):
         file.writelines(sorted_lines)
 
 # 请提供要获取的txt文件的网址列表
-urls = ["https://raw.githubusercontent.com/Sereinfy/Adrules/main/data/rules/whitelist.txt"]
+urls = ["https://raw.githubusercontent.com/8680/GOODBYEADS/master/data/rules/whitelist.txt",
+
+]
 txt_files = get_txt_files(urls)
 
 # 输出获取的txt文件内容
