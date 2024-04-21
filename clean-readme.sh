@@ -1,7 +1,6 @@
 #!/bin/sh
 # mv rules.txt allow.txt dns.txt rule/
 
-wait
 echo '移动文件到rule目录'
 
 num_rules=`sed -n 's/^! Total count: //p' rule/rules.txt`
