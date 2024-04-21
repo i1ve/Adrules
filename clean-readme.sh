@@ -24,7 +24,8 @@ sed -i 's/^DNS检测已失效域名.*/DNS检测已失效域名: '$black_count' /
 
 cat rule/adblockdns.txt rule/adblockfilters.txt > rule/rules.txt
 cat rule/allow.txt >> rule/rules.txt
-
+sed '/^! unBlocked domains/d' rule/rules.txt > rule/temp.txt && mv rule/temp.txt rule/rules.txt
+sed -i 's/^! Blocked domains.*/! Blocked rules: '$rules_count' /g' rule/rules.txt
 # 检查文件是否存在
 if [ ! -f "rule/rules.txt" ]; then
     echo "Error: File rule/rules.txt not found!"
