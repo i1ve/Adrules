@@ -245,14 +245,15 @@ def Entry():
             unblockDict = dictadd(unblockDict, d2)
             filterList += l3
             
-def merge_Fiter(merged_list):
-    merged_list = blockDict + unblockDict + filterList
-    return merged_list
-    
+merged_list = blockDict + unblockDict + filterList
+with open("/rule/1.txt", "w") as file:
+    for item in merged_list:
+        file.write(str(item) + "\n")
+        
         # 生成合并规则
         CreatDNS(blockDict, unblockDict, pwd + '/rule/adblockdns.txt') #改动路径
         CreatFiter(filterList, pwd + '/rule/adblockfilters.txt') #改动路径
-        merge_Fiter(merged_list, pwd + '/rule/merged_list.txt') #改动路径
+
         # 更新README.md
     CreatReadme(ruleList, pwd + '/README.md')
 
