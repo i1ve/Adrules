@@ -2,10 +2,10 @@
 ! Title: Sereinfy Adrules
 ! Homepage: https://github.com/Sereinfy/Adrules
 ! Expires: 24 Hours
-! Last modified: 2024-04-21 15:19:52（北京时间)
+! Last modified: 2024-04-21 16:17:28（北京时间)
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Version: 20240421151952
-! Total count: 16199
+! Version: 20240421161728
+! Total count: 16198
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=stfly.cc
@@ -500,7 +500,6 @@
 @@adm.fwmrm.net/p/aetn_live/AdManager.swf$domain=mylifetime.com|aetnd.com
 @@analytics^$domain=wwe.com
 @@assets/dist//bts2$xmlhttprequest,stealth=referrer,domain=previbes.online
-@@broadcastlv.chat.bilibili.com^
 @@cdn.eporner.com^$stealth=referrer
 @@clicks.$domain=cimbclicks.com.my,~third-party
 @@cloudfront.net/index.js$domain=adn.com
@@ -521,7 +520,6 @@
 @@jamendo.com$jsinject
 @@jd.com/*ad_
 @@playlist/*/load-playlist$xmlhttprequest,stealth=referrer,domain=1stream.eu|1stream.soccer|streameast.app|thecrackstreams.live|meth-streams.ai|buffstreams.app
-@@qlogo.cn^
 @@safari-extension://com.adguard.safari-$document
 @@safari-extension://com.adguard.safaridev-$document
 @@stmggv*.*/images/$stealth,domain=manhuascan.com
@@ -2719,6 +2717,7 @@
 @@||brm-core-0.brsrvr.com/api/*/core/?account_id=$domain=m.toysrus.com
 @@||brn-ads.sa.cz/www/delivery/*.php?zoneid=$domain=studentagency.eu
 @@||broadbandforum.co$generichide
+@@||broadcastlv.chat.bilibili.com^
 @@||brocardi.it^$generichide
 @@||broncos.com.au^$generichide
 @@||browser.sentry-cdn.com/*/bundle.min.js$domain=freebitz.xyz
@@ -6228,7 +6227,6 @@
 @@||github.com/Yhonay/antipopads/
 @@||github.com/gorhill/uBlock/*/src/web_accessible_resources/fingerprint2.js$~third-party
 @@||github.com/login$stealth
-@@||github.com^$domain=github.com
 @@||github.com^$generichide
 @@||github.io/videojs-ima/node_modules/video.$domain=setn.com
 @@||github.io^$generichide
@@ -12158,6 +12156,7 @@
 @@||qingcheng.com^*/ad
 @@||qingdaoport.net/adv/random.jsp
 @@||qiyipic.com/common/fix/pub_images/
+@@||qlogo.cn^
 @@||qm.redbullracing.com/gtm.js$~third-party
 @@||qoaaa.com/*/?placementName=$domain=vpslog.net
 @@||qobuz.com^$generichide
@@ -15788,7 +15787,7 @@
 @@||wkstatic.bdimg.com/static/wkcore/widget/commerce/fengchao/*$domain=wenku.baidu.com
 @@||wl.jd.com/joya.js
 @@||wl.jd.com/wl.js
-@@||wl.jd.com^$important
+@@||wl.jd.com^
 @@||wmdportal.com/wp-content/uploads/2012/05/cars_banner.png
 @@||wo2viral.com^$generichide
 @@||wojtekczytawh40k.blogspot.com^$generichide

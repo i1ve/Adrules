@@ -1,7 +1,5 @@
-！github 更新说明
-@@||github.com^$domain=github.com
 !屏蔽B站直播P2P上传
-.chat.bilibili.com
+*.chat.bilibili.com
 !Amazon ADS
 ||analyticsengine.s3.amazonaws.com^
 ||advice-ads.s3.amazonaws.com^
@@ -719,9 +717,16 @@ dmzj.com##div[class*="float_code"]
 !腾讯视频
 v.qq.com##div[class*="mod_row_box mod_row_box_special"]
 !虎牙直播
+||*.p2p.huya.com^
+||*.va.huya.com^
+huya.com###J_liveListHeader > div.liveList-BusinessGame:last-child
 huya.com###J_adBnM > img:last-child
 huya.com###matchComponent4
 huya.com###sidebarBanner
+huya.com##.small-handle-tip
+huya.com##.main-ab-close-mode
+huya.com###public-screen-ab
+huya.com##.end-ab-banner
 !聚超值
 best.pconline.com.cn###JnoLoginFixedBottom
 !我的钢铁网
@@ -798,6 +803,8 @@ zb.zhaobiao.cn##div.box:nth-child(5) > div.advertisement.box:nth-child(2)
 123pan.com##.slick-slider, .slick-initialized
 123pan.com##.adv-container-pc
 123pan.com##.banner_all_wrap
+!哔咔漫画
+||*.diwodiwo.xyz^
 !其它补充
 ###vid_overlay
 ##.modalJS_object
@@ -812,3 +819,5 @@ adblock-tester.com##.includeWrapper, .svelte-700pcr
 blog.51cto.com##div.right-fixadv:nth-child(6)
 scoregg.com##.float-modal
 medium.com##.m, .abb, .add, .ade
+hanyu.baidu.com###J_CishuBtn > img
+hanyu.baidu.com###main > div.app-qrcode:first-child
