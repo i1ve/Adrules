@@ -2,7 +2,7 @@
 
 echo '移动文件到rule目录'
 
-num_rules=`sed -n 's/^! Total count: //p' rule/rules.txt`
+num_rules=`sed -n 's/^! Blocked domains: //p' rule/rules.txt`
 
 
 # filters/black.txt文件的行数
