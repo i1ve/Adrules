@@ -1,5 +1,4 @@
 #!/bin/sh
-# mv rules.txt allow.txt dns.txt rule/
 
 echo '移动文件到rule目录'
 
