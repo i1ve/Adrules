@@ -2,10 +2,10 @@
 ! Title: Sereinfy Adrules
 ! Homepage: https://github.com/Sereinfy/Adrules
 ! Expires: 24 Hours
-! Last modified: 2024-04-21 16:17:28（北京时间)
+! Last modified: 2024-04-21 16:20:58（北京时间)
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Version: 20240421161728
-! Total count: 16198
+! Version: 20240421162058
+! Total count: 16199
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=stfly.cc
@@ -3726,6 +3726,7 @@
 @@||centro.co.il^$generichide
 @@||certificateland.com^$generichide
 @@||certona.net^*/scripts/resonance.js$script,domain=canadiantire.ca|finishline.com|summitracing.com|tumi.com
+@@||ceshi.wangzhi
 @@||cetesdirecto.com^$stealth
 @@||cf.http.anno.channel4.com^$domain=channel4.com
 @@||cfnode*.xyz/*.php?url=$stealth,domain=libvio.me|libvio.fun|libvio.cc
