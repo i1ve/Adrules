@@ -30,6 +30,7 @@ jobs:
       - name: Download Filters
         run: |
           curl -sSL -o filters/white.txt https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/white.txt
+          python white.py
           python abblockfilters.py
           rm -rf __pycache__
           
