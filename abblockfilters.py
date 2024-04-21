@@ -176,7 +176,6 @@ def CreatDNS(blockDict, unblockDict, fileName):
         f.write("!\n")
         f.write("! Title: AdBlock DNS\n")
         f.write("! Homepage: https://github.com/Sereinfy/Adrules\n")
-        f.write("! Source: https://raw.githubusercontent.com/Sereinfy/Adrules/main/rule/adblockdns.txt\n")
         f.write("! Version: %s\n"%(time.strftime("%Y%m%d%H%M%S", time.localtime())))
         f.write("! Last modified: %s\n"%(time.strftime("%Y/%m/%d %H:%M:%S", time.localtime())))
         f.write("! Blocked domains: %s\n"%(len(blockList)))
@@ -203,7 +202,6 @@ def CreatFiter(filterList, fileName):
         f.write("!\n")
         f.write("! Title: AdBlock Filter\n")
         f.write("! Homepage: https://github.com/Sereinfy/Adrules\n")
-        f.write("! Source: https://raw.githubusercontent.com/Sereinfy/Adrules/main/rule/adblockfilters.txt\n")
         f.write("! Version: %s\n"%(time.strftime("%Y%m%d%H%M%S", time.localtime())))
         f.write("! Last modified: %s\n"%(time.strftime("%Y/%m/%d %H:%M:%S", time.localtime())))
         f.write("! Blocked Filters: %s\n"%(len(filterList)))
@@ -246,11 +244,15 @@ def Entry():
             blockDict = dictadd(blockDict, d1)
             unblockDict = dictadd(unblockDict, d2)
             filterList += l3
-
+            
+def merge_Fiter(merged_list):
+    merged_list = blockDict + unblockDict + filterList
+    return merged_list
+    
         # 生成合并规则
         CreatDNS(blockDict, unblockDict, pwd + '/rule/adblockdns.txt') #改动路径
         CreatFiter(filterList, pwd + '/rule/adblockfilters.txt') #改动路径
-        
+        merge_Fiter(merged_list, pwd + '/rule/merged_list.txt') #改动路径
         # 更新README.md
     CreatReadme(ruleList, pwd + '/README.md')
 
