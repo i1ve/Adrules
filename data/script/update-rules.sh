@@ -8,9 +8,11 @@ echo '创建临时文件夹'
 mkdir -p ./tmp/
 
 #添加补充规则
+curl -sSL -o ./data/rules/whitelist.txt https://raw.githubusercontent.com/8680/GOODBYEADS/master/data/rules/whitelist.txt
+curl -sSL -o ./data/rules/adblock.txt https://raw.githubusercontent.com/8680/GOODBYEADS/master/data/rules/adblock.txt
 cp ./data/rules/adblock.txt ./tmp/rules01.txt
 cp ./data/rules/whitelist.txt ./tmp/allow01.txt
-
+echo -e "$(cat ./data/rules/user.txt)\n" >> ./tmp/allow01.txt
 cd tmp
 
 echo '下载规则'
