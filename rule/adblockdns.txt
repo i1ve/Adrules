@@ -1,9 +1,9 @@
 !
 ! Title: AdBlock DNS
 ! Homepage: https://github.com/Sereinfy/Adrules
-! Version: 20240421193445
-! Last modified: 2024/04/21 19:34:45
-! Blocked domains: 71910
+! Version: 20240421195631
+! Last modified: 2024/04/21 19:56:31
+! Blocked domains: 71918
 ! unBlocked domains: 53
 !
 ||kwcdn.000dn.com^
@@ -1451,6 +1451,7 @@
 ||rtb2-uswest.a8dsp.com^
 ||a8rm1m4msbbh.com^
 ||a9able.com^
+||a9ae7df45f.com^
 ||a9fc00b442.com^
 ||smetrics.aa.co.uk^
 ||images.cargomarketing.email.aa.com^
@@ -25527,6 +25528,7 @@
 ||ebisfracora.fracora.com^
 ||fractureboyishherring.com^
 ||rl.fracturmeropia.com^
+||fraer.cloud^
 ||fragmenteasygoingmass.com^
 ||fragmentexpertisegoods.com^
 ||ryvapi.fragrancenet.com^
@@ -26518,6 +26520,7 @@
 ||gearedftnerr.com^
 ||analytics.geastore.com^
 ||secureclicks.geaviation.com^
+||gebiqxmcc.com^
 ||yskvdo.gebrauchtwagen.at^
 ||marketing.gebroederskoffie.nl^
 ||smetric.gebrueder-goetz.de^
@@ -53384,6 +53387,7 @@
 ||retarget2core.com^
 ||retargetcore.com^
 ||retargeter.com^
+||retaxenteron.top^
 ||reth45dq.de^
 ||retherdoresper.info^
 ||mail.rethinkretirementincome.co.uk^
@@ -54361,6 +54365,7 @@
 ||rpahyhn.cn^
 ||mdws.rpcul.com^
 ||rpeoehkaferf.com^
+||rpfytkt.com^
 ||rpkcqtf.cn^
 ||rpmwhoop.com^
 ||rpnufv.xyz^
@@ -62740,6 +62745,7 @@
 ||social.tinyview.com^
 ||analytics.tio.ch^
 ||tionakasulbac.net^
+||tionforeathyoug.info^
 ||tionininanceena.info^
 ||tiotyuknsyen.org^
 ||tipcartoleron.com^
@@ -65709,6 +65715,7 @@
 ||metrics.vademecum.es^
 ||vadokfkulzr.com^
 ||vaebard.com^
+||vafumjvrvjcup.com^
 ||vagancytwerp.top^
 ||vagilunger.com^
 ||prf.vagnt.com^
@@ -65968,6 +65975,7 @@
 ||veaiyl.icu^
 ||vebadu.com^
 ||odds.vebo.xyz^
+||vecohgmpl.info^
 ||partner.vecteezy.com^
 ||vectisruntier.top^
 ||a8.vector-park.jp^
