@@ -2,9 +2,9 @@
 ! Title: AdBlock DNS
 ! Homepage: https://github.com/Sereinfy/Adrules
 ! Source: https://raw.githubusercontent.com/Sereinfy/Adrules/main/rule/adblockdns.txt
-! Version: 20240421154330
-! Last modified: 2024/04/21 15:43:30
-! Blocked domains: 71909
+! Version: 20240421175859
+! Last modified: 2024/04/21 17:58:59
+! Blocked domains: 71908
 ! unBlocked domains: 53
 !
 ||kwcdn.000dn.com^
@@ -69911,7 +69911,6 @@
 ||data.mistat.india.xiaomi.com^
 ||data.mistat.rus.xiaomi.com^
 ||o2o.api.xiaomi.com^
-||tracker.ai.xiaomi.com^
 ||tz.sec.xiaomi.com^
 ||video.market.xiaomi.com^
 ||resolver.msg.xiaomi.net^
