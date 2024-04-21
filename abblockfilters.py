@@ -250,25 +250,7 @@ def Entry():
         # 生成合并规则
         CreatDNS(blockDict, unblockDict, pwd + '/rule/adblockdns.txt') #改动路径
         CreatFiter(filterList, pwd + '/rule/adblockfilters.txt') #改动路径
-
-filename = "/rule/1.txt"
-# 检测文件是否存在
-if not os.path.exists(filename):
-    # 创建文件
-    open(filename, 'w').close()
-    print(f"文件 {filename} 创建成功！")
-else:
-    print(f"文件 {filename} 已存在。")
-with open('/rule/1.txt', 'w') as file:
-    file.write("filterList:\n")
-    file.write(str(filterList) + "\n")
-
-    file.write("\nblockDict:\n")
-    file.write(str(blockDict) + "\n")
-
-    file.write("\nunblockDict:\n")
-    file.write(str(unblockDict) + "\n")
-    
+        
         # 更新README.md
     CreatReadme(ruleList, pwd + '/README.md')
 
