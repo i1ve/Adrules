@@ -1,6 +1,6 @@
 #!/bin/sh
 # mv rules.txt allow.txt dns.txt rule/
-cat rule/adblockdns.txt rule/adblockfilters.txt > rule/rules.txt
+
 wait
 echo '移动文件到rule目录'
 
