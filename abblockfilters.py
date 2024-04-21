@@ -53,6 +53,7 @@ def CreatReadme(ruleList, fileName):
         f.write("\n")
         f.write("DNS拦截规则数量:  \n")
         f.write("Filters规则数量:  \n")
+        f.write("合并规则数量:  \n")
         f.write("\n")
         f.write("DNS检测已失效域名:  \n")
         f.write("```\n")

@@ -12,12 +12,7 @@ if [ -f "$black_file" ]; then
   echo "black.txt 的行数: $black_count"
 fi
 
-rules_file="filters/rules.txt"
-if [ -f "$rules_file" ]; then
-  rules_count=$(wc -l < "$rules_file")
-  echo "rules.txt 的行数: $rules_count"
-fi
-
+rules_count= num_rules + num_filters
 
 time=$(TZ=UTC-8 date +'%Y-%m-%d %H:%M:%S')
 sed -i "s/^更新时间:.*/更新时间: $time  /g" README.md
