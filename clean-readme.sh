@@ -3,7 +3,7 @@
 echo '移动文件到rule目录'
 
 num_rules=`sed -n 's/^! Blocked domains: //p' rule/adblockdns.txt`
-num_filters=`sed -n 's/^! Blocked domains: //p' rule/adblockfilters.txt`
+num_filters=`sed -n 's/^! Blocked Filters: //p' rule/adblockfilters.txt`
 
 # filters/black.txt文件的行数
 black_file="filters/black.txt"
@@ -12,7 +12,7 @@ if [ -f "$black_file" ]; then
   echo "black.txt 的行数: $black_count"
 fi
 
-rules_count= num_rules + num_filters
+rules_count=$((num_rules + num_filters))
 
 time=$(TZ=UTC-8 date +'%Y-%m-%d %H:%M:%S')
 sed -i "s/^更新时间:.*/更新时间: $time  /g" README.md
