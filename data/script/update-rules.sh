@@ -12,7 +12,7 @@ curl -sSL -o ./data/rules/whitelist.txt https://raw.githubusercontent.com/8680/G
 curl -sSL -o ./data/rules/adblock.txt https://raw.githubusercontent.com/8680/GOODBYEADS/master/data/rules/adblock.txt
 cp ./data/rules/adblock.txt ./tmp/rules01.txt
 cp ./data/rules/whitelist.txt ./tmp/allow01.txt
-echo -e "$(cat ./data/rules/user.txt)\n" >> ./tmp/allow01.txt
+echo -e "$(cat ./data/rules/user.txt)\n" >> ./tmp/rules01.txt
 cd tmp
 
 echo '下载规则'
