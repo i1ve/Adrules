@@ -1,4 +1,4 @@
-!User 白名单
+!User 白名单-合并测试
 #百度 #字热搜
 baidu.com#@#div[class*="result-op c-container"]
 baidu.com#@#div[class*="result-op c-container xpath-log new-pmd"]
