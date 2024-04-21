@@ -14,8 +14,8 @@ fi
 
 time=$(TZ=UTC-8 date +'%Y-%m-%d %H:%M:%S')
 sed -i "s/^更新时间:.*/更新时间: $time  /g" README.md
-sed -i 's/^DNS拦截规则数量.*/拦截规则数量: '$num_rules' /g' README.md
-sed -i 's/^DNS拦截规则数量.*/拦截规则数量: '$num_filters' /g' README.md
+sed -i 's/^DNS拦截规则数量.*/DNS拦截规则数量: '$num_rules' /g' README.md
+sed -i 's/^Filters规则数量.*/Filters规则数量: '$num_filters' /g' README.md
 
 sed -i 's/^DNS检测已失效域名.*/DNS检测已失效域名: '$black_count' /g' README.md
 
