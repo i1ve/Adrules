@@ -33,7 +33,7 @@ def remove_duplicates_and_sort(file_path):
 
 # 请提供要获取的txt文件的网址列表
 urls = ["https://raw.githubusercontent.com/8680/GOODBYEADS/master/data/rules/whitelist.txt",
-
+        "https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-easylist.txt"
 ]
 txt_files = get_txt_files(urls)
 
