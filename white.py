@@ -52,4 +52,4 @@ for data in extracted_data:
     append_to_file(file_path, data)
 
 # 对文件进行去重操作
-remove_duplicates(file_path)
+remove_duplicates_and_sort(file_path)
