@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Q+x2NXYNgQdgvZr2uKbCOg
-! Version: 202404211611
+! Checksum: UZNUj/v+2BNQheNFy3HWKw
+! Version: 202404221611
 ! Title: EasyList China
-! Last modified: 21 Apr 2024 16:11 UTC
+! Last modified: 22 Apr 2024 16:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -1705,6 +1705,7 @@ newduba.cn###jq_youxi
 ||2qy9zm.cn^
 ||3bxe2.cyou^
 ||3q1lsj.cn^
+||4p68.com^
 ||4wu3gf.cn^
 ||51hir.cyou^
 ||555bbb333bbb.com^
@@ -1777,6 +1778,7 @@ newduba.cn###jq_youxi
 ||btyhnraw653.shop^
 ||bugzmn.icu^
 ||buvdkt.icu^
+||bvrzwnq.xyz^
 ||bvtvlp.xyz^
 ||bvxiht.xyz^
 ||bweriov.top^
@@ -1883,6 +1885,7 @@ newduba.cn###jq_youxi
 ||ersjnpwf837.shop^
 ||esqhsm.xyz^
 ||etyusiw.top^
+||ewxufqs.cn^
 ||execuri.com^
 ||f7fe0.cyou^
 ||fadhvz.xyz^
@@ -1927,6 +1930,7 @@ newduba.cn###jq_youxi
 ||ha723.icu^
 ||halct.cn^
 ||hbjolp.xyz^
+||hblarn.xyz^
 ||hbxzlf.xyz^
 ||hciwyv.icu^
 ||hdtedar126.shop^
@@ -1970,6 +1974,7 @@ newduba.cn###jq_youxi
 ||inifdlao.top^
 ||inworket.com^
 ||irayedo.cn^
+||irmbyu.xyz^
 ||ityusio.top^
 ||iummqg.xyz^
 ||ivbgpax.cn^
@@ -1978,6 +1983,7 @@ newduba.cn###jq_youxi
 ||iyuwkbo.top^
 ||izalflh.cn^
 ||izmiua.xyz^
+||izqogb.cn^
 ||jaychu.top^
 ||jbmfldt.cn^
 ||jdbeht.xyz^
@@ -2020,6 +2026,7 @@ newduba.cn###jq_youxi
 ||ktoioo.xyz^
 ||ktvjpmi.xyz^
 ||ktyusid.top^
+||kvyyyde.cn^
 ||kwqnki.xyz^
 ||kyuwkbd.top^
 ||kzepp.com^
@@ -2056,6 +2063,7 @@ newduba.cn###jq_youxi
 ||m6j37.xyz^
 ||mdhv3.icu^
 ||mdzwjra.cn^
+||meqanhm.icu^
 ||misjgy.xyz^
 ||mldzwmt.xyz^
 ||mlhtr.cn^
@@ -2131,6 +2139,7 @@ newduba.cn###jq_youxi
 ||pimg2023.com^
 ||pjzxdl.xyz^
 ||pkyjuc.cn^
+||plnbnd.xyz^
 ||pmiskc.cn^
 ||pmtrkp.icu^
 ||pnxtnp.xyz^
@@ -2170,7 +2179,9 @@ newduba.cn###jq_youxi
 ||qusrow.xyz^
 ||qvnbjjd.xyz^
 ||qw9cu.cyou^
+||qyuwkby.top^
 ||qzalsk.xyz^
+||qziuwzn.cn^
 ||qzozsa.xyz^
 ||rarcff.xyz^
 ||rarmkce.cn^
@@ -2190,6 +2201,7 @@ newduba.cn###jq_youxi
 ||rlxhbff.cn^
 ||rndcdb.xyz^
 ||rnkzhsi.cn^
+||rnpkxgfp.xyz^
 ||rofmjd.xyz^
 ||rouqiuqq.cn^
 ||rpnufv.xyz^
@@ -2200,6 +2212,7 @@ newduba.cn###jq_youxi
 ||rzfdbsn.cn^
 ||rzpvbl.xyz^
 ||s8.pw^$third-party
+||sacvmb.icu^
 ||savionl.com^
 ||sdfsad562.xyz^
 ||sdjkbcjksbdsvv.com^
@@ -2231,6 +2244,7 @@ newduba.cn###jq_youxi
 ||szbhb.cn^
 ||szfmr.cn^
 ||szftg.cn^
+||szmgr.cn^
 ||szmhk.cn^
 ||szmnd.cn^
 ||szmnf.cn^
@@ -2256,6 +2270,7 @@ newduba.cn###jq_youxi
 ||tdljuuw.xyz^
 ||tdlyfz.xyz^
 ||tduenkq839.shop^
+||tgamtip.icu^
 ||tgccct.icu^
 ||tgwfaz.icu^
 ||threrlak.com^
@@ -2266,6 +2281,7 @@ newduba.cn###jq_youxi
 ||tnifdlai.top^
 ||tnmpd.xyz^
 ||tnvnnn.xyz^
+||toutanymm.asia^
 ||tptgvh.xyz^
 ||tqvnzj.xyz^
 ||tsrvrr.xyz^
@@ -2273,9 +2289,11 @@ newduba.cn###jq_youxi
 ||tudxhzj.cn^
 ||tuky889900.com^
 ||tyodot.icu^
+||tyuwkbi.top^
 ||tyzfoej.cn^
 ||u7u9.com^$third-party
 ||uctutu3789.xyz^
+||udkpcc.xyz^
 ||udykkl.cn^
 ||uigxgg.xyz^
 ||uiqcf.cn^
@@ -2325,6 +2343,7 @@ newduba.cn###jq_youxi
 ||wioboy.xyz^
 ||wisealty.com^
 ||wjwod.cyou^
+||wkrhel.icu^
 ||wkywrc.cn^
 ||wnalzle.top^
 ||wnifdlae.top^
@@ -2334,6 +2353,7 @@ newduba.cn###jq_youxi
 ||wsdwbfs.cn^
 ||wsoqwm.xyz^
 ||wtyusie.top^
+||wubizigeng.com^
 ||wvwqywz.cn^
 ||wwjtdjj.cn^
 ||wxfdmri.xyz^
@@ -2395,14 +2415,6 @@ newduba.cn###jq_youxi
 ||zhaweifeng.com^
 ||zhihucloud.xyz^
 ||zhnnaxe.xyz^
-||tgamtip.icu^
-||kvyyyde.cn^
-||bvrzwnq.xyz^
-||irmbyu.xyz^
-||hblarn.xyz^
-||sacvmb.icu^
-||qyuwkby.top^
-||wubizigeng.com^
 ||zjrtxt.xyz^
 ||znhlxvb.xyz^
 ||zojyob.icu^
