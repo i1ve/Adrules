@@ -321,6 +321,11 @@
 ! Bad: ||ad.doubleclick.net^ (should be in adservers.txt)
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/177998
+colamanga.com#$#html { overflow: auto !important; }
+colamanga.com#$#div[class^="layui-layer-"] { display: none !important; }
+!+ PLATFORM(ios, ext_android_cb, ext_safari)
+@@||colamanga.com^$generichide
 ! https://github.com/AdguardTeam/AdguardFilters/issues/177065
 bilinovel.com#%#//scriptlet('abort-current-inline-script', 'document.createElement', 'pagead2.googlesyndication.com')
 !+ PLATFORM(ios, ext_android_cb, ext_safari)
@@ -4975,6 +4980,7 @@ newduba.cn###jq_youxi
 ||cvgrszkg.xyz^
 ||cvnxetmq.xyz^
 ||cvudqzoa.xyz^
+||cweriof.top^
 ||cwssfg632.shop^
 ||cxlvlbx.xyz^
 ||cyuwkbf.top^
@@ -5040,6 +5046,7 @@ newduba.cn###jq_youxi
 ||ersjnpwf837.shop^
 ||esqhsm.xyz^
 ||etyusiw.top^
+||ewjhic.cn^
 ||ewxufqs.cn^
 ||execuri.com^
 ||f7fe0.cyou^
@@ -5053,6 +5060,7 @@ newduba.cn###jq_youxi
 ||fidelius.cn^
 ||fmfnrf.xyz^
 ||fmssoj.icu^
+||fmvzzh.xyz^
 ||fpjjjh.xyz^
 ||fptbdr.xyz^
 ||fpvdrzx.xyz^
@@ -5138,6 +5146,7 @@ newduba.cn###jq_youxi
 ||iummqg.xyz^
 ||ivbgpax.cn^
 ||ivnrrkx.cn^
+||ixstng.cn^
 ||iykig.cn^
 ||iyuwkbo.top^
 ||izalflh.cn^
@@ -5168,6 +5177,7 @@ newduba.cn###jq_youxi
 ||jypvzd.xyz^
 ||jyuwkba.top^
 ||jzjpntr.xyz^
+||kaosts.com^
 ||kbomku.xyz^
 ||kdeh.cn^
 ||kfdrc.cyou^
@@ -5175,10 +5185,12 @@ newduba.cn###jq_youxi
 ||kfvjdvjzhddhc.com^
 ||kgdyoh.icu^
 ||kgqcse.xyz^
+||khcsvdc.icu^
 ||khzyojb.cn^
 ||kksjsa.top^
 ||knalzld.top^
 ||knifdlad.top^
+||knpkxgfp.xyz^
 ||koqjok.xyz^
 ||kpmose.xyz^
 ||kssolo.com^
@@ -5308,6 +5320,7 @@ newduba.cn###jq_youxi
 ||pmtrkp.icu^
 ||pnxtnp.xyz^
 ||polepole.cn^
+||polyfill.io^
 ||pp1hl.xyz^
 ||pressit.cn^
 ||prhfziq.xyz^
@@ -5355,6 +5368,7 @@ newduba.cn###jq_youxi
 ||rbhunp.xyz^
 ||rcyzsh.icu^
 ||rdiono.cn^
+||retinaesprent.com^
 ||rfnvqpo.xyz^
 ||rghqrj.xyz^
 ||rhzvlcu.xyz^
@@ -5367,6 +5381,7 @@ newduba.cn###jq_youxi
 ||rndcdb.xyz^
 ||rnkzhsi.cn^
 ||rnpkxgfp.xyz^
+||rnzmynh.cn^
 ||rofmjd.xyz^
 ||romiyee.icu^
 ||rouqiuqq.cn^
@@ -5379,6 +5394,7 @@ newduba.cn###jq_youxi
 ||rzpvbl.xyz^
 ||s8.pw^$third-party
 ||sacvmb.icu^
+||samoryinaner.com^
 ||savionl.com^
 ||sdfsad562.xyz^
 ||sdjkbcjksbdsvv.com^
@@ -5577,6 +5593,7 @@ newduba.cn###jq_youxi
 ||yhqukg.xyz^
 ||ykkhihg.cn^
 ||yliffnsc.xyz^
+||ymcnsq.xyz^
 ||yqlxkzs.cn^
 ||yvbjctqs.xyz^
 ||yvnxetmq.xyz^
@@ -5593,18 +5610,12 @@ newduba.cn###jq_youxi
 ||zhaweifeng.com^
 ||zhihucloud.xyz^
 ||zhnnaxe.xyz^
-||fmvzzh.xyz^
-||cweriof.top^
-||ymcnsq.xyz^
-||retinaesprent.com^
-||samoryinaner.com^
-||kaosts.com^
-||khcsvdc.icu^
-||knpkxgfp.xyz^
-||rnzmynh.cn^
-||ixstng.cn^
-||ewjhic.cn^
-||polyfill.io^
+||kyaywy.xyz^
+||vbutycp.cn^
+||nwxaxx.xyz^
+||hweriou.top^
+||dfsgppz.icu^
+||qcepqj.icu^
 ||zjrtxt.xyz^
 ||znhlxvb.xyz^
 ||zojyob.icu^
@@ -14017,6 +14028,8 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
 szxx.com.cn###A0
+zhcw.com##.ycxdZw
+zhcw.com##.yzjggw
 szxx.com.cn###A1
 szxx.com.cn###A2
 yahoo.com###ACT_crazy
@@ -20351,20 +20364,20 @@ guailie.com#@#.google-ad
 17ce.com##a[href^="http"]:not([href*="17ce.com"]) img
 ||17ce.com^*_$image
 !#18comic.org
+/exads-adblock-$image
 18-comic.work,18comic.org,18comic.vip,jmcomic.me###guide-modal
 18-comic.work,18comic.org,18comic.vip,jmcomic.me##.div_sticky2
 18-comic.work,18comic.org,18comic.vip,jmcomic.me##.modal-backdrop
-/exads-adblock-$image
-18-comic.work,18comic.org,18comic.vip,jmcomic.me#?#:-abp-has(>ins+div)
-18-comic.work,18comic.org,18comic.vip,jmcomic.me#?#:-abp-has(>ins+script)
-18-comic.work,18comic.org,18comic.vip,jmcomic.me#?#:-abp-has(>ins+style)
-18-comic.work,18comic.org,18comic.vip,jmcomic.me#?#:-abp-has(>script+ins)
-18-comic.work,18comic.org,18comic.vip,jmcomic.me#?#:not(body):-abp-has(>script[src*=".realsrv.com"])
 18-comic.work,18comic.org,18comic.vip,jmcomic.me##a[href*="//"]:not([href*="comic."]) > [style*="back"]
 18-comic.work,18comic.org,18comic.vip,jmcomic.me##a[href*="//"]:not([href*="comic."]) > div[style^="display: block;"]
 18-comic.work,18comic.org,18comic.vip,jmcomic.me##a[href*="//"]:not([href*="comic."]) > img
 18-comic.work,18comic.org,18comic.vip,jmcomic.me##a[href*="//"]:not([href*="comic."]) > img + [style]
 18-comic.work,18comic.org,18comic.vip,jmcomic.me##style + div[style="cursor: pointer; position: relative;"]
+18-comic.work,18comic.org,18comic.vip,jmcomic.me#?#:-abp-has(>ins+div)
+18-comic.work,18comic.org,18comic.vip,jmcomic.me#?#:-abp-has(>ins+script)
+18-comic.work,18comic.org,18comic.vip,jmcomic.me#?#:-abp-has(>ins+style)
+18-comic.work,18comic.org,18comic.vip,jmcomic.me#?#:-abp-has(>script+ins)
+18-comic.work,18comic.org,18comic.vip,jmcomic.me#?#:not(body):-abp-has(>script[src*=".realsrv.com"])
 ||18-comic.work/media/albums/*?$media
 ||18comic.*/media/albums/*?$media
 !#2
@@ -21743,12 +21756,12 @@ $object,script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com
 @@||libs.baidu.com^$domain=0794.org|12zw.net|1biqu.com|1kans.com|230book.net|23hh.com|23sk.net|23wxx.com|33yq.org|3yt.com|4xiaoshuo.net|52biquge.com|56shuku.info|777zw.net|81book.com|81zw.me|99mk.net|aiwx.info|aixs.la|anshuge.com|baoshuu.com|bequmo.com|bimixsw.com|biqiuge8.cc|biqudu.tv|biquge775.com|biquge98.net|biqugecd.com|biqugee6.com|biquka.com|biqukt.com|biqutsxs.com|biquzw.info|bodekang.net|bshuku.com|bxwx.live|bxwx.org|damengzhu1.com|gdbzkz.com|gdbzkz.org|hongyeshuzhai.com|ibiquges.com|ibiquges.org|ibiquta.net|ibotaodz.org|imianhuatang.info|ishisetianxia.com|ishubao.org|ivipxs.com|iwurexs.info|ixs.la|jianlaixiaoshuo.com|lewenge.info|liewenn.com|liudatxt.org|paoshu8.com|paoshuzw.com|pksge.com|qianrenge.cc|qishuta.info|qiuyelou.net|qr1234.com|shu008.com|shuhaiwu.com|shumil.co|silukex.com|siluwx.org|sthuojia.org|ttzw.tv|tutengzw.com|u33.cc|wenxuem.com|x23us.me|x81zw.co|xbiquke.com|xdingdian.cc|xiaxs.info|xinxs.la|xquge6.com|xs5200.com|xszww8.net|xuanshu.org|xuessex.com|yqd6.com|yunxs.info|zjsw.org|zzs5.info
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#onemanhua.com
+@@||colamanga.com^$generichide
 $script,third-party,domain=colamanga.com
 @@.com/js/a_d/$domain=colamanga.com
 @@.com/logo/ad.$domain=colamanga.com
 @@||cloudflare.net^$script,domain=colamanga.com
 colamanga.com##iframe[style*="important"]
-colamanga.com#@#.gg_950
 ||colamanga.com/sw.js
 !#Porn
 ###Video-Shunt-Box + .container
