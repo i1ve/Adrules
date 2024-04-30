@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: ll+UOroJkRul7bVhXmSVuA
-! Version: 202404291611
+! Checksum: uA46MK9557YFlGIJLGM9qw
+! Version: 202404301611
 ! Title: EasyPrivacy
-! Last modified: 29 Apr 2024 16:11 UTC
+! Last modified: 30 Apr 2024 16:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -4414,6 +4414,7 @@ omni.soundestlink.com$image
 ||icanhazip.com^$third-party
 ||iclive.com^$third-party
 ||icstats.nl^$third-party
+||iculture.report^$third-party
 ||id-visitors.com^$third-party
 ||ideoclick.com^$third-party
 ||idio.co^$third-party
@@ -48373,6 +48374,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ! Turkish
 ||athena-event-provider.n11.com^
 ||c.gazetevatan.com^
+||cimri.com/api/pixel
 ||d.haberler.com^
 ||d.sondakika.com^
 ||glami.com.tr/tracker/
