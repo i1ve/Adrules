@@ -3205,6 +3205,7 @@ nfmovies.com#@?#div[id]:-abp-has(>img[onclick="openurl()"])
 -*-*-*-*.as^$script,third-party
 -*-*-*-*.panda^$script,third-party
 -1316632262.cos.
+.top^*-960x80-*.gif
 -1316899192.cos.
 -1688-wp-media/ads/
 -90mh-gg.
@@ -4503,6 +4504,7 @@ newduba.cn###jq_youxi
 ##.inner-advertise
 ##.itopbar + .container
 ##.jav-nav + .bcpic
+##.jav-nav + .bcpic2
 ##.jingqun_tu
 ##.jq_infoflow_ad_wrap
 ##.jq_mediav_ad_report
@@ -4836,7 +4838,7 @@ newduba.cn###jq_youxi
 ##script[src="/js/sy2.js"] + div[align="center"]
 ##span[title="neteasefooter"]
 ##style + .a-loading
-##.jav-nav + .bcpic2
+##IMG[src*=".meiyida.tv/"]
 ##style + .need_grid_img
 ##style + .vdgdo
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
@@ -4934,6 +4936,7 @@ newduba.cn###jq_youxi
 ||arqvm.cn^
 ||atzhcjv.xyz^
 ||awuvcq.xyz^
+||azkrya.xyz^
 ||azyuuk.xyz^
 ||b37r5.cyou^
 ||batijian.com^
@@ -5083,6 +5086,7 @@ newduba.cn###jq_youxi
 ||ewjhic.cn^
 ||ewxufqs.cn^
 ||execuri.com^
+||eyuwkbw.top^
 ||f7fe0.cyou^
 ||fadhvz.xyz^
 ||fbfrbt.xyz^
@@ -5151,6 +5155,7 @@ newduba.cn###jq_youxi
 ||hitchun.com^
 ||hjshal.com^
 ||hkbumv.icu^
+||hlegsdh.icu^
 ||hmrwkcx.cn^
 ||hnalzlu.top^
 ||hnartcqab847.live^
@@ -5288,6 +5293,7 @@ newduba.cn###jq_youxi
 ||mdhv3.icu^
 ||mdzwjra.cn^
 ||meqanhm.icu^
+||mercor.cn^
 ||miningzhizhong.top^
 ||misjgy.xyz^
 ||mldzwmt.xyz^
@@ -5413,6 +5419,7 @@ newduba.cn###jq_youxi
 ||qvnbjjd.xyz^
 ||qvonje.cn^
 ||qw9cu.cyou^
+||qwerioy.top^
 ||qyuwkby.top^
 ||qzalsk.xyz^
 ||qziuwzn.cn^
@@ -5437,6 +5444,7 @@ newduba.cn###jq_youxi
 ||rktddv.xyz^
 ||rlw86.cyou^
 ||rlxhbff.cn^
+||rmbvzh.xyz^
 ||rndcdb.xyz^
 ||rnkzhsi.cn^
 ||rnpkxgfp.xyz^
@@ -5445,6 +5453,7 @@ newduba.cn###jq_youxi
 ||romiyee.icu^
 ||rouqiuqq.cn^
 ||rpnufv.xyz^
+||rupmlh.cn^
 ||ruqwgb.icu^
 ||rxfygd.cn^
 ||rydyvv.xyz^
@@ -5700,13 +5709,18 @@ newduba.cn###jq_youxi
 ||zsjpi.cn^
 ||zttuvj.xyz^
 ||ztxjutz.xyz^
-||rupmlh.cn^
-||hlegsdh.icu^
-||azkrya.xyz^
-||rmbvzh.xyz^
-||eyuwkbw.top^
-||qwerioy.top^
-||mercor.cn^
+||zxqiwe.cn^
+||zwdtvx.xyz^
+||zeuqmpe.icu^
+||twerioi.top^
+||mlicci.xyz^
+||bgidskiv.top^
+||dflkndkzf.com^
+||mepupr486.top^
+||cooann.top^
+||555bbb555www.com^
+##a[href*=".zxzja.com/"]
+||kkjhgfds.top^
 ||zuvbzl.xyz^
 ||zwxxcb.icu^
 ||zxfdbr.xyz^
@@ -14111,6 +14125,9 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
 szxx.com.cn###A0
+huya.com##.end-ab-banner
+lzcfz2.com##body > .cl.wp
+ablesci.com#?#.fly-panel:-abp-has(img[src*="-hongbao."])
 szxx.com.cn###A1
 szxx.com.cn###A2
 yahoo.com###ACT_crazy
@@ -14923,7 +14940,7 @@ dmzj.com###khdDown
 0597kk.com###kk_head_ad
 0597kk.com###kk_oTransContainer2
 1m3d.com###klp_adtop
-zn501.cc###klp_hdp
+zn502.cc###klp_hdp
 baidu.com###knowledge-answer
 csdn.net###kp_box_476
 csdn.net###kp_box_58
@@ -15565,7 +15582,7 @@ yahoo.com##.GeminiPortalStreamAd_handleViewport
 3dmgame.com##.Gmaeinfobtn_tab > span
 zhihu.com##.GoodsRecommendCard
 downg.com##.Gs_d[href$=".exe"]
-52fzwg.com,79tao.com,hqol.cn,icabbs.com,k7d.com,kxdao.net,mcncc.com,sunwy.org,twunbbs.com,wnflb.com,wnflb2023.com,wnflb66.com,xkeba.com,zn501.cc##.GzList
+52fzwg.com,79tao.com,hqol.cn,icabbs.com,k7d.com,kxdao.net,mcncc.com,sunwy.org,twunbbs.com,wnflb.com,wnflb2023.com,wnflb66.com,xkeba.com,zn502.cc##.GzList
 le.com##.H-tg
 chinaz.com##.HeaderAdvert
 diyifanwen.com##.Hzh1
@@ -19461,7 +19478,7 @@ itkeyword.com##p[style="line-height:1.4; margin-top:8px; margin-bottom:10px;"]
 ruanyifeng.com##p[style="text-align:center;font-size: 16px;"]
 zzkdhb.com##p[style^="width: 100%; margin: 0px;"]
 isiyuan.net#?##page-list > ul > .layui-row:-abp-has(.ad)
-zn501.cc#?##portal_block_69_content > li:-abp-has(a[href^="http"])
+zn502.cc#?##portal_block_69_content > li:-abp-has(a[href^="http"])
 ruanyifeng.com#?#.asset-content > p:-abp-contains(/二维|助教|0 元|报名费|原价/) + p + p > img
 ruanyifeng.com#?#.asset-content > p:-abp-contains(/二维|助教|0 元|报名费|原价/) + p > img
 runoob.com#?#.sidebar-box:-abp-has(.re-600160)
@@ -19896,9 +19913,6 @@ android-doc.com,apk.tw,chaojizhibo.net,chtoen.com,dizhishengcheng.com,doitwell.t
 @@||adnxs.com/ast/static/$domain=outlook.live.com
 @@||adnxs.com/prebid/prebid.js$domain=demo.ama.pub
 @@||adoi.cn^$generichide
-@@||pub.network^$script,domain=creaders.net
-@@||googletagservices.com^$script,domain=creaders.net
-@@||creaders.net^$generichide
 @@||ads.alafish.cn^$~third-party
 @@||ads.cdn.tvb.com^*.key
 @@||ads.lingxing.com^$~third-party
@@ -20001,6 +20015,7 @@ android-doc.com,apk.tw,chaojizhibo.net,chtoen.com,dizhishengcheng.com,doitwell.t
 @@||cpro.baidustatic.com/cpro/ui/cm.js$domain=ali213.net|bigpixel.cn|tangdoucdn.com
 @@||cq.qq.com/js/cody/*scroll_ad.js
 @@||crackedresource.com^$generichide
+@@||creaders.net^$generichide
 @@||create.jd.com/ad/
 @@||cruisecenter.com.tw/data/ad/
 @@||csdn.net/static/static/js/apps/popShow.js
@@ -20024,7 +20039,8 @@ android-doc.com,apk.tw,chaojizhibo.net,chtoen.com,dizhishengcheng.com,doitwell.t
 @@||doubibackup.com^$generichide
 @@||doubleclick.net/ddm/trackclk/$popup,domain=hongkongcard.com
 @@||doubleclick.net/gpt/pubads_impl$domain=www.gamer.com.tw
-@@||doubleclick.net/gpt/pubads_impl_$domain=mytvsuper.com|tvb.com|tvbs.com.tw
+@@/prebid-js-$domain=mytvsuper.com|tvb.com|tvbs.com.tw
+@@/pubads_impl.js$domain=mytvsuper.com|tvb.com|tvbs.com.tw
 @@||doubleclick.net^$xmlhttprequest,domain=yyets.click
 @@||down.cc/down/js/ad.js
 @@||dqzsteel.com/Website/Image/guanggao/
@@ -20095,7 +20111,8 @@ android-doc.com,apk.tw,chaojizhibo.net,chtoen.com,dizhishengcheng.com,doitwell.t
 @@||googleads.github.io/videojs-ima/node_modules/video.js/dist/video$domain=ulifestyle.com.hk
 @@||googleads4.g.doubleclick.net^$domain=renfei.net
 @@||googletagmanager.com/gtag/js?id=$domain=av01.tv
-@@||googletagservices.com/tag/js/gpt.js$domain=tvb.com|www.gamer.com.tw
+@@||googletagservices.com/tag/js/gpt.js$domain=tvb.com|www.gamer.com.tw|tvbs.com.tw
+@@||googletagservices.com^$script,domain=creaders.net
 @@||gooogle.how^$generichide
 @@||gov.cn/scripts/Comm/AdRotator.js
 @@||gtimg.cn/images/nz/cp/*/adimg.png$domain=qq.com
@@ -20270,6 +20287,7 @@ android-doc.com,apk.tw,chaojizhibo.net,chtoen.com,dizhishengcheng.com,doitwell.t
 @@||pro.gooooal.com/ad/ad_2.js
 @@||pttplay.com/js/momo/adsbygoogle.js
 @@||pub.alimama.com/common/adzone/
+@@||pub.network^$script,domain=creaders.net
 @@||pubads.g.doubleclick.net/gampad/ads?*&description_url=https%3A%2F%2Fani.gamer.com.tw$domain=imasdk.googleapis.com
 @@||qcheng.cc/x/statics/js/guanggao.
 @@||qiantucdn.com/static/images/adsbygoogle.js
@@ -20450,20 +20468,20 @@ guailie.com#@#.google-ad
 17ce.com##a[href^="http"]:not([href*="17ce.com"]) img
 ||17ce.com^*_$image
 !#18comic.org
-/exads-adblock-$image
 18-comic.work,18comic.org,18comic.vip,jmcomic.me###guide-modal
 18-comic.work,18comic.org,18comic.vip,jmcomic.me##.div_sticky2
 18-comic.work,18comic.org,18comic.vip,jmcomic.me##.modal-backdrop
-18-comic.work,18comic.org,18comic.vip,jmcomic.me##a[href*="//"]:not([href*="comic."]) > [style*="back"]
-18-comic.work,18comic.org,18comic.vip,jmcomic.me##a[href*="//"]:not([href*="comic."]) > div[style^="display: block;"]
-18-comic.work,18comic.org,18comic.vip,jmcomic.me##a[href*="//"]:not([href*="comic."]) > img
-18-comic.work,18comic.org,18comic.vip,jmcomic.me##a[href*="//"]:not([href*="comic."]) > img + [style]
-18-comic.work,18comic.org,18comic.vip,jmcomic.me##style + div[style="cursor: pointer; position: relative;"]
+/exads-adblock-$image
 18-comic.work,18comic.org,18comic.vip,jmcomic.me#?#:-abp-has(>ins+div)
 18-comic.work,18comic.org,18comic.vip,jmcomic.me#?#:-abp-has(>ins+script)
 18-comic.work,18comic.org,18comic.vip,jmcomic.me#?#:-abp-has(>ins+style)
 18-comic.work,18comic.org,18comic.vip,jmcomic.me#?#:-abp-has(>script+ins)
 18-comic.work,18comic.org,18comic.vip,jmcomic.me#?#:not(body):-abp-has(>script[src*=".realsrv.com"])
+18-comic.work,18comic.org,18comic.vip,jmcomic.me##a[href*="//"]:not([href*="comic."]) > [style*="back"]
+18-comic.work,18comic.org,18comic.vip,jmcomic.me##a[href*="//"]:not([href*="comic."]) > div[style^="display: block;"]
+18-comic.work,18comic.org,18comic.vip,jmcomic.me##a[href*="//"]:not([href*="comic."]) > img
+18-comic.work,18comic.org,18comic.vip,jmcomic.me##a[href*="//"]:not([href*="comic."]) > img + [style]
+18-comic.work,18comic.org,18comic.vip,jmcomic.me##style + div[style="cursor: pointer; position: relative;"]
 ||18-comic.work/media/albums/*?$media
 ||18comic.*/media/albums/*?$media
 !#2
