@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202405051604
+! Version: 202405061614
 ! Title: Fanboy's Social Blocking List
-! Last modified: 05 May 2024 16:04 UTC
+! Last modified: 06 May 2024 16:14 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -12283,6 +12283,7 @@ dailyzone.com##.g-b
 getty.edu##.g-footer__social
 ebaumsworld.com##.galleryImageShare
 gametyrant.com##.gametyrantSocial
+naval-technology.com##.gdm-article-share
 ghacks.net##.ghacks_share_widget
 avaaz.org##.global-footer-connect
 cars.com##.global-footer-social-buttons

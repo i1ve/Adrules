@@ -132,6 +132,7 @@ tracking.epicgames.com
 trackings.post.japanpost.jp
 ui.ads.microsoft.com
 uland.taobao.com
+waimai-guide.ele.me
 wechat.ishare.iask.com.cn
 widget.1688.com
 widget.ezidebit.com.au
