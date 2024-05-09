@@ -1256,6 +1256,8 @@ $script,third-party,denyallow=fastly.net|statically.io|sharecast.ws|b-cdn.net|bu
 !
 !
 !
+$script,third-party,denyallow=myqcloud.com|bytecdntp.com|pddpic.com|googletagmanager.com,domain=yjys.me
+speedtest.cn##.speedtest-recommend
 tsdm39.com###ct > div > a[target="_blank"] > img
 ||img.mikudm.net/img01/MP3/GG/20240415_CPS_960X75_general.gif
 mydrivers.com#?#.newslist > li:has(> span:contains(广 告))
@@ -5398,7 +5400,6 @@ newduba.cn###jq_youxi
 ||pmtrkp.icu^
 ||pnxtnp.xyz^
 ||polepole.cn^
-||polyfill.io^
 ||pp1hl.xyz^
 ||pqzjki.cn^
 ||pressit.cn^
@@ -5746,6 +5747,13 @@ newduba.cn###jq_youxi
 ||qmgria.cn^
 ||robudpw.cn^
 ||qmbdta.cn^
+||pklujb.xyz^
+||nkbpft.xyz^
+||xmkmryu.icu^
+||iuqasw.xyz^
+||cgidskif.top^
+||54gtlb.cn^
+||areyoutherenow.com^
 ||zuvbzl.xyz^
 ||zwdtvx.xyz^
 ||zwxxcb.icu^
@@ -14151,7 +14159,11 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zztongyun.com/static/js/sh.
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||koyso.com/z-
+||koyso.com/static/js/abc.
 szxx.com.cn###A0
+element-plus.org##.toc-content > div[style="margin-top:16px;"]
+element-plus.org##aside > .page-content-main
 szxx.com.cn###A1
 szxx.com.cn###A2
 yahoo.com###ACT_crazy
@@ -18053,10 +18065,8 @@ speedtest.cn##.speed-bottom-ads
 downbank.cn##.speed-downlist
 speedtest.cn##.speed-top-ads
 daniao.org,geekpark.net,speedtest.cn##.sponsor
-element-plus.org##.sponsor-container
 udn.com##.sponsor-wrapper
 sogou.com##.sponsored
-element-plus.org##.sponsors
 minepay.top##.sponsors-container
 so.com##.spread
 baidu.com##.spread-wrap
@@ -18214,7 +18224,7 @@ booom.net,x6d.com##.tmall_tab
 qq.com##.tmallredpacket
 qq.com##.tmallskin
 sxrom.com##.tmk
-element-plus.gitee.io,element-plus.org##.toc-content > .m-t-16px
+element-plus.gitee.io##.toc-content > .m-t-16px
 pc841.com,zol.com.cn##.today-hot-layer
 muchong.com##.todayhot
 weather.com.cn##.tong
@@ -18924,7 +18934,7 @@ gameinns.com##a[url^="/api/ads?"]
 duba.com##a[w="topad"]
 ablesci.com#?#.fly-panel:-abp-has(img[src*="-hongbao."])
 amazon.cn#?#.s-result-item:-abp-has(> .s-item-container > h5 .s-sponsored-info-icon)
-element-plus.gitee.io,element-plus.org##aside > .page-content
+element-plus.gitee.io##aside > .page-content
 idanmu.ee##aside > div[class="widget "]
 cn.bing.com#?##b_results > li:-abp-has(.b_adProvider)
 baidu.com#?#.c-gap-bottom-small:-abp-has(>a>div>div[class^="jr-stock-open-account-"])
