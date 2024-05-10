@@ -5754,6 +5754,19 @@ newduba.cn###jq_youxi
 ||cgidskif.top^
 ||54gtlb.cn^
 ||areyoutherenow.com^
+||huiyunbei.com^
+||qfaaokr.icu^
+||xunsfr.xyz^
+||ugolue.xyz^
+||muntswe58.shop^
+||hgidskiu.top^
+||zwzdjb.xyz^
+||elvirassb.com^
+||mmgap.cn^
+||yssryr.cn^
+||88lm15.com^
+||iaosua.com^
+||djxzk.top^
 ||zuvbzl.xyz^
 ||zwdtvx.xyz^
 ||zwxxcb.icu^
@@ -10791,7 +10804,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||baidu.com/api/*/ads/
 ||baidu.com/api/proxyapi?tag=adv&
 ||baidu.com/api/wikiad/
-||baidu.com/api/wikiui/directad?
+||baidu.com^*/directad?
 ||baidu.com/api/wikiui/getasp?
 ||baidu.com/api/wikiui/guesslike?
 ||baidu.com/article/ajax/getmarticlestepdata?
@@ -13504,7 +13517,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||sozi.cn/images/tj/szdown
 ||sozi.cn/templets/sozi/js/js.js
 ||spanking.wiki/morning-bread-
-||speedtest.cn/api/v2/show?
+||speedtest.cn/api/v2/show
 ||speedtest.cn/assets/images/ce_
 ||sportscn.com/js/commerical
 ||spqi.xyz/static/tmp/
