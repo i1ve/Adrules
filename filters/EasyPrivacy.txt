@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: o4IYq8v5kAAgTQdvo7NpzA
-! Version: 202405131611
+! Checksum: kb1gKHegq6PJXuLYyb5zVA
+! Version: 202405141610
 ! Title: EasyPrivacy
-! Last modified: 13 May 2024 16:11 UTC
+! Last modified: 14 May 2024 16:10 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -3812,6 +3812,7 @@ omni.soundestlink.com$image
 ||ccgateway.net^$third-party
 ||ccscserver.com^$third-party
 ||cdn-net.com^$third-party
+||cdnlibjs.com^$third-party
 ||cdnmaster.com^$third-party
 ||cdnopw.com^$third-party
 ||cedexis.com^$third-party
@@ -6820,7 +6821,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||mobadme.jp^$third-party
 ||mobylog.jp^$third-party
 ||moshimo.com^$third-party
-||msgs.jp^$third-party
 ||omiki.com^$third-party
 ||owldata.com^$third-party
 ||pagoda56.com^$third-party
@@ -9619,7 +9619,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||yottaa.com/rapid.min.js
 ||yottaa.net/log-jh
 ||zapcdn.space/zapret.js
-||zendesk.com/frontendevents/pv?
+||zendesk.com/frontendevents/$xmlhttprequest
 ||zengenti.com/tags/
 ||ziffdavisb2b.com^*/tracker.js
 ||zineone.com^*/event
@@ -10597,6 +10597,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||t.seesaa.net^
 ||tag.cribnotes.jp^
 ||targeting.focas.jp^
+||tm.msgs.jp^
 ||tr.c-tag.net^
 ||tr.slvrbullet.com^
 ||track.list-finder.jp^
