@@ -4024,6 +4024,7 @@ ubmcmm.baidustatic.com
 ||ky891.oss-*.aliyuncs.com^
 ||ssh.*.com^*!$script,third-party
 ||tupian888.*.bcebos.com^
+||txhfgwgkwt*.asia^
 ||vns86.oss-*.aliyuncs.com^
 ||zhizhizhizhi.oss-*.aliyuncs.com^
 ###ADtip
@@ -5863,9 +5864,20 @@ newduba.cn###jq_youxi
 ||88tm6.cc^
 ||jgntjtyf.icu^
 ||qpzegye.cn^
+||uyohyy.xyz^
+||999db.cn^
+||tgidskii.top^
+||mqcoycx.icu^
+||ljdofz.xyz^
+||zozwnv.xyz^
+||txhfgwgkwt7.asia^
+||txhfgwgkwt8.asia^
+||xytcboyz.icu^
 ||cqpph.cn^
 ||hphvd.cn^
 ||bpxbzps.xyz^
+||dsa22.com^
+||mianyaojsj.com^
 ||zuvbzl.xyz^
 ||zwdtvx.xyz^
 ||zwxxcb.icu^
@@ -14275,6 +14287,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||koyso.com/static/js/abc.
 ||bcebos.com/24x360x528.gif
 szxx.com.cn###A0
+hupu.com##div[class*="-banner_"]
 wenxuecity.com###gg_multitext
 123pan.com##.ant-carousel
 123pan.com##.banner-container-pc
