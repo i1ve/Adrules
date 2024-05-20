@@ -34,6 +34,7 @@ ads.spotify.com
 ads.taboola.com
 ads.twitter.com
 ads.vk.com
+ads.x.com
 advertisement.taobao.com
 adverts.1foo.com
 analytics.itunes.apple.com
