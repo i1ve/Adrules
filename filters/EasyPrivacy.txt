@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: K0UZctCXN9WwCU9yErzmNw
-! Version: 202405231611
+! Checksum: G/Hw/u0wkOUSyb1iu74m/Q
+! Version: 202405241610
 ! Title: EasyPrivacy
-! Last modified: 23 May 2024 16:11 UTC
+! Last modified: 24 May 2024 16:10 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -41,7 +41,7 @@
 .com/g.gif?
 .com/log/?
 .com/stats.aspx?
-.com/track?$~object
+.com/track?v=
 .content_tracking.js
 .de/l.gif?
 .eloqua.js
@@ -8713,6 +8713,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pagesocket.glam.com^
 ||pageturnpro.com/tracker.aspx?
 ||pair.com/itero/tracker_ftc/
+||panorama.wixapps.net^
 ||pap.qualityunit.com^$third-party
 ||parallax.askmediagroup.com^
 ||parkwhiz.com/events/
@@ -9371,6 +9372,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tracking.aegpresents.com^
 ||tracking.americaneagle.com^
 ||tracking.audio.thisisdax.com^
+||tracking.b-cdn.net^
 ||tracking.bababam.com^
 ||tracking.brandmentions.com^
 ||tracking.buygoods.com^
@@ -9405,6 +9407,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tracking.plattformad.com^$third-party
 ||tracking.plinga.de^
 ||tracking.practicefusion.com^$third-party
+||tracking.prepr.io^
 ||tracking.quisma.com^
 ||tracking.rapidape.com^
 ||tracking.scenepass.com^
@@ -12136,7 +12139,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||startpage.com/sp/$ping
 ||startpage.com/sp/dplpxs?
 ||startpage.com/sp/jst
-||startpage.com/sp/sxpra?
 ||starzplay.com/resources/js/analytics.js
 ||stat.pubhtml5.com^
 ||stat.tildacdn.com^
@@ -48151,6 +48153,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||l.m.naver.com^
 ||log.etoday.co.kr^
 ||log.kinolights.com^
+||log.tossinvest.com^
 ||log.zdnet.co.kr^
 ||naver.com/PostView.nhn?$image
 ||nil.naver.com^
@@ -48774,6 +48777,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||sephora.com/js/ufe/isomorphic/thirdparty/VisitorAPI.js$~third-party
 @@||service.apport.net/apport-spa-common/src/tracking/tracking.js$~third-party
 @@||services.chipotle.com/__imp_apg__/$~third-party
+@@||sharethis.com/button/buttons.js$domain=bristan.com
 @@||shoonya.finvasia.com/fingerprint2.min.js$script,~third-party
 @@||shop.bmw.com.au/assets/analytics-setup.js$~third-party
 @@||shopify.com/shopifycloud/boomerang/shopify-boomerang-$domain=rydewear.com
@@ -48840,6 +48844,8 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||xfinity.com/stream/js/api/fingerprint.js$~third-party
 @@||yottaa.net^$script,domain=containerstore.com|hannaandersson.com
 @@||zoominfo.com/c/amplitude-js$script,~third-party
+!! https://old.reddit.com/r/uBlockOrigin/comments/1czbcvg/foundit_is_blocking_searches_until_ublock_origin/
+@@||media.foundit.*/trex/public/theme_3/dist/js/userTracking.js$script,~third-party
 !! amplitude.com/libs
 @@||amplitude.com/libs/$script,domain=elconfidencial.com|kink.com|pdfexpert.com|xe.com
 !! googletagmanager.com/gtm.js
