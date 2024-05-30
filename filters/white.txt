@@ -52,7 +52,7 @@ cdn.bootcdn.net
 center-h5api.m.taobao.com
 chart-embed.service.newrelic.com
 click.yhd.com
-cmts.iqiyi.comcstaticdun.126.net
+cmts.iqiyi.com
 cnlogin.cainiao.com
 code.sms.mob.com
 console.bce.baidu.com
@@ -88,6 +88,7 @@ news-app.abumedia.yql.yahoo.com
 onedrive.live.com
 openxlab.org.cn
 passport.bobo.com
+paypalobjects.com
 pic.iask.cn
 pixel.prime.amazon.dev
 profile*.se.360.cn
@@ -144,6 +145,7 @@ wl.jd.com
 www.360.cn
 www.fbsbx.com
 www.msftconnecttest.com
+www.paypalobjects.comcstaticdun.126.net
 www.yhd.com
 yhd.com
 zhuti.xiaomi.com
